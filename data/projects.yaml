@@ -1,0 +1,1709 @@
+catalog:
+  title_en: Awesome Agent Harness
+  title_zh: Awesome Agent Harness
+  last_verified: '2026-03-30'
+  description_en: Curated implementation-first list for agent harness engineering.
+  description_zh: 面向 Agent Harness Engineering 的工程实践清单。
+categories:
+- id: harness-architecture-orchestration
+  anchor: harness-architecture-orchestration
+  name_en: Harness Architecture & Orchestration
+  name_zh: Harness 架构与编排
+- id: context-working-state-engineering
+  anchor: context-working-state-engineering
+  name_en: Context & Working-State Engineering
+  name_zh: 上下文与工作状态工程
+- id: execution-substrates-sandboxing
+  anchor: execution-substrates-sandboxing
+  name_en: Execution Substrates & Sandboxing
+  name_zh: 执行基座与沙箱
+- id: protocols-tool-interfaces-agent-contracts
+  anchor: protocols-tool-interfaces-agent-contracts
+  name_en: Protocols, Tool Interfaces & Agent Contracts
+  name_zh: 协议、工具接口与代理契约
+- id: evaluation-harnesses-benchmarks
+  anchor: evaluation-harnesses-benchmarks
+  name_en: Evaluation Harnesses & Benchmarks
+  name_zh: 评测 Harness 与基准
+- id: observability-reliability-operations
+  anchor: observability-reliability-operations
+  name_en: Observability & Reliability Operations
+  name_zh: 可观测性与可靠性运维
+- id: guardrails-security-governance
+  anchor: guardrails-security-governance
+  name_en: Guardrails, Security & Governance
+  name_zh: 护栏、安全与治理
+- id: reference-harness-implementations
+  anchor: reference-harness-implementations
+  name_en: Reference Harness Implementations
+  name_zh: 参考 Harness 实现
+- id: essential-readings-ecosystem-maps
+  anchor: essential-readings-ecosystem-maps
+  name_en: Essential Readings & Ecosystem Maps
+  name_zh: 关键阅读与生态地图
+entries:
+- name: AutoGen
+  repo_url: https://github.com/microsoft/autogen
+  category: Harness Architecture & Orchestration
+  summary_en: Programming framework for agentic AI with multi-agent interaction and
+    orchestration.
+  summary_zh: 支持多代理交互与编排的 agentic AI 编程框架。
+  tags:
+  - multi-agent
+  - orchestration
+  - framework
+  stars_snapshot: 56408
+  updated_at: '2026-03-29'
+  license: CC-BY-4.0
+  why_included: Core ecosystem project for multi-agent harness architectures.
+- name: DeerFlow
+  repo_url: https://github.com/bytedance/deer-flow
+  category: Harness Architecture & Orchestration
+  summary_en: Long-horizon super-agent harness integrating memory, tools, subagents,
+    and sandboxes.
+  summary_zh: 面向长任务的 SuperAgent harness，整合记忆、工具、子代理与沙箱。
+  tags:
+  - long-horizon
+  - memory
+  - subagents
+  stars_snapshot: 52919
+  updated_at: '2026-03-30'
+  license: MIT
+  why_included: End-to-end open implementation of large-scale harness patterns.
+- name: Agno
+  repo_url: https://github.com/agno-agi/agno
+  category: Harness Architecture & Orchestration
+  summary_en: Agent software runtime focused on running and managing agentic systems
+    at scale.
+  summary_zh: 面向规模化运行与管理的 agent 软件运行时。
+  tags:
+  - scale
+  - runtime
+  - management
+  stars_snapshot: 39024
+  updated_at: '2026-03-30'
+  license: Apache-2.0
+  why_included: Highlights operational scaling concerns in harness design.
+- name: LangGraph
+  repo_url: https://github.com/langchain-ai/langgraph
+  category: Harness Architecture & Orchestration
+  summary_en: Graph-based runtime for resilient stateful agents and deterministic
+    workflow control.
+  summary_zh: 图结构运行时，用于构建具备状态管理与确定性流程控制的可靠代理。
+  tags:
+  - graph
+  - workflow
+  - runtime
+  stars_snapshot: 27888
+  updated_at: '2026-03-29'
+  license: MIT
+  why_included: Widely used runtime backbone for controllable multi-step agent workflows.
+- name: Semantic Kernel
+  repo_url: https://github.com/microsoft/semantic-kernel
+  category: Harness Architecture & Orchestration
+  summary_en: Enterprise-grade agentic application framework with orchestration and
+    plugin patterns.
+  summary_zh: 面向企业应用的 agentic 框架，支持编排与插件化扩展。
+  tags:
+  - enterprise
+  - orchestration
+  - plugins
+  stars_snapshot: 27589
+  updated_at: '2026-03-29'
+  license: MIT
+  why_included: Mature framework for structured harness architecture in production.
+- name: OpenAI Agents SDK (Python)
+  repo_url: https://github.com/openai/openai-agents-python
+  category: Harness Architecture & Orchestration
+  summary_en: Lightweight framework for multi-agent workflows, handoffs, and production
+    patterns.
+  summary_zh: 轻量级多代理工作流框架，支持交接、编排和生产化模式。
+  tags:
+  - sdk
+  - handoff
+  - workflows
+  stars_snapshot: 20409
+  updated_at: '2026-03-28'
+  license: MIT
+  why_included: Practical baseline for modern harness implementations.
+- name: Google ADK (Python)
+  repo_url: https://github.com/google/adk-python
+  category: Harness Architecture & Orchestration
+  summary_en: Code-first toolkit to build, evaluate, and deploy advanced AI agents.
+  summary_zh: 代码优先的工具包，用于构建、评估和部署复杂 AI 代理。
+  tags:
+  - toolkit
+  - deployment
+  - evaluation
+  stars_snapshot: 18655
+  updated_at: '2026-03-28'
+  license: Apache-2.0
+  why_included: Covers the full build-eval-deploy lifecycle in one runtime stack.
+- name: deepagents
+  repo_url: https://github.com/langchain-ai/deepagents
+  category: Harness Architecture & Orchestration
+  summary_en: Open-source harness for long-running, tool-using agents with planning
+    and subagent patterns.
+  summary_zh: 面向长时任务的开源 harness，支持规划、工具调用与子代理协作模式。
+  tags:
+  - runtime
+  - orchestration
+  - long-running
+  stars_snapshot: 18103
+  updated_at: '2026-03-28'
+  license: MIT
+  why_included: Clear reference implementation of harness-oriented agent runtime design.
+- name: PydanticAI
+  repo_url: https://github.com/pydantic/pydantic-ai
+  category: Harness Architecture & Orchestration
+  summary_en: Type-safe Python framework for agents with strong schema contracts and
+    tooling.
+  summary_zh: 强调类型与结构化约束的 Python agent 框架，适合稳定化 harness 开发。
+  tags:
+  - python
+  - typing
+  - schema
+  stars_snapshot: 15943
+  updated_at: '2026-03-30'
+  license: MIT
+  why_included: Valuable for contract-first harness design and reliable tool interfaces.
+- name: Hive
+  repo_url: https://github.com/aden-hive/hive
+  category: Harness Architecture & Orchestration
+  summary_en: Outcome-driven agent runtime harness with explicit control loops and
+    orchestration blocks.
+  summary_zh: 以结果驱动的 agent runtime harness，强调控制回路与编排模块。
+  tags:
+  - harness
+  - orchestration
+  - runtime
+  stars_snapshot: 9939
+  updated_at: '2026-03-29'
+  license: Apache-2.0
+  why_included: Strongly positioned as a dedicated harness runtime project.
+- name: mcp-agent
+  repo_url: https://github.com/lastmile-ai/mcp-agent
+  category: Harness Architecture & Orchestration
+  summary_en: Practical agent framework centered on MCP tool ecosystems and workflow
+    composition.
+  summary_zh: 以 MCP 工具体系为核心的实用 agent 框架，强调工作流组合。
+  tags:
+  - mcp
+  - runtime
+  - workflow
+  stars_snapshot: 8185
+  updated_at: '2026-01-25'
+  license: Apache-2.0
+  why_included: Bridges protocol-level MCP with day-to-day harness construction.
+- name: Yao
+  repo_url: https://github.com/YaoApp/yao
+  category: Harness Architecture & Orchestration
+  summary_en: Single-binary runtime for defining and running autonomous agents.
+  summary_zh: 单二进制运行时，用于定义并运行自治代理。
+  tags:
+  - single-binary
+  - runtime
+  - autonomous
+  stars_snapshot: 7521
+  updated_at: '2026-03-27'
+  license: NOASSERTION
+  why_included: Useful for lightweight deployment and reproducible harness setups.
+- name: VoltAgent
+  repo_url: https://github.com/VoltAgent/voltagent
+  category: Harness Architecture & Orchestration
+  summary_en: TypeScript agent engineering platform built around open runtime abstractions.
+  summary_zh: 基于 TypeScript 的 agent 工程平台，提供开放运行时抽象。
+  tags:
+  - typescript
+  - platform
+  - runtime
+  stars_snapshot: 7128
+  updated_at: '2026-03-25'
+  license: MIT
+  why_included: Strong TS ecosystem option for harness-heavy teams.
+- name: Cloudflare Agents
+  repo_url: https://github.com/cloudflare/agents
+  category: Harness Architecture & Orchestration
+  summary_en: Platform runtime for building and deploying agents with production infrastructure
+    primitives.
+  summary_zh: 提供面向生产基础设施的 agent 构建与部署运行时。
+  tags:
+  - platform
+  - deployment
+  - runtime
+  stars_snapshot: 4654
+  updated_at: '2026-03-29'
+  license: MIT
+  why_included: Shows how runtime and infrastructure concerns are merged in production
+    harnesses.
+- name: Docker Agent
+  repo_url: https://github.com/docker/docker-agent
+  category: Harness Architecture & Orchestration
+  summary_en: Agent builder and runtime stack emphasizing container-native execution.
+  summary_zh: 强调容器原生执行的 agent 构建与运行时栈。
+  tags:
+  - docker
+  - runtime
+  - container
+  stars_snapshot: 2735
+  updated_at: '2026-03-29'
+  license: Apache-2.0
+  why_included: Connects harness reliability with containerized execution primitives.
+- name: NeMo Agent Toolkit
+  repo_url: https://github.com/NVIDIA/NeMo-Agent-Toolkit
+  category: Harness Architecture & Orchestration
+  summary_en: Open toolkit for connecting and optimizing teams of AI agents.
+  summary_zh: 用于连接与优化多代理协作的开源工具包。
+  tags:
+  - multi-agent
+  - optimization
+  - toolkit
+  stars_snapshot: 2108
+  updated_at: '2026-03-25'
+  license: Apache-2.0
+  why_included: Useful reference for performance- and infrastructure-aware agent runtimes.
+- name: everything-claude-code
+  repo_url: https://github.com/affaan-m/everything-claude-code
+  category: Context & Working-State Engineering
+  summary_en: Large open repository of harness practices around memory, skills, and
+    context control for coding agents.
+  summary_zh: 大型开源实践库，聚焦编码代理的记忆、技能与上下文控制策略。
+  tags:
+  - context
+  - skills
+  - harness-practices
+  stars_snapshot: 116926
+  updated_at: '2026-03-30'
+  license: MIT
+  why_included: High-signal practical playbook for context-heavy harness operation.
+- name: claude-mem
+  repo_url: https://github.com/thedotmack/claude-mem
+  category: Context & Working-State Engineering
+  summary_en: Plugin-style memory layer that captures session history and reinjects
+    relevant context into future coding runs.
+  summary_zh: 插件化记忆层，可记录会话历史并在后续编码任务中注入相关上下文。
+  tags:
+  - memory
+  - context
+  - session
+  stars_snapshot: 42777
+  updated_at: '2026-03-30'
+  license: NOASSERTION
+  why_included: Directly addresses persistent memory, a core harness primitive.
+- name: planning-with-files
+  repo_url: https://github.com/OthmanAdi/planning-with-files
+  category: Context & Working-State Engineering
+  summary_en: Skill package for persistent file-based planning in coding-agent workflows.
+  summary_zh: 用于编码代理工作流的持久化文件规划技能包。
+  tags:
+  - planning
+  - skills
+  - persistence
+  stars_snapshot: 17619
+  updated_at: '2026-03-24'
+  license: MIT
+  why_included: Concrete example of durable planning scaffolding in harness design.
+- name: Agent Skills for Context Engineering
+  repo_url: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering
+  category: Context & Working-State Engineering
+  summary_en: Large skill library oriented around context engineering and production
+    agents.
+  summary_zh: 面向上下文工程与生产代理的大型技能库。
+  tags:
+  - skills
+  - context
+  - production
+  stars_snapshot: 14477
+  updated_at: '2026-03-22'
+  license: MIT
+  why_included: Rich practical patterns for improving context-aware harnesses.
+- name: Context-Engineering Handbook
+  repo_url: https://github.com/davidkimai/Context-Engineering
+  category: Context & Working-State Engineering
+  summary_en: First-principles handbook focused on practical context engineering for
+    agent systems.
+  summary_zh: 面向代理系统的第一性原理上下文工程手册，强调实践落地。
+  tags:
+  - context-engineering
+  - handbook
+  - practices
+  stars_snapshot: 8630
+  updated_at: '2026-02-27'
+  license: MIT
+  why_included: High-signal context methodology companion for harness-oriented teams.
+- name: Awesome Context Engineering
+  repo_url: https://github.com/Meirtz/Awesome-Context-Engineering
+  category: Context & Working-State Engineering
+  summary_en: Survey-style list for context engineering resources and frameworks.
+  summary_zh: 面向上下文工程的综述型清单，覆盖资源与框架。
+  tags:
+  - awesome-list
+  - context
+  - survey
+  stars_snapshot: 3015
+  updated_at: '2026-03-10'
+  license: MIT
+  why_included: Strong companion list for memory/context-heavy harness design.
+- name: context-space
+  repo_url: https://github.com/context-space/context-space
+  category: Context & Working-State Engineering
+  summary_en: Infrastructure project focused on context engineering building blocks
+    and MCP-centric integrations.
+  summary_zh: 聚焦上下文工程基础设施的项目，强调 MCP 生态集成能力。
+  tags:
+  - context
+  - infrastructure
+  - mcp
+  stars_snapshot: 809
+  updated_at: '2025-10-22'
+  license: AGPL-3.0
+  why_included: Represents context infrastructure beyond prompt-level tricks.
+- name: Effective context engineering for AI agents
+  repo_url: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Guidance on context-window budgeting and working-state management for
+    agents.
+  summary_zh: 介绍代理系统中的上下文预算与工作状态管理方法。
+  tags:
+  - reading
+  - context
+  - anthropic
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Strong context management reference for harness reliability.
+- name: CUA
+  repo_url: https://github.com/trycua/cua
+  category: Execution Substrates & Sandboxing
+  summary_en: Infrastructure stack for computer-use agents with sandbox, SDK, and
+    benchmark support.
+  summary_zh: 面向计算机操作代理的基础设施栈，包含沙箱、SDK 与基准支持。
+  tags:
+  - computer-use
+  - sandbox
+  - infra
+  stars_snapshot: 13327
+  updated_at: '2026-03-30'
+  license: MIT
+  why_included: Covers desktop-control agent execution requirements end-to-end.
+- name: E2B
+  repo_url: https://github.com/e2b-dev/E2B
+  category: Execution Substrates & Sandboxing
+  summary_en: Secure cloud environments with real tools for production-grade agent
+    execution.
+  summary_zh: 提供真实工具的安全云端环境，面向生产级代理执行。
+  tags:
+  - cloud-sandbox
+  - execution
+  - enterprise
+  stars_snapshot: 11496
+  updated_at: '2026-03-29'
+  license: Apache-2.0
+  why_included: Widely used execution environment in practical agent stacks.
+- name: OpenSandbox
+  repo_url: https://github.com/alibaba/OpenSandbox
+  category: Execution Substrates & Sandboxing
+  summary_en: Secure and extensible sandbox runtime built for agent workloads.
+  summary_zh: 面向代理工作负载的安全可扩展沙箱运行时。
+  tags:
+  - sandbox
+  - security
+  - runtime
+  stars_snapshot: 9552
+  updated_at: '2026-03-30'
+  license: Apache-2.0
+  why_included: Strong open-source option for containment and control.
+- name: Judge0
+  repo_url: https://github.com/judge0/judge0
+  category: Execution Substrates & Sandboxing
+  summary_en: Scalable sandboxed code execution system usable as an agent execution
+    backend.
+  summary_zh: 可扩展的沙箱代码执行系统，可作为代理执行后端。
+  tags:
+  - code-execution
+  - sandbox
+  - backend
+  stars_snapshot: 4051
+  updated_at: '2026-03-27'
+  license: GPL-3.0
+  why_included: Stable execution primitive often reused in agent harnesses.
+- name: agent-infra sandbox
+  repo_url: https://github.com/agent-infra/sandbox
+  category: Execution Substrates & Sandboxing
+  summary_en: All-in-one sandbox combining browser, shell, files, MCP, and IDE server.
+  summary_zh: 集成浏览器、Shell、文件、MCP 与 IDE 服务的一体化沙箱。
+  tags:
+  - all-in-one
+  - browser
+  - shell
+  stars_snapshot: 3735
+  updated_at: '2026-03-28'
+  license: Apache-2.0
+  why_included: Excellent reference for unified execution environment design.
+- name: OSS-Fuzz Gen
+  repo_url: https://github.com/google/oss-fuzz-gen
+  category: Execution Substrates & Sandboxing
+  summary_en: LLM-powered fuzzing workflows integrated with controlled execution contexts.
+  summary_zh: 将 LLM 驱动模糊测试与受控执行环境结合的工程实现。
+  tags:
+  - fuzzing
+  - security
+  - execution
+  stars_snapshot: 1379
+  updated_at: '2026-03-17'
+  license: Apache-2.0
+  why_included: Security-critical example of harness + execution integration.
+- name: stakpak/agent
+  repo_url: https://github.com/stakpak/agent
+  category: Execution Substrates & Sandboxing
+  summary_en: Always-on open agent that runs on your machines with autonomous operational
+    loops.
+  summary_zh: 常驻机器运行的开源自治代理，强调持续运维闭环。
+  tags:
+  - always-on
+  - autonomous
+  - ops
+  stars_snapshot: 1213
+  updated_at: '2026-03-28'
+  license: Apache-2.0
+  why_included: Illustrates persistent-execution harness tradeoffs.
+- name: SWE-ReX
+  repo_url: https://github.com/SWE-agent/SWE-ReX
+  category: Execution Substrates & Sandboxing
+  summary_en: Sandboxed execution infrastructure for AI coding agents at local and
+    cloud scale.
+  summary_zh: 面向 AI 编码代理的沙箱执行基础设施，支持本地与云端扩展。
+  tags:
+  - sandbox
+  - execution
+  - coding-agent
+  stars_snapshot: 466
+  updated_at: '2026-03-23'
+  license: MIT
+  why_included: Dedicated execution substrate for reliable agent actions.
+- name: sandboxed.sh
+  repo_url: https://github.com/Th0rgal/sandboxed.sh
+  category: Execution Substrates & Sandboxing
+  summary_en: Self-hosted orchestrator running coding agents inside isolated Linux
+    workspaces.
+  summary_zh: 在隔离 Linux 工作区中运行编码代理的自托管编排器。
+  tags:
+  - self-hosted
+  - isolation
+  - orchestrator
+  stars_snapshot: 343
+  updated_at: '2026-03-27'
+  license: none
+  why_included: Practical self-hosted pattern for secure autonomous runs.
+- name: terminal-bench-env
+  repo_url: https://github.com/ucsb-mlsec/terminal-bench-env
+  category: Execution Substrates & Sandboxing
+  summary_en: Environment layer for terminal-agent benchmark execution.
+  summary_zh: 为终端代理基准测试提供执行环境层。
+  tags:
+  - terminal
+  - benchmark-env
+  - sandbox
+  stars_snapshot: 87
+  updated_at: '2026-03-24'
+  license: none
+  why_included: Shows environment packaging patterns for reproducible evaluations.
+- name: GitHub Spec Kit
+  repo_url: https://github.com/github/spec-kit
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Toolkit for spec-driven development to guide deterministic agent execution.
+  summary_zh: 面向规范驱动开发的工具包，可引导代理进行确定性执行。
+  tags:
+  - spec-driven
+  - workflows
+  - tooling
+  stars_snapshot: 83501
+  updated_at: '2026-03-27'
+  license: MIT
+  why_included: Strong reference for turning product specs into harness constraints.
+- name: MCP Servers
+  repo_url: https://github.com/modelcontextprotocol/servers
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Official collection of MCP server implementations across tools and domains.
+  summary_zh: 官方 MCP Server 实现集合，覆盖多种工具与场景。
+  tags:
+  - mcp
+  - servers
+  - implementations
+  stars_snapshot: 82466
+  updated_at: '2026-03-29'
+  license: NOASSERTION
+  why_included: Practical implementation index for protocol-centric harness design.
+- name: AGENTS.md
+  repo_url: https://github.com/agentsmd/agents.md
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Open format for repository-local instructions that coding agents can
+    follow.
+  summary_zh: 面向代码仓库本地代理指令的开放格式规范。
+  tags:
+  - spec
+  - agent-file
+  - instructions
+  stars_snapshot: 19531
+  updated_at: '2026-03-12'
+  license: MIT
+  why_included: Important interoperability baseline for repo-level harness control.
+- name: Model Context Protocol
+  repo_url: https://github.com/modelcontextprotocol/modelcontextprotocol
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Core specification and docs for MCP-based tool and context interoperability.
+  summary_zh: MCP 的核心规范与文档，定义工具与上下文互操作方式。
+  tags:
+  - mcp
+  - protocol
+  - interoperability
+  stars_snapshot: 7658
+  updated_at: '2026-03-29'
+  license: NOASSERTION
+  why_included: Foundational protocol for modern tool-augmented harnesses.
+- name: directories (rules and MCP indexes)
+  repo_url: https://github.com/leerob/directories
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Curated directories of agent rules and MCP servers for tool discovery.
+  summary_zh: 面向规则与 MCP server 发现的目录索引集合。
+  tags:
+  - directories
+  - mcp
+  - rules
+  stars_snapshot: 3919
+  updated_at: '2026-03-20'
+  license: none
+  why_included: Practical catalog layer for protocol/tool governance.
+- name: LangChain MCP Adapters
+  repo_url: https://github.com/langchain-ai/langchain-mcp-adapters
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Adapters connecting LangChain components with MCP servers.
+  summary_zh: 用于连接 LangChain 组件与 MCP server 的适配层。
+  tags:
+  - mcp
+  - adapters
+  - integration
+  stars_snapshot: 3449
+  updated_at: '2026-03-29'
+  license: MIT
+  why_included: Practical bridge between framework runtimes and MCP ecosystems.
+- name: Microsoft MCP Servers
+  repo_url: https://github.com/microsoft/mcp
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Microsoft's official MCP server catalog for enterprise data and tools.
+  summary_zh: 微软官方 MCP server 目录，连接企业数据与工具。
+  tags:
+  - mcp
+  - enterprise
+  - servers
+  stars_snapshot: 2886
+  updated_at: '2026-03-30'
+  license: MIT
+  why_included: Enterprise-focused MCP implementation references.
+- name: ACPX
+  repo_url: https://github.com/openclaw/acpx
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Headless CLI client for stateful Agent Client Protocol sessions.
+  summary_zh: 面向有状态 Agent Client Protocol 会话的无头 CLI 客户端。
+  tags:
+  - acp
+  - client
+  - sessions
+  stars_snapshot: 1707
+  updated_at: '2026-03-29'
+  license: MIT
+  why_included: Useful reference for protocol session lifecycle handling.
+- name: Microsoft Learn MCP
+  repo_url: https://github.com/MicrosoftDocs/mcp
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: MCP server and CLI for grounding agents with Microsoft documentation
+    sources.
+  summary_zh: 为代理接入微软文档知识提供的 MCP server 与 CLI。
+  tags:
+  - mcp
+  - docs
+  - grounding
+  stars_snapshot: 1504
+  updated_at: '2026-03-30'
+  license: CC-BY-4.0
+  why_included: Good example of doc-grounding via protocolized context access.
+- name: IBM MCP
+  repo_url: https://github.com/IBM/mcp
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: IBM collection of MCP servers, clients, and developer tooling.
+  summary_zh: IBM 提供的 MCP server、client 与开发工具集合。
+  tags:
+  - mcp
+  - clients
+  - tooling
+  stars_snapshot: 357
+  updated_at: '2026-03-16'
+  license: Apache-2.0
+  why_included: Adds vendor-diverse protocol ecosystem coverage.
+- name: AGENT.md
+  repo_url: https://github.com/agentmd/agent.md
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Standardized machine-readable file format for agentic coding tools.
+  summary_zh: 面向代理编码工具的标准化机器可读文件格式。
+  tags:
+  - standard
+  - agent-file
+  - interoperability
+  stars_snapshot: 71
+  updated_at: '2025-07-10'
+  license: MIT
+  why_included: Alternative standardization path worth tracking in harness ecosystems.
+- name: Promptfoo
+  repo_url: https://github.com/promptfoo/promptfoo
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Config-driven prompt/agent/RAG testing, comparison, and red-team evaluation
+    tool.
+  summary_zh: 配置驱动的 Prompt/Agent/RAG 测试、对比与红队评估工具。
+  tags:
+  - eval
+  - red-team
+  - ci
+  stars_snapshot: 18745
+  updated_at: '2026-03-30'
+  license: MIT
+  why_included: Practical CI-friendly evaluation harness in production teams.
+- name: DeepEval
+  repo_url: https://github.com/confident-ai/deepeval
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: LLM evaluation framework supporting agent and workflow quality testing.
+  summary_zh: 支持代理与工作流质量测试的 LLM 评估框架。
+  tags:
+  - evaluation
+  - framework
+  - testing
+  stars_snapshot: 14328
+  updated_at: '2026-03-27'
+  license: Apache-2.0
+  why_included: Widely adopted eval toolkit for regression-oriented harness loops.
+- name: RAGAS
+  repo_url: https://github.com/vibrantlabsai/ragas
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Open evaluation toolkit for LLM and RAG quality metrics.
+  summary_zh: 面向 LLM 与 RAG 质量指标的开源评测工具集。
+  tags:
+  - rag
+  - metrics
+  - evaluation
+  stars_snapshot: 13147
+  updated_at: '2026-02-24'
+  license: Apache-2.0
+  why_included: Common eval component in harness pipelines with retrieval.
+- name: lm-evaluation-harness
+  repo_url: https://github.com/EleutherAI/lm-evaluation-harness
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Popular benchmark harness for consistent LLM evaluation across tasks.
+  summary_zh: 广泛使用的 LLM 基准 harness，用于跨任务一致评估。
+  tags:
+  - benchmark
+  - harness
+  - llm
+  stars_snapshot: 11912
+  updated_at: '2026-03-18'
+  license: MIT
+  why_included: Foundational harness ideas transferable to agent evaluation.
+- name: SWE-bench
+  repo_url: https://github.com/SWE-bench/SWE-bench
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Standard benchmark for evaluating issue-fixing software engineering
+    agents.
+  summary_zh: 软件工程代理 issue 修复能力的标准评测基准。
+  tags:
+  - benchmark
+  - swe
+  - evaluation
+  stars_snapshot: 4575
+  updated_at: '2026-03-26'
+  license: MIT
+  why_included: Core benchmark for coding-agent harness quality.
+- name: verifiers
+  repo_url: https://github.com/PrimeIntellect-ai/verifiers
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Library for RL environments and verifier-based evaluation loops.
+  summary_zh: 面向 RL 环境与 verifier 评测回路的库。
+  tags:
+  - verifier
+  - rl
+  - evaluation
+  stars_snapshot: 3947
+  updated_at: '2026-03-29'
+  license: MIT
+  why_included: Adds verifier-centric perspective to harness quality control.
+- name: AgentBench
+  repo_url: https://github.com/THUDM/AgentBench
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Cross-environment benchmark for evaluating LLM agents as tool-using
+    systems.
+  summary_zh: 跨环境评测基准，用于衡量 LLM 代理的工具使用能力。
+  tags:
+  - benchmark
+  - cross-domain
+  - agent
+  stars_snapshot: 3275
+  updated_at: '2026-02-08'
+  license: Apache-2.0
+  why_included: Broad benchmark coverage helps compare harness generalization.
+- name: EvalScope
+  repo_url: https://github.com/modelscope/evalscope
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Customizable framework for large-model benchmarking and performance
+    evaluation.
+  summary_zh: 可定制的大模型基准与性能评测框架。
+  tags:
+  - benchmark
+  - framework
+  - llm
+  stars_snapshot: 2569
+  updated_at: '2026-03-27'
+  license: Apache-2.0
+  why_included: Useful for batch evaluation harness design.
+- name: Terminal-Bench
+  repo_url: https://github.com/harbor-framework/terminal-bench
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Terminal-native benchmark suite for long-horizon, verification-heavy
+    agent tasks.
+  summary_zh: 面向长时与重验证任务的终端原生代理基准套件。
+  tags:
+  - terminal
+  - benchmark
+  - long-horizon
+  stars_snapshot: 1798
+  updated_at: '2026-01-22'
+  license: Apache-2.0
+  why_included: Directly stress-tests harness design in shell-centric workflows.
+- name: Harbor
+  repo_url: https://github.com/harbor-framework/harbor
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Framework for running agent evaluations and constructing RL-style environments.
+  summary_zh: 用于运行代理评测并构建类 RL 环境的框架。
+  tags:
+  - evaluation
+  - harness
+  - rl-env
+  stars_snapshot: 1157
+  updated_at: '2026-03-30'
+  license: Apache-2.0
+  why_included: Connects evaluation harnessing with environment design.
+- name: tau2-bench
+  repo_url: https://github.com/sierra-research/tau2-bench
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Tool-agent-user interaction benchmark emphasizing multi-step execution
+    quality.
+  summary_zh: 强调多步执行质量的工具-代理-用户交互基准。
+  tags:
+  - tool-use
+  - interaction
+  - benchmark
+  stars_snapshot: 916
+  updated_at: '2026-03-26'
+  license: MIT
+  why_included: Captures interactive harness behaviors beyond single-turn tasks.
+- name: NeMo Gym
+  repo_url: https://github.com/NVIDIA-NeMo/Gym
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Toolkit for building RL environments suitable for LLM/agent training
+    and eval.
+  summary_zh: 用于构建 LLM/代理训练与评测 RL 环境的工具集。
+  tags:
+  - rl-env
+  - training
+  - evaluation
+  stars_snapshot: 789
+  updated_at: '2026-03-30'
+  license: Apache-2.0
+  why_included: Bridges benchmark harnesses with trainable environment design.
+- name: Inspect Evals
+  repo_url: https://github.com/UKGovernmentBEIS/inspect_evals
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Evaluation suite collection for Inspect AI workflows.
+  summary_zh: 面向 Inspect AI 工作流的评测套件集合。
+  tags:
+  - inspect
+  - eval-suite
+  - reproducibility
+  stars_snapshot: 417
+  updated_at: '2026-03-30'
+  license: MIT
+  why_included: Good reference for reusable eval suite packaging.
+- name: WorkArena
+  repo_url: https://github.com/ServiceNow/WorkArena
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Browser benchmark for practical enterprise-like knowledge work tasks.
+  summary_zh: 面向企业知识工作任务的浏览器代理基准。
+  tags:
+  - browser
+  - benchmark
+  - enterprise
+  stars_snapshot: 241
+  updated_at: '2026-02-23'
+  license: NOASSERTION
+  why_included: Measures harness quality on realistic business workflows.
+- name: OpenHands Benchmarks
+  repo_url: https://github.com/OpenHands/benchmarks
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Evaluation harness and benchmark definitions for OpenHands systems.
+  summary_zh: OpenHands 体系的评测 harness 与基准定义。
+  tags:
+  - openhands
+  - eval
+  - harness
+  stars_snapshot: 62
+  updated_at: '2026-03-30'
+  license: MIT
+  why_included: Concrete example of product-specific benchmark harnessing.
+- name: WebArena-Verified
+  repo_url: https://github.com/ServiceNow/webarena-verified
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Verified web-agent benchmark with deterministic evaluators.
+  summary_zh: 带确定性评测器的已验证 Web 代理基准。
+  tags:
+  - web-agent
+  - benchmark
+  - deterministic
+  stars_snapshot: 32
+  updated_at: '2026-03-08'
+  license: Apache-2.0
+  why_included: Useful for web-facing harness reliability comparisons.
+- name: MLflow
+  repo_url: https://github.com/mlflow/mlflow
+  category: Observability & Reliability Operations
+  summary_en: Broad AI engineering platform with monitoring and evaluation support
+    for agents.
+  summary_zh: 通用 AI 工程平台，支持代理系统的监控与评测。
+  tags:
+  - platform
+  - monitoring
+  - evaluation
+  stars_snapshot: 24993
+  updated_at: '2026-03-30'
+  license: Apache-2.0
+  why_included: Mature production operations baseline for agent systems.
+- name: Langfuse
+  repo_url: https://github.com/langfuse/langfuse
+  category: Observability & Reliability Operations
+  summary_en: Open-source LLM engineering platform for traces, metrics, prompts, and
+    evals.
+  summary_zh: 开源 LLM 工程平台，覆盖链路追踪、指标、提示词与评测。
+  tags:
+  - llmops
+  - tracing
+  - metrics
+  stars_snapshot: 24028
+  updated_at: '2026-03-27'
+  license: NOASSERTION
+  why_included: Common observability control plane in production harnesses.
+- name: Opik
+  repo_url: https://github.com/comet-ml/opik
+  category: Observability & Reliability Operations
+  summary_en: End-to-end debug/eval/monitoring stack for LLM apps and agent workflows.
+  summary_zh: 面向 LLM 应用与代理流程的端到端调试、评测与监控平台。
+  tags:
+  - monitoring
+  - eval
+  - tracing
+  stars_snapshot: 18546
+  updated_at: '2026-03-30'
+  license: Apache-2.0
+  why_included: Full-lifecycle observability with strong production orientation.
+- name: RagaAI Catalyst
+  repo_url: https://github.com/raga-ai-hub/RagaAI-Catalyst
+  category: Observability & Reliability Operations
+  summary_en: Agent observability and monitoring framework with timeline and graph
+    analytics.
+  summary_zh: 带时间线与执行图分析的代理可观测性监控框架。
+  tags:
+  - agentops
+  - analytics
+  - monitoring
+  stars_snapshot: 16125
+  updated_at: '2026-02-11'
+  license: Apache-2.0
+  why_included: Focuses specifically on complex multi-agent trace debugging.
+- name: TensorZero
+  repo_url: https://github.com/tensorzero/tensorzero
+  category: Observability & Reliability Operations
+  summary_en: Open LLMOps stack unifying gateway, observability, evaluation, and optimization.
+  summary_zh: 开源 LLMOps 栈，统一网关、可观测性、评测与优化。
+  tags:
+  - llmops
+  - gateway
+  - optimization
+  stars_snapshot: 11161
+  updated_at: '2026-03-29'
+  license: Apache-2.0
+  why_included: Strong example of integrated control-plane design.
+- name: Arize Phoenix
+  repo_url: https://github.com/Arize-ai/phoenix
+  category: Observability & Reliability Operations
+  summary_en: Open platform for AI observability, tracing, and evaluation analytics.
+  summary_zh: 开放的 AI 可观测性平台，支持追踪与评测分析。
+  tags:
+  - observability
+  - tracing
+  - evaluation
+  stars_snapshot: 9086
+  updated_at: '2026-03-29'
+  license: NOASSERTION
+  why_included: High-signal observability stack for agent harness debugging.
+- name: OpenLLMetry
+  repo_url: https://github.com/traceloop/openllmetry
+  category: Observability & Reliability Operations
+  summary_en: OpenTelemetry-based instrumentation for GenAI and LLM applications.
+  summary_zh: 基于 OpenTelemetry 的 GenAI/LLM 应用可观测性埋点方案。
+  tags:
+  - opentelemetry
+  - instrumentation
+  - tracing
+  stars_snapshot: 6960
+  updated_at: '2026-03-29'
+  license: Apache-2.0
+  why_included: Critical building block for standards-based harness observability.
+- name: Helicone
+  repo_url: https://github.com/Helicone/helicone
+  category: Observability & Reliability Operations
+  summary_en: Lightweight platform for monitoring and evaluating LLM traffic in production.
+  summary_zh: 轻量平台，用于生产环境 LLM 流量监控与评估。
+  tags:
+  - monitoring
+  - traffic
+  - production
+  stars_snapshot: 5418
+  updated_at: '2026-03-26'
+  license: Apache-2.0
+  why_included: Simple integration path for practical harness telemetry.
+- name: AgentOps SDK
+  repo_url: https://github.com/AgentOps-AI/agentops
+  category: Observability & Reliability Operations
+  summary_en: Monitoring and benchmarking SDK for agent workflows with cost and trace
+    tracking.
+  summary_zh: 面向代理工作流的监控与基准 SDK，支持成本与链路追踪。
+  tags:
+  - agentops
+  - monitoring
+  - cost
+  stars_snapshot: 5410
+  updated_at: '2026-03-19'
+  license: MIT
+  why_included: Agent-specific telemetry layer for harness operations.
+- name: Latitude
+  repo_url: https://github.com/latitude-dev/latitude-llm
+  category: Observability & Reliability Operations
+  summary_en: Open-source agent engineering platform with eval and observability capabilities.
+  summary_zh: 开源 agent 工程平台，集成评测与可观测性能力。
+  tags:
+  - platform
+  - eval
+  - observability
+  stars_snapshot: 3938
+  updated_at: '2026-03-30'
+  license: LGPL-3.0
+  why_included: Practical all-in-one option for team-scale harness operations.
+- name: claude-code-reverse
+  repo_url: https://github.com/Yuyz0112/claude-code-reverse
+  category: Observability & Reliability Operations
+  summary_en: Tooling to visualize and inspect Claude Code LLM interaction traces.
+  summary_zh: 可视化并分析 Claude Code 大模型交互链路的工具。
+  tags:
+  - trace
+  - visualization
+  - debugging
+  stars_snapshot: 2299
+  updated_at: '2025-08-26'
+  license: none
+  why_included: Useful lightweight approach for harness behavior introspection.
+- name: OpenInference
+  repo_url: https://github.com/Arize-ai/openinference
+  category: Observability & Reliability Operations
+  summary_en: Open instrumentation specification and tooling for AI observability.
+  summary_zh: 面向 AI 可观测性的开放埋点规范与工具。
+  tags:
+  - spec
+  - instrumentation
+  - observability
+  stars_snapshot: 899
+  updated_at: '2026-03-27'
+  license: Apache-2.0
+  why_included: Helps standardize trace semantics across harness stacks.
+- name: Kong
+  repo_url: https://github.com/Kong/kong
+  category: Guardrails, Security & Governance
+  summary_en: API and AI gateway infrastructure useful for policy enforcement in agent
+    systems.
+  summary_zh: API 与 AI 网关基础设施，可用于代理系统的策略执行。
+  tags:
+  - gateway
+  - policy
+  - infra
+  stars_snapshot: 43066
+  updated_at: '2026-03-27'
+  license: Apache-2.0
+  why_included: Mature gateway capabilities often reused for agent governance.
+- name: LiteLLM
+  repo_url: https://github.com/BerriAI/litellm
+  category: Guardrails, Security & Governance
+  summary_en: Unified LLM gateway/proxy with cost tracking, load balancing, and guardrails.
+  summary_zh: 统一 LLM 网关/代理，支持成本追踪、负载均衡与护栏。
+  tags:
+  - gateway
+  - proxy
+  - guardrails
+  stars_snapshot: 41465
+  updated_at: '2026-03-29'
+  license: NOASSERTION
+  why_included: Widely adopted control point in production harness stacks.
+- name: Portkey Gateway
+  repo_url: https://github.com/Portkey-AI/gateway
+  category: Guardrails, Security & Governance
+  summary_en: AI gateway with routing and guardrails for multi-model production traffic.
+  summary_zh: 支持多模型路由与护栏控制的 AI 网关。
+  tags:
+  - gateway
+  - guardrails
+  - routing
+  stars_snapshot: 11111
+  updated_at: '2026-03-25'
+  license: MIT
+  why_included: Centralized policy and routing control for harness governance.
+- name: CAI (Cybersecurity AI)
+  repo_url: https://github.com/aliasrobotics/cai
+  category: Guardrails, Security & Governance
+  summary_en: Security-focused agent framework for offensive/defensive AI workflows.
+  summary_zh: 面向攻防场景的安全型代理框架。
+  tags:
+  - security
+  - governance
+  - framework
+  stars_snapshot: 7659
+  updated_at: '2026-03-25'
+  license: NOASSERTION
+  why_included: Security-heavy harness governance perspective.
+- name: OpenAI Realtime Agents
+  repo_url: https://github.com/openai/openai-realtime-agents
+  category: Guardrails, Security & Governance
+  summary_en: Advanced agentic realtime patterns with structured control and interaction
+    loops.
+  summary_zh: 展示高级实时代理模式，强调结构化控制与交互回路。
+  tags:
+  - realtime
+  - orchestration
+  - control
+  stars_snapshot: 6807
+  updated_at: '2026-01-07'
+  license: MIT
+  why_included: Helpful for governance in low-latency agent interactions.
+- name: Plano
+  repo_url: https://github.com/katanemo/plano
+  category: Guardrails, Security & Governance
+  summary_en: AI-native proxy and data plane with orchestration, safety, and observability.
+  summary_zh: 内置编排、安全与可观测性的 AI 原生代理与数据平面。
+  tags:
+  - proxy
+  - safety
+  - data-plane
+  stars_snapshot: 6119
+  updated_at: '2026-03-28'
+  license: Apache-2.0
+  why_included: Good reference for infra-level guardrails around agent loops.
+- name: OpenAI CS Agents Demo
+  repo_url: https://github.com/openai/openai-cs-agents-demo
+  category: Guardrails, Security & Governance
+  summary_en: Customer-service multi-agent demo highlighting handoffs and guardrail-like
+    control points.
+  summary_zh: 客服多代理示例，展示交接流程与类似护栏的控制节点。
+  tags:
+  - demo
+  - handoffs
+  - governance
+  stars_snapshot: 5945
+  updated_at: '2025-12-18'
+  license: MIT
+  why_included: Concrete governance patterns in end-user workflow orchestration.
+- name: Tracecat
+  repo_url: https://github.com/TracecatHQ/tracecat
+  category: Guardrails, Security & Governance
+  summary_en: AI automation platform for security teams with policy and workflow controls.
+  summary_zh: 面向安全团队的 AI 自动化平台，提供策略与工作流控制。
+  tags:
+  - security
+  - automation
+  - policy
+  stars_snapshot: 3540
+  updated_at: '2026-03-30'
+  license: AGPL-3.0
+  why_included: Practical governance platform for high-risk automation tasks.
+- name: Archestra
+  repo_url: https://github.com/archestra-ai/archestra
+  category: Guardrails, Security & Governance
+  summary_en: Enterprise AI platform with guardrails, MCP registry, and orchestration
+    services.
+  summary_zh: 企业级 AI 平台，提供护栏、MCP 注册中心与编排能力。
+  tags:
+  - enterprise
+  - guardrails
+  - governance
+  stars_snapshot: 3536
+  updated_at: '2026-03-29'
+  license: AGPL-3.0
+  why_included: Strong governance-oriented architecture for regulated contexts.
+- name: AgentGateway
+  repo_url: https://github.com/agentgateway/agentgateway
+  category: Guardrails, Security & Governance
+  summary_en: Agentic proxy gateway for AI agents and MCP server ecosystems.
+  summary_zh: 面向 AI 代理与 MCP 生态的代理网关。
+  tags:
+  - gateway
+  - mcp
+  - proxy
+  stars_snapshot: 2219
+  updated_at: '2026-03-29'
+  license: Apache-2.0
+  why_included: Focuses specifically on gateway-layer controls for agents.
+- name: OpenHands
+  repo_url: https://github.com/OpenHands/OpenHands
+  category: Reference Harness Implementations
+  summary_en: Open-source AI software engineer focused on repo-level coding task execution.
+  summary_zh: 开源 AI 软件工程代理，聚焦仓库级编码任务执行。
+  tags:
+  - coding-agent
+  - software-engineering
+  - repo
+  stars_snapshot: 70154
+  updated_at: '2026-03-29'
+  license: NOASSERTION
+  why_included: Representative coding-agent system with inspectable harness behavior.
+- name: OpenManus
+  repo_url: https://github.com/FoundationAgents/OpenManus
+  category: Reference Harness Implementations
+  summary_en: Open foundation for broad autonomous agent workflows with coding-heavy
+    use cases.
+  summary_zh: 面向广义自治任务的开放基础系统，覆盖编码等复杂场景。
+  tags:
+  - general-agent
+  - autonomy
+  - workflows
+  stars_snapshot: 55553
+  updated_at: '2026-02-11'
+  license: MIT
+  why_included: High-visibility implementation of open autonomous agent systems.
+- name: learn-claude-code
+  repo_url: https://github.com/shareAI-lab/learn-claude-code
+  category: Reference Harness Implementations
+  summary_en: Hands-on harness tutorial for building Claude Code-like systems from
+    scratch.
+  summary_zh: 从 0 到 1 构建 Claude Code 类系统的实战 harness 教程。
+  tags:
+  - tutorial
+  - harness
+  - claude-code
+  stars_snapshot: 42959
+  updated_at: '2026-03-29'
+  license: MIT
+  why_included: Valuable educational repo for understanding harness internals.
+- name: CLI-Anything
+  repo_url: https://github.com/HKUDS/CLI-Anything
+  category: Reference Harness Implementations
+  summary_en: CLI agent system that unifies command-line tool usage in agent loops.
+  summary_zh: 在代理回路中统一命令行工具使用的 CLI agent 系统。
+  tags:
+  - cli
+  - tool-use
+  - automation
+  stars_snapshot: 24809
+  updated_at: '2026-03-27'
+  license: Apache-2.0
+  why_included: Illustrates command-centric harness strategies.
+- name: SuperClaude Framework
+  repo_url: https://github.com/SuperClaude-Org/SuperClaude_Framework
+  category: Reference Harness Implementations
+  summary_en: Configuration framework adding commands, personas, and method templates
+    to coding agents.
+  summary_zh: 为编码代理增强命令、角色与方法模板的配置框架。
+  tags:
+  - config
+  - personas
+  - workflow
+  stars_snapshot: 22033
+  updated_at: '2026-03-22'
+  license: MIT
+  why_included: Demonstrates repo-local harness customization at scale.
+- name: Qwen Code
+  repo_url: https://github.com/QwenLM/qwen-code
+  category: Reference Harness Implementations
+  summary_en: Terminal-native open-source coding agent tuned for practical dev loops.
+  summary_zh: 终端原生开源编码代理，面向实际开发循环优化。
+  tags:
+  - terminal
+  - coding-agent
+  - cli
+  stars_snapshot: 21283
+  updated_at: '2026-03-30'
+  license: Apache-2.0
+  why_included: Useful for studying shell-first harness ergonomics.
+- name: Devika
+  repo_url: https://github.com/stitionai/devika
+  category: Reference Harness Implementations
+  summary_en: Open-source coding assistant system for planning and implementing development
+    tasks.
+  summary_zh: 开源编码助手系统，支持任务规划与实现。
+  tags:
+  - assistant
+  - planning
+  - coding
+  stars_snapshot: 19498
+  updated_at: '2025-09-25'
+  license: MIT
+  why_included: Popular system-level coding agent implementation with practical workflows.
+- name: SWE-agent
+  repo_url: https://github.com/SWE-agent/SWE-agent
+  category: Reference Harness Implementations
+  summary_en: Research-grade coding agent that resolves GitHub issues with explicit
+    tooling loops.
+  summary_zh: 研究级编码代理，通过明确的工具回路自动修复 GitHub issue。
+  tags:
+  - swe
+  - issue-fixing
+  - tooling
+  stars_snapshot: 18878
+  updated_at: '2026-03-24'
+  license: MIT
+  why_included: Canonical open benchmark-targeted coding harness.
+- name: Eigent
+  repo_url: https://github.com/eigent-ai/eigent
+  category: Reference Harness Implementations
+  summary_en: Open-source desktop cowork agent for autonomous task execution and productivity.
+  summary_zh: 开源桌面协作代理，可执行自治任务并提升开发生产力。
+  tags:
+  - desktop
+  - cowork
+  - productivity
+  stars_snapshot: 13313
+  updated_at: '2026-03-29'
+  license: Apache-2.0
+  why_included: Desktop-oriented harness design complements CLI-first systems.
+- name: Open SWE
+  repo_url: https://github.com/langchain-ai/open-swe
+  category: Reference Harness Implementations
+  summary_en: Asynchronous open-source coding agent focused on software issue workflows.
+  summary_zh: 面向软件问题流的异步开源编码代理。
+  tags:
+  - async
+  - coding-agent
+  - swe
+  stars_snapshot: 8817
+  updated_at: '2026-03-30'
+  license: MIT
+  why_included: Demonstrates modern async orchestration patterns for coding agents.
+- name: OSAURUS
+  repo_url: https://github.com/osaurus-ai/osaurus
+  category: Reference Harness Implementations
+  summary_en: Native macOS harness for autonomous coding agents with persistent memory.
+  summary_zh: 面向 macOS 的本地自治编码代理 harness，支持持久记忆。
+  tags:
+  - macos
+  - local-first
+  - memory
+  stars_snapshot: 4481
+  updated_at: '2026-03-30'
+  license: MIT
+  why_included: Distinct local-native harness model beyond browser/cloud workflows.
+- name: mini-swe-agent
+  repo_url: https://github.com/SWE-agent/mini-swe-agent
+  category: Reference Harness Implementations
+  summary_en: Minimal coding agent implementation with strong benchmark competitiveness.
+  summary_zh: 极简编码代理实现，同时具备较强基准表现。
+  tags:
+  - minimal
+  - swe
+  - coding-agent
+  stars_snapshot: 3572
+  updated_at: '2026-03-24'
+  license: MIT
+  why_included: Great reference for low-complexity but effective harness design.
+- name: Devon
+  repo_url: https://github.com/entropy-research/Devon
+  category: Reference Harness Implementations
+  summary_en: Open-source pair programmer agent with autonomous coding execution patterns.
+  summary_zh: 开源结对编程代理，提供自治编码执行模式。
+  tags:
+  - pair-programming
+  - coding-agent
+  - autonomous
+  stars_snapshot: 3455
+  updated_at: '2025-05-26'
+  license: AGPL-3.0
+  why_included: Provides alternative interaction and control-loop design for coding
+    agents.
+- name: TinyAGI
+  repo_url: https://github.com/TinyAGI/tinyagi
+  category: Reference Harness Implementations
+  summary_en: Team-style agent orchestrator for one-person-company style autonomous
+    workflows.
+  summary_zh: 面向“一人公司”场景的团队化代理编排器。
+  tags:
+  - team-orchestration
+  - autonomous
+  - workflows
+  stars_snapshot: 3425
+  updated_at: '2026-03-28'
+  license: MIT
+  why_included: Clear multi-agent orchestration baseline for lightweight deployments.
+- name: Open Claude Cowork
+  repo_url: https://github.com/DevAgentForge/Open-Claude-Cowork
+  category: Reference Harness Implementations
+  summary_en: Desktop coding cowork assistant that turns agent orchestration into
+    GUI workflows.
+  summary_zh: 桌面化协作编码助手，将代理编排能力图形化。
+  tags:
+  - desktop
+  - ui
+  - orchestration
+  stars_snapshot: 3091
+  updated_at: '2026-03-21'
+  license: none
+  why_included: Shows GUI-first harness ergonomics for broader developer adoption.
+- name: oh-my-pi
+  repo_url: https://github.com/can1357/oh-my-pi
+  category: Reference Harness Implementations
+  summary_en: Terminal AI coding agent with edit safety, LSP integration, and subagent
+    support.
+  summary_zh: 终端 AI 编码代理，包含编辑安全、LSP 集成与子代理支持。
+  tags:
+  - terminal
+  - lsp
+  - subagents
+  stars_snapshot: 2449
+  updated_at: '2026-03-29'
+  license: MIT
+  why_included: Useful for studying robust tool harnesses inside terminal workflows.
+- name: awesome-claude-code
+  repo_url: https://github.com/hesreallyhim/awesome-claude-code
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Community collection of Claude Code skills, hooks, and orchestrator
+    tooling.
+  summary_zh: Claude Code 技能、钩子与编排工具的社区清单。
+  tags:
+  - awesome-list
+  - claude-code
+  - skills
+  stars_snapshot: 34109
+  updated_at: '2026-03-30'
+  license: NOASSERTION
+  why_included: Practical ecosystem map for coding-agent harness customization.
+- name: awesome-agentic-patterns
+  repo_url: https://github.com/nibzard/awesome-agentic-patterns
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Catalog of reusable agentic design patterns and implementation motifs.
+  summary_zh: 可复用的 agentic 设计模式与实现范式目录。
+  tags:
+  - awesome-list
+  - patterns
+  - design
+  stars_snapshot: 4087
+  updated_at: '2026-03-27'
+  license: Apache-2.0
+  why_included: Helpful for translating concepts into reusable harness modules.
+- name: awesome-mcp-servers
+  repo_url: https://github.com/wong2/awesome-mcp-servers
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Curated MCP server index for tool interoperability in agent systems.
+  summary_zh: MCP server 精选索引，便于代理系统进行工具互操作。
+  tags:
+  - awesome-list
+  - mcp
+  - tools
+  stars_snapshot: 3829
+  updated_at: '2025-12-17'
+  license: MIT
+  why_included: Speeds up protocol-based harness capability expansion.
+- name: awesome-harness-engineering
+  repo_url: https://github.com/walkinglabs/awesome-harness-engineering
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Curated list focused on harness engineering articles, benchmarks, and
+    implementations.
+  summary_zh: 聚焦 harness engineering 的精选清单，覆盖文章、基准与实现。
+  tags:
+  - awesome-list
+  - curation
+  - harness
+  stars_snapshot: 299
+  updated_at: '2026-03-30'
+  license: NOASSERTION
+  why_included: Directly related sibling list and high-quality seed source.
+- name: 12 Factor Agents
+  repo_url: https://www.humanlayer.dev/blog/12-factor-agents
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Operations-oriented principles for building maintainable production
+    agents.
+  summary_zh: 面向生产代理可维护性的运维原则总结。
+  tags:
+  - reading
+  - operations
+  - principles
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Useful operational checklist for governance and reliability.
+- name: Demystifying Evals for AI Agents
+  repo_url: https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Methodology for designing robust agent evals in non-deterministic trajectories.
+  summary_zh: 讲解在非确定性轨迹下设计稳健代理评测的方法论。
+  tags:
+  - reading
+  - evals
+  - anthropic
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Critical eval-thinking reference for harness iteration loops.
+- name: Effective harnesses for long-running agents
+  repo_url: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Practical guide to maintaining state, resumability, and reliability
+    over long agent runs.
+  summary_zh: 讲解长时代理运行中状态维护、可恢复性与可靠性的实践指南。
+  tags:
+  - reading
+  - long-running
+  - anthropic
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Core methodology for long-horizon harness design.
+- name: Harness design for long-running application development
+  repo_url: https://www.anthropic.com/engineering/harness-design-long-running-apps
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Follow-up article on improving long-running app generation through harness
+    structure.
+  summary_zh: 关于通过 harness 结构改进长任务应用生成的后续文章。
+  tags:
+  - reading
+  - app-dev
+  - anthropic
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Adds concrete design refinements for long-running harnesses.
+- name: Harness Engineering (Martin Fowler)
+  repo_url: https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Architectural perspective on harness engineering and entropy control.
+  summary_zh: 从架构视角讨论 harness engineering 与系统熵控制。
+  tags:
+  - reading
+  - architecture
+  - fowler
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: High-quality architectural framing for harness strategy.
+- name: Harness engineering (OpenAI)
+  repo_url: https://openai.com/index/harness-engineering/
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Field report on building reliable agent-first software via harness constraints
+    and verification.
+  summary_zh: 关于如何通过约束与验证构建可靠 agent-first 软件的实践报告。
+  tags:
+  - reading
+  - methodology
+  - openai
+  stars_snapshot: 0
+  updated_at: '2026-01-01'
+  license: n/a
+  why_included: High-signal methodology reference directly focused on harness engineering.
+- name: The Anatomy of an Agent Harness
+  repo_url: https://blog.langchain.com/the-anatomy-of-an-agent-harness/
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Conceptual decomposition of agent harness components and their responsibilities.
+  summary_zh: 对 agent harness 组件及其职责的结构化拆解。
+  tags:
+  - reading
+  - architecture
+  - langchain
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Clear mental model for designing harness boundaries.
+- name: Building Effective AI Agents
+  repo_url: https://www.anthropic.com/engineering/building-effective-agents
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Anthropic's practical guidance on when to use workflows vs. autonomous
+    agents and how to structure them.
+  summary_zh: Anthropic 关于何时使用工作流或自治代理以及如何组织系统的实践指南。
+  tags:
+  - reading
+  - anthropic
+  - agents
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: High-signal operational baseline for harness architecture decisions.
+- name: Writing effective tools for AI agents
+  repo_url: https://www.anthropic.com/engineering/writing-tools-for-agents
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Best practices for tool interface design so agents call tools safely
+    and reliably.
+  summary_zh: 讲解如何设计工具接口，使代理更稳定且更安全地调用工具。
+  tags:
+  - reading
+  - anthropic
+  - tools
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Tool contract design is a core harness primitive.
+- name: Code execution with MCP
+  repo_url: https://www.anthropic.com/engineering/code-execution-with-mcp
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Anthropic's design notes on controlled code execution via MCP boundaries.
+  summary_zh: Anthropic 关于通过 MCP 边界进行受控代码执行的工程设计说明。
+  tags:
+  - reading
+  - anthropic
+  - mcp
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Directly relevant to execution safety and harness control surfaces.
+- name: Claude Code sandboxing
+  repo_url: https://www.anthropic.com/engineering/claude-code-sandboxing
+  category: Essential Readings & Ecosystem Maps
+  summary_en: How sandbox policy design improves autonomy while preserving security
+    constraints.
+  summary_zh: 展示如何通过沙箱策略设计在保证安全约束下提升代理自治性。
+  tags:
+  - reading
+  - anthropic
+  - sandboxing
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Strong governance and security reference for coding harnesses.
+- name: Quantifying infrastructure noise in agentic coding evals
+  repo_url: https://www.anthropic.com/engineering/infrastructure-noise
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Analysis of how infrastructure choices impact coding-agent benchmark
+    outcomes.
+  summary_zh: 分析基础设施选择如何显著影响编码代理基准结果。
+  tags:
+  - reading
+  - anthropic
+  - evaluation
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Important for fair, reproducible harness evaluation.
+- name: How we built our multi-agent research system
+  repo_url: https://www.anthropic.com/engineering/multi-agent-research-system
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Anthropic architecture write-up on role separation and coordination
+    in multi-agent systems.
+  summary_zh: Anthropic 对多代理系统中角色分工与协同机制的架构复盘。
+  tags:
+  - reading
+  - anthropic
+  - multi-agent
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Concrete multi-agent harness orchestration patterns.
+- name: Building agents with the Claude Agent SDK
+  repo_url: https://claude.com/blog/building-agents-with-the-claude-agent-sdk
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Claude blog on production-oriented SDK usage for sessions, tools, and
+    orchestration.
+  summary_zh: Claude 官方博客，介绍面向生产的 SDK 会话、工具与编排实践。
+  tags:
+  - reading
+  - claude
+  - sdk
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Useful bridge from theory to operational agent runtime patterns.
+- name: 'Evaluating Deep Agents: Our Learnings'
+  repo_url: https://blog.langchain.com/evaluating-deep-agents-our-learnings/
+  category: Essential Readings & Ecosystem Maps
+  summary_en: LangChain's practical lessons on evaluating stateful and long-horizon
+    agents.
+  summary_zh: LangChain 关于有状态、长时代理评测设计的实战经验总结。
+  tags:
+  - reading
+  - langchain
+  - evaluation
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Useful for building robust eval loops in harness workflows.
+- name: Improving Deep Agents with harness engineering
+  repo_url: https://blog.langchain.com/improving-deep-agents-with-harness-engineering/
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Evidence that harness improvements alone can move benchmark performance.
+  summary_zh: 说明仅通过 harness 改进也能显著提升基准表现。
+  tags:
+  - reading
+  - langchain
+  - harness
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Direct benchmark-to-harness linkage with practical insights.
+- name: Agent Frameworks, Runtimes, and Harnesses, oh my!
+  repo_url: https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Clear decomposition of framework vs runtime vs harness responsibilities.
+  summary_zh: 清晰拆解 framework、runtime 与 harness 的职责边界。
+  tags:
+  - reading
+  - langchain
+  - architecture
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Great conceptual map for taxonomy and system design.
+- name: Your Agent Needs a Harness, Not a Framework
+  repo_url: https://www.inngest.com/blog/your-agent-needs-a-harness-not-a-framework
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Argument for reliability-first infrastructure around agents instead
+    of framework-only thinking.
+  summary_zh: 强调代理系统应优先建设可靠性基础设施，而非仅依赖框架思维。
+  tags:
+  - reading
+  - inngest
+  - reliability
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: High-signal practitioner framing for harness-first implementation.
+- name: 'Skill Issue: Harness Engineering for Coding Agents'
+  repo_url: https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Practical breakdown of why coding-agent quality depends heavily on harness
+    setup.
+  summary_zh: 实践向拆解：编码代理效果很大程度取决于 harness 的工程配置。
+  tags:
+  - reading
+  - humanlayer
+  - coding-agents
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Grounded lessons for day-to-day coding harness operations.
+- name: Testing Agent Skills Systematically with Evals
+  repo_url: https://developers.openai.com/blog/eval-skills
+  category: Essential Readings & Ecosystem Maps
+  summary_en: OpenAI Developers guide for turning agent traces into repeatable skill
+    evaluations.
+  summary_zh: OpenAI Developers 指南：将代理轨迹转化为可重复的技能评测。
+  tags:
+  - reading
+  - openai
+  - evals
+  stars_snapshot: 0
+  updated_at: '2025-01-01'
+  license: n/a
+  why_included: Directly applicable to regression-safe harness iteration.

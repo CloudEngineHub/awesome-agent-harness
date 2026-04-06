@@ -1698,6 +1698,19 @@ entries:
   updated_at: '2026-01-01'
   license: n/a
   why_included: High-signal methodology reference directly focused on harness engineering.
+- name: Unrolling the Codex agent loop
+  repo_url: https://openai.com/index/unrolling-the-codex-agent-loop/
+  category: Essential Readings & Ecosystem Maps
+  summary_en: OpenAI engineering deep dive into the Codex harness loop, prompt growth, tool-call replay, and stateless execution tradeoffs.
+  summary_zh: OpenAI 工程向拆解 Codex harness 回路，涵盖提示增长、工具调用回放与无状态执行权衡。
+  tags:
+  - reading
+  - openai
+  - architecture
+  stars_snapshot: 0
+  updated_at: '2026-01-23'
+  license: n/a
+  why_included: Primary-source explanation of a production coding-agent loop and the harness decisions behind it.
 - name: How we built our multi-agent research system
   repo_url: https://www.anthropic.com/engineering/multi-agent-research-system
   category: Essential Readings & Ecosystem Maps

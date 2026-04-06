@@ -2,8 +2,8 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **135**
-- GitHub entries: **114 (84.4%)**
+- Total entries: **136**
+- GitHub entries: **114 (83.8%)**
 - GitHub in project categories (excluding readings): **110/110 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-04-06**
@@ -52,7 +52,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Observability & Reliability Operations | 13 |
 | Guardrails, Security & Governance | 11 |
 | Reference Harness Implementations | 23 |
-| Essential Readings & Ecosystem Maps | 25 |
+| Essential Readings & Ecosystem Maps | 26 |
 
 ## Catalog
 
@@ -247,6 +247,7 @@ Notes:
 | Skill Issue: Harness Engineering for Coding Agents | [Reference](https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents) | - | reading, humanlayer, coding-agents | Practical breakdown of why coding-agent quality depends heavily on harness setup. |
 | Testing Agent Skills Systematically with Evals | [Reference](https://developers.openai.com/blog/eval-skills) | - | reading, openai, evals | OpenAI Developers guide for turning agent traces into repeatable skill evaluations. |
 | The Anatomy of an Agent Harness | [Reference](https://blog.langchain.com/the-anatomy-of-an-agent-harness/) | - | reading, architecture, langchain | Conceptual decomposition of agent harness components and their responsibilities. |
+| Unrolling the Codex agent loop | [Reference](https://openai.com/index/unrolling-the-codex-agent-loop/) | - | reading, openai, architecture | OpenAI engineering deep dive into the Codex harness loop, prompt growth, tool-call replay, and stateless execution tradeoffs. |
 | Writing effective tools for AI agents | [Reference](https://www.anthropic.com/engineering/writing-tools-for-agents) | - | reading, anthropic, tools | Best practices for tool interface design so agents call tools safely and reliably. |
 | Your Agent Needs a Harness, Not a Framework | [Reference](https://www.inngest.com/blog/your-agent-needs-a-harness-not-a-framework) | - | reading, inngest, reliability | Argument for reliability-first infrastructure around agents instead of framework-only thinking. |
 

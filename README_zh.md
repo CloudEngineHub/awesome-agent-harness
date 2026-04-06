@@ -2,8 +2,8 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **135**
-- GitHub 条目: **114 (84.4%)**
+- 当前条目数: **136**
+- GitHub 条目: **114 (83.8%)**
 - 项目分类 GitHub 占比（不含阅读类）: **110/110 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-04-06**
@@ -52,7 +52,7 @@
 | Observability & Reliability Operations | 13 |
 | Guardrails, Security & Governance | 11 |
 | Reference Harness Implementations | 23 |
-| Essential Readings & Ecosystem Maps | 25 |
+| Essential Readings & Ecosystem Maps | 26 |
 
 ## 项目清单
 
@@ -247,6 +247,7 @@
 | Skill Issue: Harness Engineering for Coding Agents | [Reference](https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents) | - | reading, humanlayer, coding-agents | 实践向拆解：编码代理效果很大程度取决于 harness 的工程配置。 |
 | Testing Agent Skills Systematically with Evals | [Reference](https://developers.openai.com/blog/eval-skills) | - | reading, openai, evals | OpenAI Developers 指南：将代理轨迹转化为可重复的技能评测。 |
 | The Anatomy of an Agent Harness | [Reference](https://blog.langchain.com/the-anatomy-of-an-agent-harness/) | - | reading, architecture, langchain | 对 agent harness 组件及其职责的结构化拆解。 |
+| Unrolling the Codex agent loop | [Reference](https://openai.com/index/unrolling-the-codex-agent-loop/) | - | reading, openai, architecture | OpenAI 工程向拆解 Codex harness 回路，涵盖提示增长、工具调用回放与无状态执行权衡。 |
 | Writing effective tools for AI agents | [Reference](https://www.anthropic.com/engineering/writing-tools-for-agents) | - | reading, anthropic, tools | 讲解如何设计工具接口，使代理更稳定且更安全地调用工具。 |
 | Your Agent Needs a Harness, Not a Framework | [Reference](https://www.inngest.com/blog/your-agent-needs-a-harness-not-a-framework) | - | reading, inngest, reliability | 强调代理系统应优先建设可靠性基础设施，而非仅依赖框架思维。 |
 

@@ -50,6 +50,10 @@ def check_url(url: str, timeout: int = 12) -> tuple[str, bool, str]:
             if 200 <= code < 400:
                 return (url, True, f"HEAD {code}")
     except urllib.error.HTTPError as e:
+        # Some official sites place bot checks in front of article pages.
+        # Treat explicit challenge pages as reachable content rather than dead links.
+        if e.code == 403 and str(e.headers.get("cf-mitigated", "")).lower() == "challenge":
+            return (url, True, "HEAD 403 challenge")
         if e.code in (405, 429):
             pass
         else:
@@ -65,6 +69,10 @@ def check_url(url: str, timeout: int = 12) -> tuple[str, bool, str]:
             if 200 <= code < 400:
                 return (url, True, f"GET {code}")
             return (url, False, f"GET {code}")
+    except urllib.error.HTTPError as e:
+        if e.code == 403 and str(e.headers.get("cf-mitigated", "")).lower() == "challenge":
+            return (url, True, "GET 403 challenge")
+        return (url, False, f"HTTP {e.code}")
     except Exception as e:
         return (url, False, str(e))
 

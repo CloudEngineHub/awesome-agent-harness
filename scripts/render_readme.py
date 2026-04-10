@@ -26,6 +26,8 @@ REQUIRED_ENTRY_FIELDS = [
 ]
 READINGS_CATEGORY = "Essential Readings & Ecosystem Maps"
 FEATURED_READING_NAMES = [
+    "Scaling Managed Agents: Decoupling the brain from the hands",
+    "Claude Code auto mode",
     "Harness engineering (OpenAI)",
     "Building Effective AI Agents",
     "Writing effective tools for AI agents",

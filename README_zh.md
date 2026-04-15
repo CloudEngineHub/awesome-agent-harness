@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **146**
-- GitHub 条目: **122 (83.6%)**
-- 项目分类 GitHub 占比（不含阅读类）: **118/118 (100.0%)**
+- 当前条目数: **148**
+- GitHub 条目: **124 (83.8%)**
+- 项目分类 GitHub 占比（不含阅读类）: **120/120 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-04-13**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -46,12 +46,12 @@
 | --- | ---: |
 | Harness Architecture & Orchestration | 19 |
 | Context & Working-State Engineering | 8 |
-| Execution Substrates & Sandboxing | 11 |
+| Execution Substrates & Sandboxing | 12 |
 | Protocols, Tool Interfaces & Agent Contracts | 11 |
 | Evaluation Harnesses & Benchmarks | 18 |
 | Observability & Reliability Operations | 13 |
 | Guardrails, Security & Governance | 11 |
-| Reference Harness Implementations | 27 |
+| Reference Harness Implementations | 28 |
 | Essential Readings & Ecosystem Maps | 28 |
 
 ## 项目清单
@@ -113,6 +113,7 @@
 | Judge0 | [GitHub](https://github.com/judge0/judge0) | [![star](https://img.shields.io/badge/star-4084-f4b400?style=flat-square)](https://github.com/judge0/judge0) | code-execution, sandbox, backend | 可扩展的沙箱代码执行系统，可作为代理执行后端。 |
 | OSS-Fuzz Gen | [GitHub](https://github.com/google/oss-fuzz-gen) | [![star](https://img.shields.io/badge/star-1382-f4b400?style=flat-square)](https://github.com/google/oss-fuzz-gen) | fuzzing, security, execution | 将 LLM 驱动模糊测试与受控执行环境结合的工程实现。 |
 | stakpak/agent | [GitHub](https://github.com/stakpak/agent) | [![star](https://img.shields.io/badge/star-1369-f4b400?style=flat-square)](https://github.com/stakpak/agent) | always-on, autonomous, ops | 常驻机器运行的开源自治代理，强调持续运维闭环。 |
+| AgentScope Runtime | [GitHub](https://github.com/agentscope-ai/agentscope-runtime) | [![star](https://img.shields.io/badge/star-730-f4b400?style=flat-square)](https://github.com/agentscope-ai/agentscope-runtime) | runtime, sandbox, deployment | 面向代理应用的生产运行时，提供安全工具沙箱、部署 API、可观测能力与状态服务。 |
 | SWE-ReX | [GitHub](https://github.com/SWE-agent/SWE-ReX) | [![star](https://img.shields.io/badge/star-475-f4b400?style=flat-square)](https://github.com/SWE-agent/SWE-ReX) | sandbox, execution, coding-agent | 面向 AI 编码代理的沙箱执行基础设施，支持本地与云端扩展。 |
 | sandboxed.sh | [GitHub](https://github.com/Th0rgal/sandboxed.sh) | [![star](https://img.shields.io/badge/star-374-f4b400?style=flat-square)](https://github.com/Th0rgal/sandboxed.sh) | self-hosted, isolation, orchestrator | 在隔离 Linux 工作区中运行编码代理的自托管编排器。 |
 | terminal-bench-env | [GitHub](https://github.com/ucsb-mlsec/terminal-bench-env) | [![star](https://img.shields.io/badge/star-82-f4b400?style=flat-square)](https://github.com/ucsb-mlsec/terminal-bench-env) | terminal, benchmark-env, sandbox | 为终端代理基准测试提供执行环境层。 |
@@ -226,6 +227,7 @@
 | Open Claude Cowork | [GitHub](https://github.com/DevAgentForge/Open-Claude-Cowork) | [![star](https://img.shields.io/badge/star-3179-f4b400?style=flat-square)](https://github.com/DevAgentForge/Open-Claude-Cowork) | desktop, ui, orchestration | 桌面化协作编码助手，将代理编排能力图形化。 |
 | oh-my-pi | [GitHub](https://github.com/can1357/oh-my-pi) | [![star](https://img.shields.io/badge/star-2934-f4b400?style=flat-square)](https://github.com/can1357/oh-my-pi) | terminal, lsp, subagents | 终端 AI 编码代理，包含编辑安全、LSP 集成与子代理支持。 |
 | Amazon Bedrock AgentCore Samples | [GitHub](https://github.com/awslabs/agentcore-samples) | [![star](https://img.shields.io/badge/star-2610-f4b400?style=flat-square)](https://github.com/awslabs/agentcore-samples) | aws, runtime, operations | 官方示例套件，覆盖基于 Runtime、Gateway、Memory、可观测、评测与策略层的代理部署与运维。 |
+| holaOS | [GitHub](https://github.com/holaboss-ai/holaOS) | [![star](https://img.shields.io/badge/star-2553-f4b400?style=flat-square)](https://github.com/holaboss-ai/holaOS) | long-horizon, desktop, durable-state | 面向长时任务的桌面优先 agent environment，整合运行时、记忆、工具、应用与持久状态。 |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps

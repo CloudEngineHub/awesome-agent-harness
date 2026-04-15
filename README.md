@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **146**
-- GitHub entries: **122 (83.6%)**
-- GitHub in project categories (excluding readings): **118/118 (100.0%)**
+- Total entries: **148**
+- GitHub entries: **124 (83.8%)**
+- GitHub in project categories (excluding readings): **120/120 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-04-13**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -46,12 +46,12 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | --- | ---: |
 | Harness Architecture & Orchestration | 19 |
 | Context & Working-State Engineering | 8 |
-| Execution Substrates & Sandboxing | 11 |
+| Execution Substrates & Sandboxing | 12 |
 | Protocols, Tool Interfaces & Agent Contracts | 11 |
 | Evaluation Harnesses & Benchmarks | 18 |
 | Observability & Reliability Operations | 13 |
 | Guardrails, Security & Governance | 11 |
-| Reference Harness Implementations | 27 |
+| Reference Harness Implementations | 28 |
 | Essential Readings & Ecosystem Maps | 28 |
 
 ## Catalog
@@ -113,6 +113,7 @@ Notes:
 | Judge0 | [GitHub](https://github.com/judge0/judge0) | [![star](https://img.shields.io/badge/star-4084-f4b400?style=flat-square)](https://github.com/judge0/judge0) | code-execution, sandbox, backend | Scalable sandboxed code execution system usable as an agent execution backend. |
 | OSS-Fuzz Gen | [GitHub](https://github.com/google/oss-fuzz-gen) | [![star](https://img.shields.io/badge/star-1382-f4b400?style=flat-square)](https://github.com/google/oss-fuzz-gen) | fuzzing, security, execution | LLM-powered fuzzing workflows integrated with controlled execution contexts. |
 | stakpak/agent | [GitHub](https://github.com/stakpak/agent) | [![star](https://img.shields.io/badge/star-1369-f4b400?style=flat-square)](https://github.com/stakpak/agent) | always-on, autonomous, ops | Always-on open agent that runs on your machines with autonomous operational loops. |
+| AgentScope Runtime | [GitHub](https://github.com/agentscope-ai/agentscope-runtime) | [![star](https://img.shields.io/badge/star-730-f4b400?style=flat-square)](https://github.com/agentscope-ai/agentscope-runtime) | runtime, sandbox, deployment | Production runtime for agent apps with secure tool sandboxes, deployment APIs, observability, and state services. |
 | SWE-ReX | [GitHub](https://github.com/SWE-agent/SWE-ReX) | [![star](https://img.shields.io/badge/star-475-f4b400?style=flat-square)](https://github.com/SWE-agent/SWE-ReX) | sandbox, execution, coding-agent | Sandboxed execution infrastructure for AI coding agents at local and cloud scale. |
 | sandboxed.sh | [GitHub](https://github.com/Th0rgal/sandboxed.sh) | [![star](https://img.shields.io/badge/star-374-f4b400?style=flat-square)](https://github.com/Th0rgal/sandboxed.sh) | self-hosted, isolation, orchestrator | Self-hosted orchestrator running coding agents inside isolated Linux workspaces. |
 | terminal-bench-env | [GitHub](https://github.com/ucsb-mlsec/terminal-bench-env) | [![star](https://img.shields.io/badge/star-82-f4b400?style=flat-square)](https://github.com/ucsb-mlsec/terminal-bench-env) | terminal, benchmark-env, sandbox | Environment layer for terminal-agent benchmark execution. |
@@ -226,6 +227,7 @@ Notes:
 | Open Claude Cowork | [GitHub](https://github.com/DevAgentForge/Open-Claude-Cowork) | [![star](https://img.shields.io/badge/star-3179-f4b400?style=flat-square)](https://github.com/DevAgentForge/Open-Claude-Cowork) | desktop, ui, orchestration | Desktop coding cowork assistant that turns agent orchestration into GUI workflows. |
 | oh-my-pi | [GitHub](https://github.com/can1357/oh-my-pi) | [![star](https://img.shields.io/badge/star-2934-f4b400?style=flat-square)](https://github.com/can1357/oh-my-pi) | terminal, lsp, subagents | Terminal AI coding agent with edit safety, LSP integration, and subagent support. |
 | Amazon Bedrock AgentCore Samples | [GitHub](https://github.com/awslabs/agentcore-samples) | [![star](https://img.shields.io/badge/star-2610-f4b400?style=flat-square)](https://github.com/awslabs/agentcore-samples) | aws, runtime, operations | Official sample suite for deploying and operating agents with runtime, gateway, memory, observability, evaluation, and policy layers. |
+| holaOS | [GitHub](https://github.com/holaboss-ai/holaOS) | [![star](https://img.shields.io/badge/star-2553-f4b400?style=flat-square)](https://github.com/holaboss-ai/holaOS) | long-horizon, desktop, durable-state | Desktop-first long-horizon agent environment with runtime, memory, tools, apps, and durable state. |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps

@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **159**
-- GitHub entries: **135 (84.9%)**
-- GitHub in project categories (excluding readings): **131/131 (100.0%)**
+- Total entries: **163**
+- GitHub entries: **138 (84.7%)**
+- GitHub in project categories (excluding readings): **134/134 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-04-22**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -45,14 +45,14 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Category | Entries |
 | --- | ---: |
 | Harness Architecture & Orchestration | 20 |
-| Context & Working-State Engineering | 8 |
+| Context & Working-State Engineering | 9 |
 | Execution Substrates & Sandboxing | 16 |
 | Protocols, Tool Interfaces & Agent Contracts | 11 |
-| Evaluation Harnesses & Benchmarks | 20 |
-| Observability & Reliability Operations | 13 |
+| Evaluation Harnesses & Benchmarks | 21 |
+| Observability & Reliability Operations | 14 |
 | Guardrails, Security & Governance | 11 |
 | Reference Harness Implementations | 32 |
-| Essential Readings & Ecosystem Maps | 28 |
+| Essential Readings & Ecosystem Maps | 29 |
 
 ## Catalog
 
@@ -97,6 +97,7 @@ Notes:
 | planning-with-files | [GitHub](https://github.com/OthmanAdi/planning-with-files) | [![star](https://img.shields.io/badge/star-19282-f4b400?style=flat-square)](https://github.com/OthmanAdi/planning-with-files) | planning, skills, persistence | Skill package for persistent file-based planning in coding-agent workflows. |
 | Agent Skills for Context Engineering | [GitHub](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | [![star](https://img.shields.io/badge/star-15227-f4b400?style=flat-square)](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | skills, context, production | Large skill library oriented around context engineering and production agents. |
 | Context-Engineering Handbook | [GitHub](https://github.com/davidkimai/Context-Engineering) | [![star](https://img.shields.io/badge/star-8757-f4b400?style=flat-square)](https://github.com/davidkimai/Context-Engineering) | context-engineering, handbook, practices | First-principles handbook focused on practical context engineering for agent systems. |
+| CCPM | [GitHub](https://github.com/automazeio/ccpm) | [![star](https://img.shields.io/badge/star-8048-f4b400?style=flat-square)](https://github.com/automazeio/ccpm) | planning, github-issues, parallel-execution | Spec-driven project-manager skill that turns PRDs and GitHub issues into persistent context and parallel agent execution. |
 | Trellis | [GitHub](https://github.com/mindfold-ai/Trellis) | [![star](https://img.shields.io/badge/star-5872-f4b400?style=flat-square)](https://github.com/mindfold-ai/Trellis) | specs, memory, workflow | Multi-platform coding-agent workflow framework with task context, project memory, and spec injection. |
 | Awesome Context Engineering | [GitHub](https://github.com/Meirtz/Awesome-Context-Engineering) | [![star](https://img.shields.io/badge/star-3075-f4b400?style=flat-square)](https://github.com/Meirtz/Awesome-Context-Engineering) | awesome-list, context, survey | Survey-style list for context engineering resources and frameworks. |
 | context-space | [GitHub](https://github.com/context-space/context-space) | [![star](https://img.shields.io/badge/star-810-f4b400?style=flat-square)](https://github.com/context-space/context-space) | context, infrastructure, mcp | Infrastructure project focused on context engineering building blocks and MCP-centric integrations. |
@@ -161,6 +162,7 @@ Notes:
 | TheAgentCompany | [GitHub](https://github.com/TheAgentCompany/TheAgentCompany) | [![star](https://img.shields.io/badge/star-688-f4b400?style=flat-square)](https://github.com/TheAgentCompany/TheAgentCompany) | benchmark, workplace, multi-step | Agent benchmark with simulated software-company tasks for evaluating multi-step workplace autonomy. |
 | Inspect Evals | [GitHub](https://github.com/UKGovernmentBEIS/inspect_evals) | [![star](https://img.shields.io/badge/star-454-f4b400?style=flat-square)](https://github.com/UKGovernmentBEIS/inspect_evals) | inspect, eval-suite, reproducibility | Evaluation suite collection for Inspect AI workflows. |
 | auto-harness | [GitHub](https://github.com/neosigmaai/auto-harness) | [![star](https://img.shields.io/badge/star-447-f4b400?style=flat-square)](https://github.com/neosigmaai/auto-harness) | optimization, regression, evals | Benchmark-gated optimization loop that mines failures, edits agent code, and guards against regressions overnight. |
+| SWE-Bench Pro | [GitHub](https://github.com/scaleapi/SWE-bench_Pro-os) | [![star](https://img.shields.io/badge/star-364-f4b400?style=flat-square)](https://github.com/scaleapi/SWE-bench_Pro-os) | swe, benchmark, long-horizon | Long-horizon software-engineering benchmark with reproducible Docker-based evaluation for issue-driven coding agents. |
 | Agent Evaluation | [GitHub](https://github.com/awslabs/agent-evaluation) | [![star](https://img.shields.io/badge/star-358-f4b400?style=flat-square)](https://github.com/awslabs/agent-evaluation) | evaluation, testing, ci | AWS framework for testing virtual agents with evaluator-driven multi-turn conversations, hooks, and CI-friendly workflows. |
 | WorkArena | [GitHub](https://github.com/ServiceNow/WorkArena) | [![star](https://img.shields.io/badge/star-245-f4b400?style=flat-square)](https://github.com/ServiceNow/WorkArena) | browser, benchmark, enterprise | Browser benchmark for practical enterprise-like knowledge work tasks. |
 | OpenHands Benchmarks | [GitHub](https://github.com/OpenHands/benchmarks) | [![star](https://img.shields.io/badge/star-71-f4b400?style=flat-square)](https://github.com/OpenHands/benchmarks) | openhands, eval, harness | Evaluation harness and benchmark definitions for OpenHands systems. |
@@ -184,6 +186,7 @@ Notes:
 | Laminar | [GitHub](https://github.com/lmnr-ai/lmnr) | [![star](https://img.shields.io/badge/star-2798-f4b400?style=flat-square)](https://github.com/lmnr-ai/lmnr) | observability, tracing, evals | Agent-focused observability stack with tracing, evaluation runs, monitoring, and dashboards. |
 | claude-code-reverse | [GitHub](https://github.com/Yuyz0112/claude-code-reverse) | [![star](https://img.shields.io/badge/star-2355-f4b400?style=flat-square)](https://github.com/Yuyz0112/claude-code-reverse) | trace, visualization, debugging | Tooling to visualize and inspect Claude Code LLM interaction traces. |
 | OpenInference | [GitHub](https://github.com/Arize-ai/openinference) | [![star](https://img.shields.io/badge/star-932-f4b400?style=flat-square)](https://github.com/Arize-ai/openinference) | spec, instrumentation, observability | Open instrumentation specification and tooling for AI observability. |
+| Future AGI | [GitHub](https://github.com/future-agi/future-agi) | [![star](https://img.shields.io/badge/star-663-f4b400?style=flat-square)](https://github.com/future-agi/future-agi) | observability, evaluation, guardrails | Self-hostable platform that closes the loop across agent tracing, evaluation, simulation, guardrails, and gateway operations. |
 
 <a id="guardrails-security-governance"></a>
 ### Guardrails, Security & Governance
@@ -251,6 +254,7 @@ Notes:
 | awesome-harness-engineering | [GitHub](https://github.com/walkinglabs/awesome-harness-engineering) | [![star](https://img.shields.io/badge/star-1925-f4b400?style=flat-square)](https://github.com/walkinglabs/awesome-harness-engineering) | awesome-list, curation, harness | Curated list focused on harness engineering articles, benchmarks, and implementations. |
 | 12 Factor Agents | [Reference](https://www.humanlayer.dev/blog/12-factor-agents) | - | reading, operations, principles | Operations-oriented principles for building maintainable production agents. |
 | Agent Frameworks, Runtimes, and Harnesses, oh my! | [Reference](https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/) | - | reading, langchain, architecture | Clear decomposition of framework vs runtime vs harness responsibilities. |
+| An open-source spec for Codex orchestration: Symphony. | [Reference](https://openai.com/index/open-source-codex-orchestration-symphony/) | - | reading, openai, orchestration | OpenAI's orchestration write-up on turning issue trackers into always-on control planes for coding agents. |
 | Building agents with the Claude Agent SDK | [Reference](https://claude.com/blog/building-agents-with-the-claude-agent-sdk) | - | reading, claude, sdk | Claude blog on production-oriented SDK usage for sessions, tools, and orchestration. |
 | Building Effective AI Agents | [Reference](https://www.anthropic.com/engineering/building-effective-agents) | - | reading, anthropic, agents | Anthropic's practical guidance on when to use workflows vs. autonomous agents and how to structure them. |
 | Claude Code auto mode | [Reference](https://www.anthropic.com/engineering/claude-code-auto-mode) | - | reading, anthropic, permissions | Anthropic's write-up on classifier-backed approval delegation for safer high-autonomy coding-agent runs. |

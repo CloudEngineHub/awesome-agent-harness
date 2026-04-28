@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **159**
-- GitHub 条目: **135 (84.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **131/131 (100.0%)**
+- 当前条目数: **163**
+- GitHub 条目: **138 (84.7%)**
+- 项目分类 GitHub 占比（不含阅读类）: **134/134 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-04-22**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -45,14 +45,14 @@
 | 分类 | 条目数 |
 | --- | ---: |
 | Harness Architecture & Orchestration | 20 |
-| Context & Working-State Engineering | 8 |
+| Context & Working-State Engineering | 9 |
 | Execution Substrates & Sandboxing | 16 |
 | Protocols, Tool Interfaces & Agent Contracts | 11 |
-| Evaluation Harnesses & Benchmarks | 20 |
-| Observability & Reliability Operations | 13 |
+| Evaluation Harnesses & Benchmarks | 21 |
+| Observability & Reliability Operations | 14 |
 | Guardrails, Security & Governance | 11 |
 | Reference Harness Implementations | 32 |
-| Essential Readings & Ecosystem Maps | 28 |
+| Essential Readings & Ecosystem Maps | 29 |
 
 ## 项目清单
 
@@ -97,6 +97,7 @@
 | planning-with-files | [GitHub](https://github.com/OthmanAdi/planning-with-files) | [![star](https://img.shields.io/badge/star-19282-f4b400?style=flat-square)](https://github.com/OthmanAdi/planning-with-files) | planning, skills, persistence | 用于编码代理工作流的持久化文件规划技能包。 |
 | Agent Skills for Context Engineering | [GitHub](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | [![star](https://img.shields.io/badge/star-15227-f4b400?style=flat-square)](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | skills, context, production | 面向上下文工程与生产代理的大型技能库。 |
 | Context-Engineering Handbook | [GitHub](https://github.com/davidkimai/Context-Engineering) | [![star](https://img.shields.io/badge/star-8757-f4b400?style=flat-square)](https://github.com/davidkimai/Context-Engineering) | context-engineering, handbook, practices | 面向代理系统的第一性原理上下文工程手册，强调实践落地。 |
+| CCPM | [GitHub](https://github.com/automazeio/ccpm) | [![star](https://img.shields.io/badge/star-8048-f4b400?style=flat-square)](https://github.com/automazeio/ccpm) | planning, github-issues, parallel-execution | 规格驱动的项目管理技能，将 PRD 与 GitHub issue 转化为持久上下文和并行代理执行流程。 |
 | Trellis | [GitHub](https://github.com/mindfold-ai/Trellis) | [![star](https://img.shields.io/badge/star-5872-f4b400?style=flat-square)](https://github.com/mindfold-ai/Trellis) | specs, memory, workflow | 面向多平台编码代理的工作流框架，提供任务上下文、项目记忆与规范注入。 |
 | Awesome Context Engineering | [GitHub](https://github.com/Meirtz/Awesome-Context-Engineering) | [![star](https://img.shields.io/badge/star-3075-f4b400?style=flat-square)](https://github.com/Meirtz/Awesome-Context-Engineering) | awesome-list, context, survey | 面向上下文工程的综述型清单，覆盖资源与框架。 |
 | context-space | [GitHub](https://github.com/context-space/context-space) | [![star](https://img.shields.io/badge/star-810-f4b400?style=flat-square)](https://github.com/context-space/context-space) | context, infrastructure, mcp | 聚焦上下文工程基础设施的项目，强调 MCP 生态集成能力。 |
@@ -161,6 +162,7 @@
 | TheAgentCompany | [GitHub](https://github.com/TheAgentCompany/TheAgentCompany) | [![star](https://img.shields.io/badge/star-688-f4b400?style=flat-square)](https://github.com/TheAgentCompany/TheAgentCompany) | benchmark, workplace, multi-step | 以模拟软件公司任务评测多步工作场景自治能力的 agent 基准。 |
 | Inspect Evals | [GitHub](https://github.com/UKGovernmentBEIS/inspect_evals) | [![star](https://img.shields.io/badge/star-454-f4b400?style=flat-square)](https://github.com/UKGovernmentBEIS/inspect_evals) | inspect, eval-suite, reproducibility | 面向 Inspect AI 工作流的评测套件集合。 |
 | auto-harness | [GitHub](https://github.com/neosigmaai/auto-harness) | [![star](https://img.shields.io/badge/star-447-f4b400?style=flat-square)](https://github.com/neosigmaai/auto-harness) | optimization, regression, evals | 以基准门控的优化闭环，可自动挖掘失败样例、修改 agent 代码，并在夜间持续防回归。 |
+| SWE-Bench Pro | [GitHub](https://github.com/scaleapi/SWE-bench_Pro-os) | [![star](https://img.shields.io/badge/star-364-f4b400?style=flat-square)](https://github.com/scaleapi/SWE-bench_Pro-os) | swe, benchmark, long-horizon | 面向 issue 驱动编码代理的长时软件工程基准，提供可复现的 Docker 化评测流程。 |
 | Agent Evaluation | [GitHub](https://github.com/awslabs/agent-evaluation) | [![star](https://img.shields.io/badge/star-358-f4b400?style=flat-square)](https://github.com/awslabs/agent-evaluation) | evaluation, testing, ci | AWS 的虚拟代理测试框架，支持评估器驱动的多轮对话、钩子扩展与 CI 友好工作流。 |
 | WorkArena | [GitHub](https://github.com/ServiceNow/WorkArena) | [![star](https://img.shields.io/badge/star-245-f4b400?style=flat-square)](https://github.com/ServiceNow/WorkArena) | browser, benchmark, enterprise | 面向企业知识工作任务的浏览器代理基准。 |
 | OpenHands Benchmarks | [GitHub](https://github.com/OpenHands/benchmarks) | [![star](https://img.shields.io/badge/star-71-f4b400?style=flat-square)](https://github.com/OpenHands/benchmarks) | openhands, eval, harness | OpenHands 体系的评测 harness 与基准定义。 |
@@ -184,6 +186,7 @@
 | Laminar | [GitHub](https://github.com/lmnr-ai/lmnr) | [![star](https://img.shields.io/badge/star-2798-f4b400?style=flat-square)](https://github.com/lmnr-ai/lmnr) | observability, tracing, evals | 面向代理系统的可观测平台，覆盖追踪、评测运行、监控与仪表盘。 |
 | claude-code-reverse | [GitHub](https://github.com/Yuyz0112/claude-code-reverse) | [![star](https://img.shields.io/badge/star-2355-f4b400?style=flat-square)](https://github.com/Yuyz0112/claude-code-reverse) | trace, visualization, debugging | 可视化并分析 Claude Code 大模型交互链路的工具。 |
 | OpenInference | [GitHub](https://github.com/Arize-ai/openinference) | [![star](https://img.shields.io/badge/star-932-f4b400?style=flat-square)](https://github.com/Arize-ai/openinference) | spec, instrumentation, observability | 面向 AI 可观测性的开放埋点规范与工具。 |
+| Future AGI | [GitHub](https://github.com/future-agi/future-agi) | [![star](https://img.shields.io/badge/star-663-f4b400?style=flat-square)](https://github.com/future-agi/future-agi) | observability, evaluation, guardrails | 可自托管的平台，将代理追踪、评测、模拟、护栏与网关运维闭环整合在一起。 |
 
 <a id="guardrails-security-governance"></a>
 ### Guardrails, Security & Governance
@@ -251,6 +254,7 @@
 | awesome-harness-engineering | [GitHub](https://github.com/walkinglabs/awesome-harness-engineering) | [![star](https://img.shields.io/badge/star-1925-f4b400?style=flat-square)](https://github.com/walkinglabs/awesome-harness-engineering) | awesome-list, curation, harness | 聚焦 harness engineering 的精选清单，覆盖文章、基准与实现。 |
 | 12 Factor Agents | [Reference](https://www.humanlayer.dev/blog/12-factor-agents) | - | reading, operations, principles | 面向生产代理可维护性的运维原则总结。 |
 | Agent Frameworks, Runtimes, and Harnesses, oh my! | [Reference](https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/) | - | reading, langchain, architecture | 清晰拆解 framework、runtime 与 harness 的职责边界。 |
+| An open-source spec for Codex orchestration: Symphony. | [Reference](https://openai.com/index/open-source-codex-orchestration-symphony/) | - | reading, openai, orchestration | OpenAI 对编排层的实践拆解，介绍如何把 issue 跟踪器变成面向编码代理的常驻控制平面。 |
 | Building agents with the Claude Agent SDK | [Reference](https://claude.com/blog/building-agents-with-the-claude-agent-sdk) | - | reading, claude, sdk | Claude 官方博客，介绍面向生产的 SDK 会话、工具与编排实践。 |
 | Building Effective AI Agents | [Reference](https://www.anthropic.com/engineering/building-effective-agents) | - | reading, anthropic, agents | Anthropic 关于何时使用工作流或自治代理以及如何组织系统的实践指南。 |
 | Claude Code auto mode | [Reference](https://www.anthropic.com/engineering/claude-code-auto-mode) | - | reading, anthropic, permissions | Anthropic 介绍如何用分类器接管审批，在更高自治度下维持更安全的编码代理运行。 |

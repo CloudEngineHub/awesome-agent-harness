@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **165**
-- GitHub 条目: **140 (84.8%)**
-- 项目分类 GitHub 占比（不含阅读类）: **136/136 (100.0%)**
+- 当前条目数: **169**
+- GitHub 条目: **144 (85.2%)**
+- 项目分类 GitHub 占比（不含阅读类）: **140/140 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-05-06**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -44,14 +44,14 @@
 
 | 分类 | 条目数 |
 | --- | ---: |
-| Harness Architecture & Orchestration | 20 |
+| Harness Architecture & Orchestration | 21 |
 | Context & Working-State Engineering | 9 |
-| Execution Substrates & Sandboxing | 16 |
+| Execution Substrates & Sandboxing | 17 |
 | Protocols, Tool Interfaces & Agent Contracts | 11 |
 | Evaluation Harnesses & Benchmarks | 21 |
 | Observability & Reliability Operations | 14 |
-| Guardrails, Security & Governance | 11 |
-| Reference Harness Implementations | 34 |
+| Guardrails, Security & Governance | 12 |
+| Reference Harness Implementations | 35 |
 | Essential Readings & Ecosystem Maps | 29 |
 
 ## 项目清单
@@ -73,6 +73,7 @@
 | Semantic Kernel | [GitHub](https://github.com/microsoft/semantic-kernel) | [![star](https://img.shields.io/badge/star-27840-f4b400?style=flat-square)](https://github.com/microsoft/semantic-kernel) | enterprise, orchestration, plugins | 面向企业应用的 agentic 框架，支持编排与插件化扩展。 |
 | OpenAI Agents SDK (Python) | [GitHub](https://github.com/openai/openai-agents-python) | [![star](https://img.shields.io/badge/star-25903-f4b400?style=flat-square)](https://github.com/openai/openai-agents-python) | sdk, handoff, workflows | 轻量级多代理工作流框架，支持交接、编排和生产化模式。 |
 | deepagents | [GitHub](https://github.com/langchain-ai/deepagents) | [![star](https://img.shields.io/badge/star-22288-f4b400?style=flat-square)](https://github.com/langchain-ai/deepagents) | runtime, orchestration, long-running | 面向长时任务的开源 harness，支持规划、工具调用与子代理协作模式。 |
+| Archon | [GitHub](https://github.com/coleam00/Archon) | [![star](https://img.shields.io/badge/star-20916-f4b400?style=flat-square)](https://github.com/coleam00/Archon) | workflow-engine, worktrees, validation | 面向 AI 编码代理的工作流引擎，提供 YAML 定义阶段、隔离 worktree 与校验门禁。 |
 | Google ADK (Python) | [GitHub](https://github.com/google/adk-python) | [![star](https://img.shields.io/badge/star-19441-f4b400?style=flat-square)](https://github.com/google/adk-python) | toolkit, deployment, evaluation | 代码优先的工具包，用于构建、评估和部署复杂 AI 代理。 |
 | PydanticAI | [GitHub](https://github.com/pydantic/pydantic-ai) | [![star](https://img.shields.io/badge/star-16855-f4b400?style=flat-square)](https://github.com/pydantic/pydantic-ai) | python, typing, schema | 强调类型与结构化约束的 Python agent 框架，适合稳定化 harness 开发。 |
 | Hive | [GitHub](https://github.com/aden-hive/hive) | [![star](https://img.shields.io/badge/star-10230-f4b400?style=flat-square)](https://github.com/aden-hive/hive) | harness, orchestration, runtime | 以结果驱动的 agent runtime harness，强调控制回路与编排模块。 |
@@ -110,6 +111,7 @@
 | Daytona | [GitHub](https://github.com/daytonaio/daytona) | [![star](https://img.shields.io/badge/star-72379-f4b400?style=flat-square)](https://github.com/daytonaio/daytona) | sandbox, execution, infra | 面向 AI 生成代码的安全弹性沙箱基础设施，提供文件、Git、LSP 与执行 API。 |
 | CUA | [GitHub](https://github.com/trycua/cua) | [![star](https://img.shields.io/badge/star-15657-f4b400?style=flat-square)](https://github.com/trycua/cua) | computer-use, sandbox, infra | 面向计算机操作代理的基础设施栈，包含沙箱、SDK 与基准支持。 |
 | E2B | [GitHub](https://github.com/e2b-dev/E2B) | [![star](https://img.shields.io/badge/star-12060-f4b400?style=flat-square)](https://github.com/e2b-dev/E2B) | cloud-sandbox, execution, enterprise | 提供真实工具的安全云端环境，面向生产级代理执行。 |
+| Browser Harness | [GitHub](https://github.com/browser-use/browser-harness) | [![star](https://img.shields.io/badge/star-10978-f4b400?style=flat-square)](https://github.com/browser-use/browser-harness) | browser, cdp, self-healing | 轻量可编辑的 CDP harness，可将 LLM 直接接入真实浏览器，并允许代理在运行中扩展辅助能力。 |
 | OpenSandbox | [GitHub](https://github.com/alibaba/OpenSandbox) | [![star](https://img.shields.io/badge/star-10433-f4b400?style=flat-square)](https://github.com/alibaba/OpenSandbox) | sandbox, security, runtime | 面向代理工作负载的安全可扩展沙箱运行时。 |
 | agent-infra sandbox | [GitHub](https://github.com/agent-infra/sandbox) | [![star](https://img.shields.io/badge/star-4529-f4b400?style=flat-square)](https://github.com/agent-infra/sandbox) | all-in-one, browser, shell | 集成浏览器、Shell、文件、MCP 与 IDE 服务的一体化沙箱。 |
 | Judge0 | [GitHub](https://github.com/judge0/judge0) | [![star](https://img.shields.io/badge/star-4153-f4b400?style=flat-square)](https://github.com/judge0/judge0) | code-execution, sandbox, backend | 可扩展的沙箱代码执行系统，可作为代理执行后端。 |
@@ -204,6 +206,7 @@
 | Archestra | [GitHub](https://github.com/archestra-ai/archestra) | [![star](https://img.shields.io/badge/star-3633-f4b400?style=flat-square)](https://github.com/archestra-ai/archestra) | enterprise, guardrails, governance | 企业级 AI 平台，提供护栏、MCP 注册中心与编排能力。 |
 | Tracecat | [GitHub](https://github.com/TracecatHQ/tracecat) | [![star](https://img.shields.io/badge/star-3571-f4b400?style=flat-square)](https://github.com/TracecatHQ/tracecat) | security, automation, policy | 面向安全团队的 AI 自动化平台，提供策略与工作流控制。 |
 | AgentGateway | [GitHub](https://github.com/agentgateway/agentgateway) | [![star](https://img.shields.io/badge/star-2598-f4b400?style=flat-square)](https://github.com/agentgateway/agentgateway) | gateway, mcp, proxy | 面向 AI 代理与 MCP 生态的代理网关。 |
+| Haft | [GitHub](https://github.com/m0n0x41d/haft) | [![star](https://img.shields.io/badge/star-1312-f4b400?style=flat-square)](https://github.com/m0n0x41d/haft) | governance, decisions, mcp | 面向决策治理的 harness，在代理执行前沉淀可证伪契约、证据与 commission 生命周期。 |
 
 <a id="reference-harness-implementations"></a>
 ### Reference Harness Implementations
@@ -225,6 +228,7 @@
 | SuperClaude Framework | [GitHub](https://github.com/SuperClaude-Org/SuperClaude_Framework) | [![star](https://img.shields.io/badge/star-22597-f4b400?style=flat-square)](https://github.com/SuperClaude-Org/SuperClaude_Framework) | config, personas, workflow | 为编码代理增强命令、角色与方法模板的配置框架。 |
 | Devika | [GitHub](https://github.com/stitionai/devika) | [![star](https://img.shields.io/badge/star-19506-f4b400?style=flat-square)](https://github.com/stitionai/devika) | assistant, planning, coding | 开源编码助手系统，支持任务规划与实现。 |
 | SWE-agent | [GitHub](https://github.com/SWE-agent/SWE-agent) | [![star](https://img.shields.io/badge/star-19137-f4b400?style=flat-square)](https://github.com/SWE-agent/SWE-agent) | swe, issue-fixing, tooling | 研究级编码代理，通过明确的工具回路自动修复 GitHub issue。 |
+| cmux | [GitHub](https://github.com/manaflow-ai/cmux) | [![star](https://img.shields.io/badge/star-16313-f4b400?style=flat-square)](https://github.com/manaflow-ai/cmux) | macos, workspace, browser | 面向 AI 编码代理的原生 macOS 终端与浏览器工作区，提供通知、分屏与可脚本化控制。 |
 | Aperant | [GitHub](https://github.com/AndyMik90/Aperant) | [![star](https://img.shields.io/badge/star-14148-f4b400?style=flat-square)](https://github.com/AndyMik90/Aperant) | coding-agent, parallel, memory | 自治多代理编码框架，提供并行执行、隔离工作区、质量校验回路与持久记忆。 |
 | Eigent | [GitHub](https://github.com/eigent-ai/eigent) | [![star](https://img.shields.io/badge/star-13887-f4b400?style=flat-square)](https://github.com/eigent-ai/eigent) | desktop, cowork, productivity | 开源桌面协作代理，可执行自治任务并提升开发生产力。 |
 | IronClaw | [GitHub](https://github.com/nearai/ironclaw) | [![star](https://img.shields.io/badge/star-12135-f4b400?style=flat-square)](https://github.com/nearai/ironclaw) | security, wasm, routines | 安全优先的个人 agent harness，集成 WASM 沙箱、例程调度、工具插件与持久记忆。 |

@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **165**
-- GitHub entries: **140 (84.8%)**
-- GitHub in project categories (excluding readings): **136/136 (100.0%)**
+- Total entries: **169**
+- GitHub entries: **144 (85.2%)**
+- GitHub in project categories (excluding readings): **140/140 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-05-06**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -44,14 +44,14 @@ A curated, implementation-first list of **agent harness engineering** resources,
 
 | Category | Entries |
 | --- | ---: |
-| Harness Architecture & Orchestration | 20 |
+| Harness Architecture & Orchestration | 21 |
 | Context & Working-State Engineering | 9 |
-| Execution Substrates & Sandboxing | 16 |
+| Execution Substrates & Sandboxing | 17 |
 | Protocols, Tool Interfaces & Agent Contracts | 11 |
 | Evaluation Harnesses & Benchmarks | 21 |
 | Observability & Reliability Operations | 14 |
-| Guardrails, Security & Governance | 11 |
-| Reference Harness Implementations | 34 |
+| Guardrails, Security & Governance | 12 |
+| Reference Harness Implementations | 35 |
 | Essential Readings & Ecosystem Maps | 29 |
 
 ## Catalog
@@ -73,6 +73,7 @@ Notes:
 | Semantic Kernel | [GitHub](https://github.com/microsoft/semantic-kernel) | [![star](https://img.shields.io/badge/star-27840-f4b400?style=flat-square)](https://github.com/microsoft/semantic-kernel) | enterprise, orchestration, plugins | Enterprise-grade agentic application framework with orchestration and plugin patterns. |
 | OpenAI Agents SDK (Python) | [GitHub](https://github.com/openai/openai-agents-python) | [![star](https://img.shields.io/badge/star-25903-f4b400?style=flat-square)](https://github.com/openai/openai-agents-python) | sdk, handoff, workflows | Lightweight framework for multi-agent workflows, handoffs, and production patterns. |
 | deepagents | [GitHub](https://github.com/langchain-ai/deepagents) | [![star](https://img.shields.io/badge/star-22288-f4b400?style=flat-square)](https://github.com/langchain-ai/deepagents) | runtime, orchestration, long-running | Open-source harness for long-running, tool-using agents with planning and subagent patterns. |
+| Archon | [GitHub](https://github.com/coleam00/Archon) | [![star](https://img.shields.io/badge/star-20916-f4b400?style=flat-square)](https://github.com/coleam00/Archon) | workflow-engine, worktrees, validation | Workflow engine for AI coding agents with YAML-defined phases, isolated worktrees, and validation gates. |
 | Google ADK (Python) | [GitHub](https://github.com/google/adk-python) | [![star](https://img.shields.io/badge/star-19441-f4b400?style=flat-square)](https://github.com/google/adk-python) | toolkit, deployment, evaluation | Code-first toolkit to build, evaluate, and deploy advanced AI agents. |
 | PydanticAI | [GitHub](https://github.com/pydantic/pydantic-ai) | [![star](https://img.shields.io/badge/star-16855-f4b400?style=flat-square)](https://github.com/pydantic/pydantic-ai) | python, typing, schema | Type-safe Python framework for agents with strong schema contracts and tooling. |
 | Hive | [GitHub](https://github.com/aden-hive/hive) | [![star](https://img.shields.io/badge/star-10230-f4b400?style=flat-square)](https://github.com/aden-hive/hive) | harness, orchestration, runtime | Outcome-driven agent runtime harness with explicit control loops and orchestration blocks. |
@@ -110,6 +111,7 @@ Notes:
 | Daytona | [GitHub](https://github.com/daytonaio/daytona) | [![star](https://img.shields.io/badge/star-72379-f4b400?style=flat-square)](https://github.com/daytonaio/daytona) | sandbox, execution, infra | Secure and elastic sandbox infrastructure for running AI-generated code with file, Git, LSP, and execution APIs. |
 | CUA | [GitHub](https://github.com/trycua/cua) | [![star](https://img.shields.io/badge/star-15657-f4b400?style=flat-square)](https://github.com/trycua/cua) | computer-use, sandbox, infra | Infrastructure stack for computer-use agents with sandbox, SDK, and benchmark support. |
 | E2B | [GitHub](https://github.com/e2b-dev/E2B) | [![star](https://img.shields.io/badge/star-12060-f4b400?style=flat-square)](https://github.com/e2b-dev/E2B) | cloud-sandbox, execution, enterprise | Secure cloud environments with real tools for production-grade agent execution. |
+| Browser Harness | [GitHub](https://github.com/browser-use/browser-harness) | [![star](https://img.shields.io/badge/star-10978-f4b400?style=flat-square)](https://github.com/browser-use/browser-harness) | browser, cdp, self-healing | Thin editable CDP harness that connects LLMs directly to real browsers and lets agents extend helpers in flight. |
 | OpenSandbox | [GitHub](https://github.com/alibaba/OpenSandbox) | [![star](https://img.shields.io/badge/star-10433-f4b400?style=flat-square)](https://github.com/alibaba/OpenSandbox) | sandbox, security, runtime | Secure and extensible sandbox runtime built for agent workloads. |
 | agent-infra sandbox | [GitHub](https://github.com/agent-infra/sandbox) | [![star](https://img.shields.io/badge/star-4529-f4b400?style=flat-square)](https://github.com/agent-infra/sandbox) | all-in-one, browser, shell | All-in-one sandbox combining browser, shell, files, MCP, and IDE server. |
 | Judge0 | [GitHub](https://github.com/judge0/judge0) | [![star](https://img.shields.io/badge/star-4153-f4b400?style=flat-square)](https://github.com/judge0/judge0) | code-execution, sandbox, backend | Scalable sandboxed code execution system usable as an agent execution backend. |
@@ -204,6 +206,7 @@ Notes:
 | Archestra | [GitHub](https://github.com/archestra-ai/archestra) | [![star](https://img.shields.io/badge/star-3633-f4b400?style=flat-square)](https://github.com/archestra-ai/archestra) | enterprise, guardrails, governance | Enterprise AI platform with guardrails, MCP registry, and orchestration services. |
 | Tracecat | [GitHub](https://github.com/TracecatHQ/tracecat) | [![star](https://img.shields.io/badge/star-3571-f4b400?style=flat-square)](https://github.com/TracecatHQ/tracecat) | security, automation, policy | AI automation platform for security teams with policy and workflow controls. |
 | AgentGateway | [GitHub](https://github.com/agentgateway/agentgateway) | [![star](https://img.shields.io/badge/star-2598-f4b400?style=flat-square)](https://github.com/agentgateway/agentgateway) | gateway, mcp, proxy | Agentic proxy gateway for AI agents and MCP server ecosystems. |
+| Haft | [GitHub](https://github.com/m0n0x41d/haft) | [![star](https://img.shields.io/badge/star-1312-f4b400?style=flat-square)](https://github.com/m0n0x41d/haft) | governance, decisions, mcp | Decision-governance harness that records falsifiable contracts, evidence, and commissions before agents execute. |
 
 <a id="reference-harness-implementations"></a>
 ### Reference Harness Implementations
@@ -225,6 +228,7 @@ Notes:
 | SuperClaude Framework | [GitHub](https://github.com/SuperClaude-Org/SuperClaude_Framework) | [![star](https://img.shields.io/badge/star-22597-f4b400?style=flat-square)](https://github.com/SuperClaude-Org/SuperClaude_Framework) | config, personas, workflow | Configuration framework adding commands, personas, and method templates to coding agents. |
 | Devika | [GitHub](https://github.com/stitionai/devika) | [![star](https://img.shields.io/badge/star-19506-f4b400?style=flat-square)](https://github.com/stitionai/devika) | assistant, planning, coding | Open-source coding assistant system for planning and implementing development tasks. |
 | SWE-agent | [GitHub](https://github.com/SWE-agent/SWE-agent) | [![star](https://img.shields.io/badge/star-19137-f4b400?style=flat-square)](https://github.com/SWE-agent/SWE-agent) | swe, issue-fixing, tooling | Research-grade coding agent that resolves GitHub issues with explicit tooling loops. |
+| cmux | [GitHub](https://github.com/manaflow-ai/cmux) | [![star](https://img.shields.io/badge/star-16313-f4b400?style=flat-square)](https://github.com/manaflow-ai/cmux) | macos, workspace, browser | Native macOS terminal and browser workspace for AI coding agents with notifications, split panes, and scriptable control. |
 | Aperant | [GitHub](https://github.com/AndyMik90/Aperant) | [![star](https://img.shields.io/badge/star-14148-f4b400?style=flat-square)](https://github.com/AndyMik90/Aperant) | coding-agent, parallel, memory | Autonomous multi-agent coding framework with parallel execution, isolated workspaces, QA loops, and persistent memory. |
 | Eigent | [GitHub](https://github.com/eigent-ai/eigent) | [![star](https://img.shields.io/badge/star-13887-f4b400?style=flat-square)](https://github.com/eigent-ai/eigent) | desktop, cowork, productivity | Open-source desktop cowork agent for autonomous task execution and productivity. |
 | IronClaw | [GitHub](https://github.com/nearai/ironclaw) | [![star](https://img.shields.io/badge/star-12135-f4b400?style=flat-square)](https://github.com/nearai/ironclaw) | security, wasm, routines | Security-first personal agent harness with WASM sandboxing, routines, tool plugins, and persistent memory. |

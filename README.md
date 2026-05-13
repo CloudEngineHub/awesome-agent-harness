@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **174**
-- GitHub entries: **149 (85.6%)**
-- GitHub in project categories (excluding readings): **145/145 (100.0%)**
+- Total entries: **178**
+- GitHub entries: **153 (86.0%)**
+- GitHub in project categories (excluding readings): **149/149 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-05-12**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -44,14 +44,14 @@ A curated, implementation-first list of **agent harness engineering** resources,
 
 | Category | Entries |
 | --- | ---: |
-| Harness Architecture & Orchestration | 22 |
+| Harness Architecture & Orchestration | 23 |
 | Context & Working-State Engineering | 9 |
-| Execution Substrates & Sandboxing | 19 |
-| Protocols, Tool Interfaces & Agent Contracts | 11 |
+| Execution Substrates & Sandboxing | 20 |
+| Protocols, Tool Interfaces & Agent Contracts | 12 |
 | Evaluation Harnesses & Benchmarks | 21 |
 | Observability & Reliability Operations | 14 |
 | Guardrails, Security & Governance | 12 |
-| Reference Harness Implementations | 37 |
+| Reference Harness Implementations | 38 |
 | Essential Readings & Ecosystem Maps | 29 |
 
 ## Catalog
@@ -83,6 +83,7 @@ Notes:
 | mcp-agent | [GitHub](https://github.com/lastmile-ai/mcp-agent) | [![star](https://img.shields.io/badge/star-8315-f4b400?style=flat-square)](https://github.com/lastmile-ai/mcp-agent) | mcp, runtime, workflow | Practical agent framework centered on MCP tool ecosystems and workflow composition. |
 | Yao | [GitHub](https://github.com/YaoApp/yao) | [![star](https://img.shields.io/badge/star-7536-f4b400?style=flat-square)](https://github.com/YaoApp/yao) | single-binary, runtime, autonomous | Single-binary runtime for defining and running autonomous agents. |
 | Cloudflare Agents | [GitHub](https://github.com/cloudflare/agents) | [![star](https://img.shields.io/badge/star-4904-f4b400?style=flat-square)](https://github.com/cloudflare/agents) | platform, deployment, runtime | Platform runtime for building and deploying agents with production infrastructure primitives. |
+| Flue | [GitHub](https://github.com/withastro/flue) | [![star](https://img.shields.io/badge/star-3360-f4b400?style=flat-square)](https://github.com/withastro/flue) | typescript, headless, sandbox | TypeScript harness framework for building headless agents with sessions, tools, skills, and pluggable sandboxes. |
 | Docker Agent | [GitHub](https://github.com/docker/docker-agent) | [![star](https://img.shields.io/badge/star-2906-f4b400?style=flat-square)](https://github.com/docker/docker-agent) | docker, runtime, container | Agent builder and runtime stack emphasizing container-native execution. |
 | NeMo Agent Toolkit | [GitHub](https://github.com/NVIDIA/NeMo-Agent-Toolkit) | [![star](https://img.shields.io/badge/star-2281-f4b400?style=flat-square)](https://github.com/NVIDIA/NeMo-Agent-Toolkit) | multi-agent, optimization, toolkit | Open toolkit for connecting and optimizing teams of AI agents. |
 | Scion | [GitHub](https://github.com/GoogleCloudPlatform/scion) | [![star](https://img.shields.io/badge/star-1507-f4b400?style=flat-square)](https://github.com/GoogleCloudPlatform/scion) | multi-agent, containers, orchestration | Experimental multi-agent orchestration testbed that runs isolated agent harnesses in containers, worktrees, and remote runtimes. |
@@ -121,6 +122,7 @@ Notes:
 | stakpak/agent | [GitHub](https://github.com/stakpak/agent) | [![star](https://img.shields.io/badge/star-1521-f4b400?style=flat-square)](https://github.com/stakpak/agent) | always-on, autonomous, ops | Always-on open agent that runs on your machines with autonomous operational loops. |
 | OSS-Fuzz Gen | [GitHub](https://github.com/google/oss-fuzz-gen) | [![star](https://img.shields.io/badge/star-1393-f4b400?style=flat-square)](https://github.com/google/oss-fuzz-gen) | fuzzing, security, execution | LLM-powered fuzzing workflows integrated with controlled execution contexts. |
 | E2B Desktop Sandbox | [GitHub](https://github.com/e2b-dev/desktop) | [![star](https://img.shields.io/badge/star-1366-f4b400?style=flat-square)](https://github.com/e2b-dev/desktop) | desktop, sandbox, computer-use | Secure virtual desktop sandbox for computer-use agents with SDK control and screen streaming. |
+| AgentBay SDK | [GitHub](https://github.com/agentbay-ai/wuying-agentbay-sdk) | [![star](https://img.shields.io/badge/star-1122-f4b400?style=flat-square)](https://github.com/agentbay-ai/wuying-agentbay-sdk) | cloud-sandbox, computer-use, sdk | Cloud sandbox SDK for agents spanning browser, desktop, mobile, and code execution environments. |
 | Tensorlake | [GitHub](https://github.com/tensorlakeai/tensorlake) | [![star](https://img.shields.io/badge/star-915-f4b400?style=flat-square)](https://github.com/tensorlakeai/tensorlake) | microvm, sandbox, orchestration | Serverless runtime for agent sandboxes with MicroVM isolation, snapshots, suspend-resume, and background orchestration. |
 | Arrakis | [GitHub](https://github.com/abshkbh/arrakis) | [![star](https://img.shields.io/badge/star-810-f4b400?style=flat-square)](https://github.com/abshkbh/arrakis) | sandbox, microvm, snapshots | Self-hosted sandbox substrate with MicroVM isolation, snapshot restore, and REST, SDK, and MCP interfaces for agent code execution and computer use. |
 | AgentScope Runtime | [GitHub](https://github.com/agentscope-ai/agentscope-runtime) | [![star](https://img.shields.io/badge/star-779-f4b400?style=flat-square)](https://github.com/agentscope-ai/agentscope-runtime) | runtime, sandbox, deployment | Production runtime for agent apps with secure tool sandboxes, deployment APIs, observability, and state services. |
@@ -136,6 +138,7 @@ Notes:
 | --- | --- | --- | --- | --- |
 | GitHub Spec Kit | [GitHub](https://github.com/github/spec-kit) | [![star](https://img.shields.io/badge/star-96275-f4b400?style=flat-square)](https://github.com/github/spec-kit) | spec-driven, workflows, tooling | Toolkit for spec-driven development to guide deterministic agent execution. |
 | MCP Servers | [GitHub](https://github.com/modelcontextprotocol/servers) | [![star](https://img.shields.io/badge/star-85480-f4b400?style=flat-square)](https://github.com/modelcontextprotocol/servers) | mcp, servers, implementations | Official collection of MCP server implementations across tools and domains. |
+| Chrome DevTools MCP | [GitHub](https://github.com/ChromeDevTools/chrome-devtools-mcp) | [![star](https://img.shields.io/badge/star-39463-f4b400?style=flat-square)](https://github.com/ChromeDevTools/chrome-devtools-mcp) | mcp, browser, devtools | Official MCP server that gives coding agents Chrome DevTools access for reliable browser automation, debugging, and performance analysis. |
 | AGENTS.md | [GitHub](https://github.com/agentsmd/agents.md) | [![star](https://img.shields.io/badge/star-21226-f4b400?style=flat-square)](https://github.com/agentsmd/agents.md) | spec, agent-file, instructions | Open format for repository-local instructions that coding agents can follow. |
 | Model Context Protocol | [GitHub](https://github.com/modelcontextprotocol/modelcontextprotocol) | [![star](https://img.shields.io/badge/star-8083-f4b400?style=flat-square)](https://github.com/modelcontextprotocol/modelcontextprotocol) | mcp, protocol, interoperability | Core specification and docs for MCP-based tool and context interoperability. |
 | directories (rules and MCP indexes) | [GitHub](https://github.com/leerob/directories) | [![star](https://img.shields.io/badge/star-3929-f4b400?style=flat-square)](https://github.com/leerob/directories) | directories, mcp, rules | Curated directories of agent rules and MCP servers for tool discovery. |
@@ -252,6 +255,7 @@ Notes:
 | Devon | [GitHub](https://github.com/entropy-research/Devon) | [![star](https://img.shields.io/badge/star-3449-f4b400?style=flat-square)](https://github.com/entropy-research/Devon) | pair-programming, coding-agent, autonomous | Open-source pair programmer agent with autonomous coding execution patterns. |
 | Open Claude Cowork | [GitHub](https://github.com/DevAgentForge/Open-Claude-Cowork) | [![star](https://img.shields.io/badge/star-3267-f4b400?style=flat-square)](https://github.com/DevAgentForge/Open-Claude-Cowork) | desktop, ui, orchestration | Desktop coding cowork assistant that turns agent orchestration into GUI workflows. |
 | Amazon Bedrock AgentCore Samples | [GitHub](https://github.com/awslabs/agentcore-samples) | [![star](https://img.shields.io/badge/star-2793-f4b400?style=flat-square)](https://github.com/awslabs/agentcore-samples) | aws, runtime, operations | Official sample suite for deploying and operating agents with runtime, gateway, memory, observability, evaluation, and policy layers. |
+| Open Cowork | [GitHub](https://github.com/OpenCoworkAI/open-cowork) | [![star](https://img.shields.io/badge/star-1299-f4b400?style=flat-square)](https://github.com/OpenCoworkAI/open-cowork) | desktop, sandbox, mcp | Desktop agent app with VM-backed sandboxing, MCP connectors, GUI control, and built-in skill workflows. |
 | mini-coding-agent | [GitHub](https://github.com/rasbt/mini-coding-agent) | [![star](https://img.shields.io/badge/star-827-f4b400?style=flat-square)](https://github.com/rasbt/mini-coding-agent) | coding-agent, minimal, approvals | Minimal coding agent harness illustrating approvals, memory, bounded delegation, and durable transcripts. |
 
 <a id="essential-readings-ecosystem-maps"></a>

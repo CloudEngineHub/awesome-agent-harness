@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **174**
-- GitHub 条目: **149 (85.6%)**
-- 项目分类 GitHub 占比（不含阅读类）: **145/145 (100.0%)**
+- 当前条目数: **178**
+- GitHub 条目: **153 (86.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **149/149 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-05-12**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -44,14 +44,14 @@
 
 | 分类 | 条目数 |
 | --- | ---: |
-| Harness Architecture & Orchestration | 22 |
+| Harness Architecture & Orchestration | 23 |
 | Context & Working-State Engineering | 9 |
-| Execution Substrates & Sandboxing | 19 |
-| Protocols, Tool Interfaces & Agent Contracts | 11 |
+| Execution Substrates & Sandboxing | 20 |
+| Protocols, Tool Interfaces & Agent Contracts | 12 |
 | Evaluation Harnesses & Benchmarks | 21 |
 | Observability & Reliability Operations | 14 |
 | Guardrails, Security & Governance | 12 |
-| Reference Harness Implementations | 37 |
+| Reference Harness Implementations | 38 |
 | Essential Readings & Ecosystem Maps | 29 |
 
 ## 项目清单
@@ -83,6 +83,7 @@
 | mcp-agent | [GitHub](https://github.com/lastmile-ai/mcp-agent) | [![star](https://img.shields.io/badge/star-8315-f4b400?style=flat-square)](https://github.com/lastmile-ai/mcp-agent) | mcp, runtime, workflow | 以 MCP 工具体系为核心的实用 agent 框架，强调工作流组合。 |
 | Yao | [GitHub](https://github.com/YaoApp/yao) | [![star](https://img.shields.io/badge/star-7536-f4b400?style=flat-square)](https://github.com/YaoApp/yao) | single-binary, runtime, autonomous | 单二进制运行时，用于定义并运行自治代理。 |
 | Cloudflare Agents | [GitHub](https://github.com/cloudflare/agents) | [![star](https://img.shields.io/badge/star-4904-f4b400?style=flat-square)](https://github.com/cloudflare/agents) | platform, deployment, runtime | 提供面向生产基础设施的 agent 构建与部署运行时。 |
+| Flue | [GitHub](https://github.com/withastro/flue) | [![star](https://img.shields.io/badge/star-3360-f4b400?style=flat-square)](https://github.com/withastro/flue) | typescript, headless, sandbox | 面向无界面代理的 TypeScript harness 框架，提供会话、工具、技能与可插拔沙箱。 |
 | Docker Agent | [GitHub](https://github.com/docker/docker-agent) | [![star](https://img.shields.io/badge/star-2906-f4b400?style=flat-square)](https://github.com/docker/docker-agent) | docker, runtime, container | 强调容器原生执行的 agent 构建与运行时栈。 |
 | NeMo Agent Toolkit | [GitHub](https://github.com/NVIDIA/NeMo-Agent-Toolkit) | [![star](https://img.shields.io/badge/star-2281-f4b400?style=flat-square)](https://github.com/NVIDIA/NeMo-Agent-Toolkit) | multi-agent, optimization, toolkit | 用于连接与优化多代理协作的开源工具包。 |
 | Scion | [GitHub](https://github.com/GoogleCloudPlatform/scion) | [![star](https://img.shields.io/badge/star-1507-f4b400?style=flat-square)](https://github.com/GoogleCloudPlatform/scion) | multi-agent, containers, orchestration | 实验性多代理编排测试平台，可在容器、git worktree 与远程运行时中隔离运行各类 agent harness。 |
@@ -121,6 +122,7 @@
 | stakpak/agent | [GitHub](https://github.com/stakpak/agent) | [![star](https://img.shields.io/badge/star-1521-f4b400?style=flat-square)](https://github.com/stakpak/agent) | always-on, autonomous, ops | 常驻机器运行的开源自治代理，强调持续运维闭环。 |
 | OSS-Fuzz Gen | [GitHub](https://github.com/google/oss-fuzz-gen) | [![star](https://img.shields.io/badge/star-1393-f4b400?style=flat-square)](https://github.com/google/oss-fuzz-gen) | fuzzing, security, execution | 将 LLM 驱动模糊测试与受控执行环境结合的工程实现。 |
 | E2B Desktop Sandbox | [GitHub](https://github.com/e2b-dev/desktop) | [![star](https://img.shields.io/badge/star-1366-f4b400?style=flat-square)](https://github.com/e2b-dev/desktop) | desktop, sandbox, computer-use | 面向 computer-use 代理的安全虚拟桌面沙箱，提供 SDK 控制与屏幕流式能力。 |
+| AgentBay SDK | [GitHub](https://github.com/agentbay-ai/wuying-agentbay-sdk) | [![star](https://img.shields.io/badge/star-1122-f4b400?style=flat-square)](https://github.com/agentbay-ai/wuying-agentbay-sdk) | cloud-sandbox, computer-use, sdk | 面向代理的云沙箱 SDK，覆盖浏览器、桌面、移动端与代码执行环境。 |
 | Tensorlake | [GitHub](https://github.com/tensorlakeai/tensorlake) | [![star](https://img.shields.io/badge/star-915-f4b400?style=flat-square)](https://github.com/tensorlakeai/tensorlake) | microvm, sandbox, orchestration | 面向 agent 沙箱的无服务器运行时，提供 MicroVM 隔离、快照、挂起恢复与后台编排能力。 |
 | Arrakis | [GitHub](https://github.com/abshkbh/arrakis) | [![star](https://img.shields.io/badge/star-810-f4b400?style=flat-square)](https://github.com/abshkbh/arrakis) | sandbox, microvm, snapshots | 自托管沙箱基座，提供 MicroVM 隔离、快照恢复，以及面向代理代码执行与 computer use 的 REST、SDK 与 MCP 接口。 |
 | AgentScope Runtime | [GitHub](https://github.com/agentscope-ai/agentscope-runtime) | [![star](https://img.shields.io/badge/star-779-f4b400?style=flat-square)](https://github.com/agentscope-ai/agentscope-runtime) | runtime, sandbox, deployment | 面向代理应用的生产运行时，提供安全工具沙箱、部署 API、可观测能力与状态服务。 |
@@ -136,6 +138,7 @@
 | --- | --- | --- | --- | --- |
 | GitHub Spec Kit | [GitHub](https://github.com/github/spec-kit) | [![star](https://img.shields.io/badge/star-96275-f4b400?style=flat-square)](https://github.com/github/spec-kit) | spec-driven, workflows, tooling | 面向规范驱动开发的工具包，可引导代理进行确定性执行。 |
 | MCP Servers | [GitHub](https://github.com/modelcontextprotocol/servers) | [![star](https://img.shields.io/badge/star-85480-f4b400?style=flat-square)](https://github.com/modelcontextprotocol/servers) | mcp, servers, implementations | 官方 MCP Server 实现集合，覆盖多种工具与场景。 |
+| Chrome DevTools MCP | [GitHub](https://github.com/ChromeDevTools/chrome-devtools-mcp) | [![star](https://img.shields.io/badge/star-39463-f4b400?style=flat-square)](https://github.com/ChromeDevTools/chrome-devtools-mcp) | mcp, browser, devtools | 官方 MCP server，为编码代理提供 Chrome DevTools 接入能力，用于可靠的浏览器自动化、调试与性能分析。 |
 | AGENTS.md | [GitHub](https://github.com/agentsmd/agents.md) | [![star](https://img.shields.io/badge/star-21226-f4b400?style=flat-square)](https://github.com/agentsmd/agents.md) | spec, agent-file, instructions | 面向代码仓库本地代理指令的开放格式规范。 |
 | Model Context Protocol | [GitHub](https://github.com/modelcontextprotocol/modelcontextprotocol) | [![star](https://img.shields.io/badge/star-8083-f4b400?style=flat-square)](https://github.com/modelcontextprotocol/modelcontextprotocol) | mcp, protocol, interoperability | MCP 的核心规范与文档，定义工具与上下文互操作方式。 |
 | directories (rules and MCP indexes) | [GitHub](https://github.com/leerob/directories) | [![star](https://img.shields.io/badge/star-3929-f4b400?style=flat-square)](https://github.com/leerob/directories) | directories, mcp, rules | 面向规则与 MCP server 发现的目录索引集合。 |
@@ -252,6 +255,7 @@
 | Devon | [GitHub](https://github.com/entropy-research/Devon) | [![star](https://img.shields.io/badge/star-3449-f4b400?style=flat-square)](https://github.com/entropy-research/Devon) | pair-programming, coding-agent, autonomous | 开源结对编程代理，提供自治编码执行模式。 |
 | Open Claude Cowork | [GitHub](https://github.com/DevAgentForge/Open-Claude-Cowork) | [![star](https://img.shields.io/badge/star-3267-f4b400?style=flat-square)](https://github.com/DevAgentForge/Open-Claude-Cowork) | desktop, ui, orchestration | 桌面化协作编码助手，将代理编排能力图形化。 |
 | Amazon Bedrock AgentCore Samples | [GitHub](https://github.com/awslabs/agentcore-samples) | [![star](https://img.shields.io/badge/star-2793-f4b400?style=flat-square)](https://github.com/awslabs/agentcore-samples) | aws, runtime, operations | 官方示例套件，覆盖基于 Runtime、Gateway、Memory、可观测、评测与策略层的代理部署与运维。 |
+| Open Cowork | [GitHub](https://github.com/OpenCoworkAI/open-cowork) | [![star](https://img.shields.io/badge/star-1299-f4b400?style=flat-square)](https://github.com/OpenCoworkAI/open-cowork) | desktop, sandbox, mcp | 桌面代理应用，集成 VM 级沙箱、MCP 连接器、GUI 控制与内置技能工作流。 |
 | mini-coding-agent | [GitHub](https://github.com/rasbt/mini-coding-agent) | [![star](https://img.shields.io/badge/star-827-f4b400?style=flat-square)](https://github.com/rasbt/mini-coding-agent) | coding-agent, minimal, approvals | 极简编码 agent harness，实现了审批、记忆、受限委派与持久化转录等核心机制。 |
 
 <a id="essential-readings-ecosystem-maps"></a>

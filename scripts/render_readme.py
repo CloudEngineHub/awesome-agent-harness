@@ -13,6 +13,15 @@ DATA_FILE = ROOT / "data" / "projects.yaml"
 README_EN = ROOT / "README.md"
 README_ZH = ROOT / "README_zh.md"
 
+AGENT_HARNESS_CITATION = [
+    "@misc{li2026agentharness,",
+    "  title={Agent Harness Engineering: A Survey},",
+    "  author={Li, Junjie and Xiao, Xi and Zhang, Yunbei and Liu, Chen and Zhao, Lin and Liao, Xiaoying and Ji, Yingrui and Wang, Janet and Gu, Jianyang and Ge, Yingqiang and Xu, Weijie and Fang, Xi and Xu, Xiang and Zhao, Tianchen and Kim, Youngeun and Wang, Tianyang and Hamm, Jihun and Krishnaswamy, Smita and Huan, Jun and Reddy, Chandan},",
+    "  url={https://openreview.net/pdf?id=eONq7FdiHa},",
+    "  year={2026}",
+    "}",
+]
+
 REQUIRED_ENTRY_FIELDS = [
     "name",
     "repo_url",
@@ -196,11 +205,7 @@ def render_readmes(catalog: dict[str, Any]) -> tuple[str, str]:
     en.append("## Citation")
     en.append("")
     en.append("```bibtex")
-    en.append("@misc{awesome-agent-harness,")
-    en.append("  title={Awesome Agent Harness},")
-    en.append("  howpublished={\\url{https://github.com/Picrew/awesome-agent-harness.git}},")
-    en.append(f"  year={{{verified[:4]}}}")
-    en.append("}")
+    en.extend(AGENT_HARNESS_CITATION)
     en.append("```")
     en.append("")
 
@@ -282,11 +287,7 @@ def render_readmes(catalog: dict[str, Any]) -> tuple[str, str]:
     zh.append("## 引用")
     zh.append("")
     zh.append("```bibtex")
-    zh.append("@misc{awesome-agent-harness,")
-    zh.append("  title={Awesome Agent Harness},")
-    zh.append("  howpublished={\\url{https://github.com/Picrew/awesome-agent-harness.git}},")
-    zh.append(f"  year={{{verified[:4]}}}")
-    zh.append("}")
+    zh.extend(AGENT_HARNESS_CITATION)
     zh.append("```")
     zh.append("")
 

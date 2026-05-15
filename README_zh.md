@@ -302,9 +302,10 @@
 ## 引用
 
 ```bibtex
-@misc{awesome-agent-harness,
-  title={Awesome Agent Harness},
-  howpublished={\url{https://github.com/Picrew/awesome-agent-harness.git}},
+@misc{li2026agentharness,
+  title={Agent Harness Engineering: A Survey},
+  author={Li, Junjie and Xiao, Xi and Zhang, Yunbei and Liu, Chen and Zhao, Lin and Liao, Xiaoying and Ji, Yingrui and Wang, Janet and Gu, Jianyang and Ge, Yingqiang and Xu, Weijie and Fang, Xi and Xu, Xiang and Zhao, Tianchen and Kim, Youngeun and Wang, Tianyang and Hamm, Jihun and Krishnaswamy, Smita and Huan, Jun and Reddy, Chandan},
+  url={https://openreview.net/pdf?id=eONq7FdiHa},
   year={2026}
 }
 ```

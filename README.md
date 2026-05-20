@@ -2,11 +2,11 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **181**
-- GitHub entries: **156 (86.2%)**
-- GitHub in project categories (excluding readings): **152/152 (100.0%)**
+- Total entries: **184**
+- GitHub entries: **159 (86.4%)**
+- GitHub in project categories (excluding readings): **155/155 (100.0%)**
 - Categories: **9**
-- Last verified: **2026-05-19**
+- Last verified: **2026-05-20**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 <a id="featured-harness-blogs"></a>
@@ -46,12 +46,12 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | --- | ---: |
 | Harness Architecture & Orchestration | 23 |
 | Context & Working-State Engineering | 9 |
-| Execution Substrates & Sandboxing | 21 |
+| Execution Substrates & Sandboxing | 22 |
 | Protocols, Tool Interfaces & Agent Contracts | 12 |
 | Evaluation Harnesses & Benchmarks | 22 |
 | Observability & Reliability Operations | 14 |
 | Guardrails, Security & Governance | 13 |
-| Reference Harness Implementations | 38 |
+| Reference Harness Implementations | 40 |
 | Essential Readings & Ecosystem Maps | 29 |
 
 ## Catalog
@@ -116,6 +116,7 @@ Notes:
 | E2B | [GitHub](https://github.com/e2b-dev/E2B) | [![star](https://img.shields.io/badge/star-12241-f4b400?style=flat-square)](https://github.com/e2b-dev/E2B) | cloud-sandbox, execution, enterprise | Secure cloud environments with real tools for production-grade agent execution. |
 | OpenSandbox | [GitHub](https://github.com/alibaba/OpenSandbox) | [![star](https://img.shields.io/badge/star-10698-f4b400?style=flat-square)](https://github.com/alibaba/OpenSandbox) | sandbox, security, runtime | Secure and extensible sandbox runtime built for agent workloads. |
 | OpenShell | [GitHub](https://github.com/NVIDIA/OpenShell) | [![star](https://img.shields.io/badge/star-6081-f4b400?style=flat-square)](https://github.com/NVIDIA/OpenShell) | sandbox, policy, runtime | Safe private runtime for autonomous agents with sandbox lifecycle control and declarative filesystem, network, process, and inference policies. |
+| CubeSandbox | [GitHub](https://github.com/TencentCloud/CubeSandbox) | [![star](https://img.shields.io/badge/star-5799-f4b400?style=flat-square)](https://github.com/TencentCloud/CubeSandbox) | microvm, sandbox, e2b-compatible | MicroVM-based sandbox service for AI agents with sub-60ms startup, E2B-compatible APIs, and hardware-level isolation. |
 | agent-infra sandbox | [GitHub](https://github.com/agent-infra/sandbox) | [![star](https://img.shields.io/badge/star-4732-f4b400?style=flat-square)](https://github.com/agent-infra/sandbox) | all-in-one, browser, shell | All-in-one sandbox combining browser, shell, files, MCP, and IDE server. |
 | Sandcastle | [GitHub](https://github.com/mattpocock/sandcastle) | [![star](https://img.shields.io/badge/star-4573-f4b400?style=flat-square)](https://github.com/mattpocock/sandcastle) | sandbox, typescript, branch-strategy | TypeScript library for orchestrating coding agents inside isolated sandboxes with configurable branch strategies. |
 | Judge0 | [GitHub](https://github.com/judge0/judge0) | [![star](https://img.shields.io/badge/star-4177-f4b400?style=flat-square)](https://github.com/judge0/judge0) | code-execution, sandbox, backend | Scalable sandboxed code execution system usable as an agent execution backend. |
@@ -227,12 +228,14 @@ Notes:
 | Gemini CLI | [GitHub](https://github.com/google-gemini/gemini-cli) | [![star](https://img.shields.io/badge/star-104277-f4b400?style=flat-square)](https://github.com/google-gemini/gemini-cli) | terminal, coding-agent, mcp | Open-source terminal agent with built-in tools, MCP support, checkpointing, and sandboxing controls. |
 | Codex CLI | [GitHub](https://github.com/openai/codex) | [![star](https://img.shields.io/badge/star-83658-f4b400?style=flat-square)](https://github.com/openai/codex) | terminal, coding-agent, local-execution | Terminal-native coding agent that runs locally and exposes practical agent workflows for software tasks. |
 | OpenHands | [GitHub](https://github.com/OpenHands/OpenHands) | [![star](https://img.shields.io/badge/star-74054-f4b400?style=flat-square)](https://github.com/OpenHands/OpenHands) | coding-agent, software-engineering, repo | Open-source AI software engineer focused on repo-level coding task execution. |
+| Paperclip | [GitHub](https://github.com/paperclipai/paperclip) | [![star](https://img.shields.io/badge/star-66696-f4b400?style=flat-square)](https://github.com/paperclipai/paperclip) | managed-agents, control-plane, governance | Managed-agent control plane with org charts, ticketing, budgets, heartbeats, and audit trails for coordinating agent teams. |
 | learn-claude-code | [GitHub](https://github.com/shareAI-lab/learn-claude-code) | [![star](https://img.shields.io/badge/star-61227-f4b400?style=flat-square)](https://github.com/shareAI-lab/learn-claude-code) | tutorial, harness, claude-code | Hands-on harness tutorial for building Claude Code-like systems from scratch. |
 | OpenManus | [GitHub](https://github.com/FoundationAgents/OpenManus) | [![star](https://img.shields.io/badge/star-56301-f4b400?style=flat-square)](https://github.com/FoundationAgents/OpenManus) | general-agent, autonomy, workflows | Open foundation for broad autonomous agent workflows with coding-heavy use cases. |
 | pi | [GitHub](https://github.com/earendil-works/pi) | [![star](https://img.shields.io/badge/star-51368-f4b400?style=flat-square)](https://github.com/earendil-works/pi) | coding-agent, runtime, monorepo | Agent harness monorepo combining a coding-agent CLI, shared runtime, and multi-provider LLM stack. |
 | aider | [GitHub](https://github.com/Aider-AI/aider) | [![star](https://img.shields.io/badge/star-44999-f4b400?style=flat-square)](https://github.com/Aider-AI/aider) | terminal, repo-map, testing | Terminal coding assistant with repo mapping, git-aware edits, and built-in lint/test feedback loops. |
 | CLI-Anything | [GitHub](https://github.com/HKUDS/CLI-Anything) | [![star](https://img.shields.io/badge/star-36962-f4b400?style=flat-square)](https://github.com/HKUDS/CLI-Anything) | cli, tool-use, automation | CLI agent system that unifies command-line tool usage in agent loops. |
 | Claude Code Plugins: Orchestration and Automation | [GitHub](https://github.com/wshobson/agents) | [![star](https://img.shields.io/badge/star-35616-f4b400?style=flat-square)](https://github.com/wshobson/agents) | claude-code, plugins, orchestration | Production-ready Claude Code plugin marketplace bundling agents, skills, tools, and multi-agent workflow orchestrators. |
+| Multica | [GitHub](https://github.com/multica-ai/multica) | [![star](https://img.shields.io/badge/star-29762-f4b400?style=flat-square)](https://github.com/multica-ai/multica) | managed-agents, coding-agent, runtimes | Managed-agents platform that assigns issues to coding agents, routes execution through runtimes, and compounds reusable skills. |
 | NanoClaw | [GitHub](https://github.com/qwibitai/nanoclaw) | [![star](https://img.shields.io/badge/star-29031-f4b400?style=flat-square)](https://github.com/qwibitai/nanoclaw) | containers, claude-sdk, scheduling | Container-isolated Claude agent harness with channel routing, scheduled jobs, per-group memory, and small-codebase customization. |
 | Qwen Code | [GitHub](https://github.com/QwenLM/qwen-code) | [![star](https://img.shields.io/badge/star-24468-f4b400?style=flat-square)](https://github.com/QwenLM/qwen-code) | terminal, coding-agent, cli | Terminal-native open-source coding agent tuned for practical dev loops. |
 | SuperClaude Framework | [GitHub](https://github.com/SuperClaude-Org/SuperClaude_Framework) | [![star](https://img.shields.io/badge/star-22848-f4b400?style=flat-square)](https://github.com/SuperClaude-Org/SuperClaude_Framework) | config, personas, workflow | Configuration framework adding commands, personas, and method templates to coding agents. |

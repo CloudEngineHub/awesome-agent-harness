@@ -2,11 +2,11 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **181**
-- GitHub 条目: **156 (86.2%)**
-- 项目分类 GitHub 占比（不含阅读类）: **152/152 (100.0%)**
+- 当前条目数: **184**
+- GitHub 条目: **159 (86.4%)**
+- 项目分类 GitHub 占比（不含阅读类）: **155/155 (100.0%)**
 - 分类数量: **9**
-- 最近核对日期: **2026-05-19**
+- 最近核对日期: **2026-05-20**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 <a id="featured-harness-blogs"></a>
@@ -46,12 +46,12 @@
 | --- | ---: |
 | Harness Architecture & Orchestration | 23 |
 | Context & Working-State Engineering | 9 |
-| Execution Substrates & Sandboxing | 21 |
+| Execution Substrates & Sandboxing | 22 |
 | Protocols, Tool Interfaces & Agent Contracts | 12 |
 | Evaluation Harnesses & Benchmarks | 22 |
 | Observability & Reliability Operations | 14 |
 | Guardrails, Security & Governance | 13 |
-| Reference Harness Implementations | 38 |
+| Reference Harness Implementations | 40 |
 | Essential Readings & Ecosystem Maps | 29 |
 
 ## 项目清单
@@ -116,6 +116,7 @@
 | E2B | [GitHub](https://github.com/e2b-dev/E2B) | [![star](https://img.shields.io/badge/star-12241-f4b400?style=flat-square)](https://github.com/e2b-dev/E2B) | cloud-sandbox, execution, enterprise | 提供真实工具的安全云端环境，面向生产级代理执行。 |
 | OpenSandbox | [GitHub](https://github.com/alibaba/OpenSandbox) | [![star](https://img.shields.io/badge/star-10698-f4b400?style=flat-square)](https://github.com/alibaba/OpenSandbox) | sandbox, security, runtime | 面向代理工作负载的安全可扩展沙箱运行时。 |
 | OpenShell | [GitHub](https://github.com/NVIDIA/OpenShell) | [![star](https://img.shields.io/badge/star-6081-f4b400?style=flat-square)](https://github.com/NVIDIA/OpenShell) | sandbox, policy, runtime | 面向自治代理的安全私有运行时，提供沙箱生命周期控制，以及声明式文件系统、网络、进程与推理策略。 |
+| CubeSandbox | [GitHub](https://github.com/TencentCloud/CubeSandbox) | [![star](https://img.shields.io/badge/star-5799-f4b400?style=flat-square)](https://github.com/TencentCloud/CubeSandbox) | microvm, sandbox, e2b-compatible | 面向 AI 代理的 MicroVM 沙箱服务，提供低于 60ms 的启动速度、E2B 兼容 API 与硬件级隔离。 |
 | agent-infra sandbox | [GitHub](https://github.com/agent-infra/sandbox) | [![star](https://img.shields.io/badge/star-4732-f4b400?style=flat-square)](https://github.com/agent-infra/sandbox) | all-in-one, browser, shell | 集成浏览器、Shell、文件、MCP 与 IDE 服务的一体化沙箱。 |
 | Sandcastle | [GitHub](https://github.com/mattpocock/sandcastle) | [![star](https://img.shields.io/badge/star-4573-f4b400?style=flat-square)](https://github.com/mattpocock/sandcastle) | sandbox, typescript, branch-strategy | 用于在隔离沙箱中编排编码代理的 TypeScript 库，支持可配置分支策略。 |
 | Judge0 | [GitHub](https://github.com/judge0/judge0) | [![star](https://img.shields.io/badge/star-4177-f4b400?style=flat-square)](https://github.com/judge0/judge0) | code-execution, sandbox, backend | 可扩展的沙箱代码执行系统，可作为代理执行后端。 |
@@ -227,12 +228,14 @@
 | Gemini CLI | [GitHub](https://github.com/google-gemini/gemini-cli) | [![star](https://img.shields.io/badge/star-104277-f4b400?style=flat-square)](https://github.com/google-gemini/gemini-cli) | terminal, coding-agent, mcp | 开源终端代理，提供内置工具、MCP 支持、会话检查点与沙箱控制能力。 |
 | Codex CLI | [GitHub](https://github.com/openai/codex) | [![star](https://img.shields.io/badge/star-83658-f4b400?style=flat-square)](https://github.com/openai/codex) | terminal, coding-agent, local-execution | 终端原生的本地编码代理，提供面向软件任务的实用 agent 工作流。 |
 | OpenHands | [GitHub](https://github.com/OpenHands/OpenHands) | [![star](https://img.shields.io/badge/star-74054-f4b400?style=flat-square)](https://github.com/OpenHands/OpenHands) | coding-agent, software-engineering, repo | 开源 AI 软件工程代理，聚焦仓库级编码任务执行。 |
+| Paperclip | [GitHub](https://github.com/paperclipai/paperclip) | [![star](https://img.shields.io/badge/star-66696-f4b400?style=flat-square)](https://github.com/paperclipai/paperclip) | managed-agents, control-plane, governance | 面向 agent 团队协作的 managed-agent 控制平面，提供组织结构、工单、预算、心跳调度与审计轨迹。 |
 | learn-claude-code | [GitHub](https://github.com/shareAI-lab/learn-claude-code) | [![star](https://img.shields.io/badge/star-61227-f4b400?style=flat-square)](https://github.com/shareAI-lab/learn-claude-code) | tutorial, harness, claude-code | 从 0 到 1 构建 Claude Code 类系统的实战 harness 教程。 |
 | OpenManus | [GitHub](https://github.com/FoundationAgents/OpenManus) | [![star](https://img.shields.io/badge/star-56301-f4b400?style=flat-square)](https://github.com/FoundationAgents/OpenManus) | general-agent, autonomy, workflows | 面向广义自治任务的开放基础系统，覆盖编码等复杂场景。 |
 | pi | [GitHub](https://github.com/earendil-works/pi) | [![star](https://img.shields.io/badge/star-51368-f4b400?style=flat-square)](https://github.com/earendil-works/pi) | coding-agent, runtime, monorepo | 将编码代理 CLI、共享运行时与多模型 LLM 栈整合在一起的 agent harness monorepo。 |
 | aider | [GitHub](https://github.com/Aider-AI/aider) | [![star](https://img.shields.io/badge/star-44999-f4b400?style=flat-square)](https://github.com/Aider-AI/aider) | terminal, repo-map, testing | 终端编码助手，提供仓库映射、Git 感知编辑与内置 lint/test 反馈回路。 |
 | CLI-Anything | [GitHub](https://github.com/HKUDS/CLI-Anything) | [![star](https://img.shields.io/badge/star-36962-f4b400?style=flat-square)](https://github.com/HKUDS/CLI-Anything) | cli, tool-use, automation | 在代理回路中统一命令行工具使用的 CLI agent 系统。 |
 | Claude Code Plugins: Orchestration and Automation | [GitHub](https://github.com/wshobson/agents) | [![star](https://img.shields.io/badge/star-35616-f4b400?style=flat-square)](https://github.com/wshobson/agents) | claude-code, plugins, orchestration | 面向 Claude Code 的生产级插件仓库，整合 agents、skills、tools 与多代理工作流编排器。 |
+| Multica | [GitHub](https://github.com/multica-ai/multica) | [![star](https://img.shields.io/badge/star-29762-f4b400?style=flat-square)](https://github.com/multica-ai/multica) | managed-agents, coding-agent, runtimes | 将 issue 分配给编码代理、通过 runtime 路由执行并沉淀可复用技能的 managed-agent 平台。 |
 | NanoClaw | [GitHub](https://github.com/qwibitai/nanoclaw) | [![star](https://img.shields.io/badge/star-29031-f4b400?style=flat-square)](https://github.com/qwibitai/nanoclaw) | containers, claude-sdk, scheduling | 基于容器隔离的 Claude 代理 harness，提供多通道路由、定时任务、按群组隔离的记忆，以及小代码库定制能力。 |
 | Qwen Code | [GitHub](https://github.com/QwenLM/qwen-code) | [![star](https://img.shields.io/badge/star-24468-f4b400?style=flat-square)](https://github.com/QwenLM/qwen-code) | terminal, coding-agent, cli | 终端原生开源编码代理，面向实际开发循环优化。 |
 | SuperClaude Framework | [GitHub](https://github.com/SuperClaude-Org/SuperClaude_Framework) | [![star](https://img.shields.io/badge/star-22848-f4b400?style=flat-square)](https://github.com/SuperClaude-Org/SuperClaude_Framework) | config, personas, workflow | 为编码代理增强命令、角色与方法模板的配置框架。 |

@@ -2,11 +2,11 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **186**
-- GitHub entries: **161 (86.6%)**
-- GitHub in project categories (excluding readings): **157/157 (100.0%)**
+- Total entries: **189**
+- GitHub entries: **164 (86.8%)**
+- GitHub in project categories (excluding readings): **160/160 (100.0%)**
 - Categories: **9**
-- Last verified: **2026-05-21**
+- Last verified: **2026-05-22**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 <a id="featured-harness-blogs"></a>
@@ -51,7 +51,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Evaluation Harnesses & Benchmarks | 22 |
 | Observability & Reliability Operations | 14 |
 | Guardrails, Security & Governance | 13 |
-| Reference Harness Implementations | 42 |
+| Reference Harness Implementations | 45 |
 | Essential Readings & Ecosystem Maps | 29 |
 
 ## Catalog
@@ -229,6 +229,7 @@ Notes:
 | Codex CLI | [GitHub](https://github.com/openai/codex) | [![star](https://img.shields.io/badge/star-84202-f4b400?style=flat-square)](https://github.com/openai/codex) | terminal, coding-agent, local-execution | Terminal-native coding agent that runs locally and exposes practical agent workflows for software tasks. |
 | OpenHands | [GitHub](https://github.com/OpenHands/OpenHands) | [![star](https://img.shields.io/badge/star-74311-f4b400?style=flat-square)](https://github.com/OpenHands/OpenHands) | coding-agent, software-engineering, repo | Open-source AI software engineer focused on repo-level coding task execution. |
 | Paperclip | [GitHub](https://github.com/paperclipai/paperclip) | [![star](https://img.shields.io/badge/star-66864-f4b400?style=flat-square)](https://github.com/paperclipai/paperclip) | managed-agents, control-plane, governance | Managed-agent control plane with org charts, ticketing, budgets, heartbeats, and audit trails for coordinating agent teams. |
+| Cline | [GitHub](https://github.com/cline/cline) | [![star](https://img.shields.io/badge/star-62159-f4b400?style=flat-square)](https://github.com/cline/cline) | coding-agent, mcp, checkpoints | Open-source coding agent spanning IDE, terminal, SDK, and kanban surfaces with shared approvals, MCP, checkpoints, and agent teams. |
 | learn-claude-code | [GitHub](https://github.com/shareAI-lab/learn-claude-code) | [![star](https://img.shields.io/badge/star-61635-f4b400?style=flat-square)](https://github.com/shareAI-lab/learn-claude-code) | tutorial, harness, claude-code | Hands-on harness tutorial for building Claude Code-like systems from scratch. |
 | OpenManus | [GitHub](https://github.com/FoundationAgents/OpenManus) | [![star](https://img.shields.io/badge/star-56340-f4b400?style=flat-square)](https://github.com/FoundationAgents/OpenManus) | general-agent, autonomy, workflows | Open foundation for broad autonomous agent workflows with coding-heavy use cases. |
 | pi | [GitHub](https://github.com/earendil-works/pi) | [![star](https://img.shields.io/badge/star-52204-f4b400?style=flat-square)](https://github.com/earendil-works/pi) | coding-agent, runtime, monorepo | Agent harness monorepo combining a coding-agent CLI, shared runtime, and multi-provider LLM stack. |
@@ -263,8 +264,10 @@ Notes:
 | Open Claude Cowork | [GitHub](https://github.com/DevAgentForge/Open-Claude-Cowork) | [![star](https://img.shields.io/badge/star-3282-f4b400?style=flat-square)](https://github.com/DevAgentForge/Open-Claude-Cowork) | desktop, ui, orchestration | Desktop coding cowork assistant that turns agent orchestration into GUI workflows. |
 | Maestro | [GitHub](https://github.com/RunMaestro/Maestro) | [![star](https://img.shields.io/badge/star-2937-f4b400?style=flat-square)](https://github.com/RunMaestro/Maestro) | desktop, worktrees, orchestration | Desktop command center for parallel coding agents with worktree isolation, queued tasks, auto-run playbooks, and reusable sessions. |
 | Amazon Bedrock AgentCore Samples | [GitHub](https://github.com/awslabs/agentcore-samples) | [![star](https://img.shields.io/badge/star-2843-f4b400?style=flat-square)](https://github.com/awslabs/agentcore-samples) | aws, runtime, operations | Official sample suite for deploying and operating agents with runtime, gateway, memory, observability, evaluation, and policy layers. |
+| AI-DLC Workflows | [GitHub](https://github.com/awslabs/aidlc-workflows) | [![star](https://img.shields.io/badge/star-2349-f4b400?style=flat-square)](https://github.com/awslabs/aidlc-workflows) | workflow-rules, quality-gates, steering | Official AWS workflow ruleset that steers coding agents through adaptive phases, quality gates, and IDE-specific context files. |
 | Open Cowork | [GitHub](https://github.com/OpenCoworkAI/open-cowork) | [![star](https://img.shields.io/badge/star-1387-f4b400?style=flat-square)](https://github.com/OpenCoworkAI/open-cowork) | desktop, sandbox, mcp | Desktop agent app with VM-backed sandboxing, MCP connectors, GUI control, and built-in skill workflows. |
 | mini-coding-agent | [GitHub](https://github.com/rasbt/mini-coding-agent) | [![star](https://img.shields.io/badge/star-870-f4b400?style=flat-square)](https://github.com/rasbt/mini-coding-agent) | coding-agent, minimal, approvals | Minimal coding agent harness illustrating approvals, memory, bounded delegation, and durable transcripts. |
+| codex-autorunner | [GitHub](https://github.com/Git-on-my-level/codex-autorunner) | [![star](https://img.shields.io/badge/star-808-f4b400?style=flat-square)](https://github.com/Git-on-my-level/codex-autorunner) | meta-harness, tickets, long-running | Meta-harness that treats tickets as the control plane for long-running coding agents, with queue execution, hub UI, and chat notifications. |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps

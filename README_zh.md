@@ -2,11 +2,11 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **186**
-- GitHub 条目: **161 (86.6%)**
-- 项目分类 GitHub 占比（不含阅读类）: **157/157 (100.0%)**
+- 当前条目数: **189**
+- GitHub 条目: **164 (86.8%)**
+- 项目分类 GitHub 占比（不含阅读类）: **160/160 (100.0%)**
 - 分类数量: **9**
-- 最近核对日期: **2026-05-21**
+- 最近核对日期: **2026-05-22**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 <a id="featured-harness-blogs"></a>
@@ -51,7 +51,7 @@
 | Evaluation Harnesses & Benchmarks | 22 |
 | Observability & Reliability Operations | 14 |
 | Guardrails, Security & Governance | 13 |
-| Reference Harness Implementations | 42 |
+| Reference Harness Implementations | 45 |
 | Essential Readings & Ecosystem Maps | 29 |
 
 ## 项目清单
@@ -229,6 +229,7 @@
 | Codex CLI | [GitHub](https://github.com/openai/codex) | [![star](https://img.shields.io/badge/star-84202-f4b400?style=flat-square)](https://github.com/openai/codex) | terminal, coding-agent, local-execution | 终端原生的本地编码代理，提供面向软件任务的实用 agent 工作流。 |
 | OpenHands | [GitHub](https://github.com/OpenHands/OpenHands) | [![star](https://img.shields.io/badge/star-74311-f4b400?style=flat-square)](https://github.com/OpenHands/OpenHands) | coding-agent, software-engineering, repo | 开源 AI 软件工程代理，聚焦仓库级编码任务执行。 |
 | Paperclip | [GitHub](https://github.com/paperclipai/paperclip) | [![star](https://img.shields.io/badge/star-66864-f4b400?style=flat-square)](https://github.com/paperclipai/paperclip) | managed-agents, control-plane, governance | 面向 agent 团队协作的 managed-agent 控制平面，提供组织结构、工单、预算、心跳调度与审计轨迹。 |
+| Cline | [GitHub](https://github.com/cline/cline) | [![star](https://img.shields.io/badge/star-62159-f4b400?style=flat-square)](https://github.com/cline/cline) | coding-agent, mcp, checkpoints | 开源编码代理，覆盖 IDE、终端、SDK 与看板等入口，并共享审批、MCP、检查点与代理团队能力。 |
 | learn-claude-code | [GitHub](https://github.com/shareAI-lab/learn-claude-code) | [![star](https://img.shields.io/badge/star-61635-f4b400?style=flat-square)](https://github.com/shareAI-lab/learn-claude-code) | tutorial, harness, claude-code | 从 0 到 1 构建 Claude Code 类系统的实战 harness 教程。 |
 | OpenManus | [GitHub](https://github.com/FoundationAgents/OpenManus) | [![star](https://img.shields.io/badge/star-56340-f4b400?style=flat-square)](https://github.com/FoundationAgents/OpenManus) | general-agent, autonomy, workflows | 面向广义自治任务的开放基础系统，覆盖编码等复杂场景。 |
 | pi | [GitHub](https://github.com/earendil-works/pi) | [![star](https://img.shields.io/badge/star-52204-f4b400?style=flat-square)](https://github.com/earendil-works/pi) | coding-agent, runtime, monorepo | 将编码代理 CLI、共享运行时与多模型 LLM 栈整合在一起的 agent harness monorepo。 |
@@ -263,8 +264,10 @@
 | Open Claude Cowork | [GitHub](https://github.com/DevAgentForge/Open-Claude-Cowork) | [![star](https://img.shields.io/badge/star-3282-f4b400?style=flat-square)](https://github.com/DevAgentForge/Open-Claude-Cowork) | desktop, ui, orchestration | 桌面化协作编码助手，将代理编排能力图形化。 |
 | Maestro | [GitHub](https://github.com/RunMaestro/Maestro) | [![star](https://img.shields.io/badge/star-2937-f4b400?style=flat-square)](https://github.com/RunMaestro/Maestro) | desktop, worktrees, orchestration | 面向并行编码代理的桌面指挥台，集成 worktree 隔离、任务队列、自动运行 playbook 与会话复用。 |
 | Amazon Bedrock AgentCore Samples | [GitHub](https://github.com/awslabs/agentcore-samples) | [![star](https://img.shields.io/badge/star-2843-f4b400?style=flat-square)](https://github.com/awslabs/agentcore-samples) | aws, runtime, operations | 官方示例套件，覆盖基于 Runtime、Gateway、Memory、可观测、评测与策略层的代理部署与运维。 |
+| AI-DLC Workflows | [GitHub](https://github.com/awslabs/aidlc-workflows) | [![star](https://img.shields.io/badge/star-2349-f4b400?style=flat-square)](https://github.com/awslabs/aidlc-workflows) | workflow-rules, quality-gates, steering | AWS 官方工作流规则集，通过自适应阶段、质量门禁与面向 IDE 的上下文文件来约束编码代理。 |
 | Open Cowork | [GitHub](https://github.com/OpenCoworkAI/open-cowork) | [![star](https://img.shields.io/badge/star-1387-f4b400?style=flat-square)](https://github.com/OpenCoworkAI/open-cowork) | desktop, sandbox, mcp | 桌面代理应用，集成 VM 级沙箱、MCP 连接器、GUI 控制与内置技能工作流。 |
 | mini-coding-agent | [GitHub](https://github.com/rasbt/mini-coding-agent) | [![star](https://img.shields.io/badge/star-870-f4b400?style=flat-square)](https://github.com/rasbt/mini-coding-agent) | coding-agent, minimal, approvals | 极简编码 agent harness，实现了审批、记忆、受限委派与持久化转录等核心机制。 |
+| codex-autorunner | [GitHub](https://github.com/Git-on-my-level/codex-autorunner) | [![star](https://img.shields.io/badge/star-808-f4b400?style=flat-square)](https://github.com/Git-on-my-level/codex-autorunner) | meta-harness, tickets, long-running | 将 ticket 作为控制平面的长时编码代理 meta-harness，提供队列执行、hub 控制台与聊天通知。 |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps

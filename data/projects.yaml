@@ -1,7 +1,7 @@
 catalog:
   title_en: Awesome Agent Harness
   title_zh: Awesome Agent Harness
-  last_verified: '2026-05-24'
+  last_verified: '2026-05-25'
   description_en: Curated implementation-first list for agent harness engineering.
   description_zh: 面向 Agent Harness Engineering 的工程实践清单。
 categories:
@@ -52,7 +52,7 @@ entries:
   - cross-harness
   - hooks
   - skills
-  stars_snapshot: 189390
+  stars_snapshot: 191225
   updated_at: '2026-05-24'
   license: MIT
   why_included: Primary README explicitly frames ECC as a harness-native operator system spanning Claude Code, Codex, Cursor,
@@ -66,8 +66,8 @@ entries:
   - long-horizon
   - memory
   - subagents
-  stars_snapshot: 69346
-  updated_at: '2026-05-23'
+  stars_snapshot: 69457
+  updated_at: '2026-05-25'
   license: MIT
   why_included: End-to-end open implementation of large-scale harness patterns.
 - name: AutoGen
@@ -79,7 +79,7 @@ entries:
   - multi-agent
   - orchestration
   - framework
-  stars_snapshot: 58330
+  stars_snapshot: 58367
   updated_at: '2026-04-15'
   license: CC-BY-4.0
   why_included: Core ecosystem project for multi-agent harness architectures.
@@ -93,8 +93,8 @@ entries:
   - multi-agent
   - swarm
   - mcp
-  stars_snapshot: 54546
-  updated_at: '2026-05-23'
+  stars_snapshot: 54859
+  updated_at: '2026-05-25'
   license: MIT
   why_included: README documents a full orchestration loop with swarms, memory, MCP, hooks, plugins, background workers, and
     federation.
@@ -107,8 +107,8 @@ entries:
   - scale
   - runtime
   - management
-  stars_snapshot: 40319
-  updated_at: '2026-05-24'
+  stars_snapshot: 40335
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Highlights operational scaling concerns in harness design.
 - name: LangGraph
@@ -120,7 +120,7 @@ entries:
   - graph
   - workflow
   - runtime
-  stars_snapshot: 32791
+  stars_snapshot: 32864
   updated_at: '2026-05-24'
   license: MIT
   why_included: Widely used runtime backbone for controllable multi-step agent workflows.
@@ -133,7 +133,7 @@ entries:
   - enterprise
   - orchestration
   - plugins
-  stars_snapshot: 27965
+  stars_snapshot: 27972
   updated_at: '2026-05-19'
   license: MIT
   why_included: Mature framework for structured harness architecture in production.
@@ -146,7 +146,7 @@ entries:
   - sdk
   - handoff
   - workflows
-  stars_snapshot: 26610
+  stars_snapshot: 26629
   updated_at: '2026-05-22'
   license: MIT
   why_included: Practical baseline for modern harness implementations.
@@ -159,7 +159,7 @@ entries:
   - orchestration
   - control-plane
   - workflows
-  stars_snapshot: 24512
+  stars_snapshot: 24568
   updated_at: '2026-05-20'
   license: Apache-2.0
   why_included: Official OpenAI project that makes issue trackers, isolated runs, and proof-of-work outputs first-class harness
@@ -173,7 +173,7 @@ entries:
   - runtime
   - orchestration
   - long-running
-  stars_snapshot: 23249
+  stars_snapshot: 23289
   updated_at: '2026-05-23'
   license: MIT
   why_included: Clear reference implementation of harness-oriented agent runtime design.
@@ -186,7 +186,7 @@ entries:
   - workflow-engine
   - worktrees
   - validation
-  stars_snapshot: 21798
+  stars_snapshot: 21827
   updated_at: '2026-05-23'
   license: MIT
   why_included: Strong harness-first orchestration system that makes coding workflows deterministic and repeatable.
@@ -199,7 +199,7 @@ entries:
   - toolkit
   - deployment
   - evaluation
-  stars_snapshot: 19823
+  stars_snapshot: 19836
   updated_at: '2026-05-23'
   license: Apache-2.0
   why_included: Covers the full build-eval-deploy lifecycle in one runtime stack.
@@ -212,8 +212,8 @@ entries:
   - python
   - typing
   - schema
-  stars_snapshot: 17248
-  updated_at: '2026-05-23'
+  stars_snapshot: 17273
+  updated_at: '2026-05-25'
   license: MIT
   why_included: Valuable for contract-first harness design and reliable tool interfaces.
 - name: Microsoft Agent Framework
@@ -225,8 +225,8 @@ entries:
   - multi-agent
   - workflows
   - observability
-  stars_snapshot: 10686
-  updated_at: '2026-05-23'
+  stars_snapshot: 10710
+  updated_at: '2026-05-24'
   license: MIT
   why_included: Official framework that exposes graph orchestration, checkpointing, and telemetry as core harness primitives.
 - name: Hive
@@ -238,7 +238,7 @@ entries:
   - harness
   - orchestration
   - runtime
-  stars_snapshot: 10422
+  stars_snapshot: 10431
   updated_at: '2026-05-22'
   license: Apache-2.0
   why_included: Strongly positioned as a dedicated harness runtime project.
@@ -251,7 +251,7 @@ entries:
   - typescript
   - platform
   - runtime
-  stars_snapshot: 9111
+  stars_snapshot: 9135
   updated_at: '2026-05-22'
   license: MIT
   why_included: Strong TS ecosystem option for harness-heavy teams.
@@ -264,7 +264,7 @@ entries:
   - mcp
   - runtime
   - workflow
-  stars_snapshot: 8335
+  stars_snapshot: 8337
   updated_at: '2026-01-25'
   license: Apache-2.0
   why_included: Bridges protocol-level MCP with day-to-day harness construction.
@@ -291,8 +291,8 @@ entries:
   - multi-agent
   - dag
   - tracing
-  stars_snapshot: 6233
-  updated_at: '2026-05-24'
+  stars_snapshot: 6241
+  updated_at: '2026-05-25'
   license: MIT
   why_included: Clear harness-oriented runtime that makes planning, dependency-aware execution, and progress visibility first-class
     orchestration primitives.
@@ -305,8 +305,8 @@ entries:
   - platform
   - deployment
   - runtime
-  stars_snapshot: 4956
-  updated_at: '2026-05-22'
+  stars_snapshot: 4972
+  updated_at: '2026-05-24'
   license: MIT
   why_included: Shows how runtime and infrastructure concerns are merged in production harnesses.
 - name: Flue
@@ -318,8 +318,8 @@ entries:
   - typescript
   - headless
   - sandbox
-  stars_snapshot: 3681
-  updated_at: '2026-05-22'
+  stars_snapshot: 3699
+  updated_at: '2026-05-24'
   license: Apache-2.0
   why_included: Clear harness-first framework that makes sessions, sandboxes, and AGENTS.md-style context first-class runtime
     primitives.
@@ -332,8 +332,8 @@ entries:
   - docker
   - runtime
   - container
-  stars_snapshot: 2941
-  updated_at: '2026-05-22'
+  stars_snapshot: 2951
+  updated_at: '2026-05-24'
   license: Apache-2.0
   why_included: Connects harness reliability with containerized execution primitives.
 - name: NeMo Agent Toolkit
@@ -345,7 +345,7 @@ entries:
   - multi-agent
   - optimization
   - toolkit
-  stars_snapshot: 2320
+  stars_snapshot: 2325
   updated_at: '2026-05-21'
   license: Apache-2.0
   why_included: Useful reference for performance- and infrastructure-aware agent runtimes.
@@ -359,8 +359,8 @@ entries:
   - multi-agent
   - containers
   - orchestration
-  stars_snapshot: 1544
-  updated_at: '2026-05-18'
+  stars_snapshot: 1545
+  updated_at: '2026-05-24'
   license: Apache-2.0
   why_included: Clear harness-focused reference for container isolation, parallel execution, and cross-runtime orchestration.
 - name: deepagentsjs
@@ -372,10 +372,24 @@ entries:
   - typescript
   - langgraph
   - subagents
-  stars_snapshot: 1252
+  stars_snapshot: 1255
   updated_at: '2026-05-22'
   license: MIT
   why_included: Official JavaScript harness implementation with explicit batteries-included control-loop primitives.
+- name: Pydantic AI Harness
+  repo_url: https://github.com/pydantic/pydantic-ai-harness
+  category: Harness Architecture & Orchestration
+  summary_en: Official Pydantic AI capability library for composing tools, lifecycle hooks, instructions, and model settings
+    into reusable agent harnesses.
+  summary_zh: Pydantic AI 官方能力库，可将工具、生命周期钩子、指令与模型设置组合为可复用的 agent harness。
+  tags:
+  - capabilities
+  - hooks
+  - pydantic
+  stars_snapshot: 348
+  updated_at: '2026-05-25'
+  license: MIT
+  why_included: README explicitly defines Pydantic AI capabilities and hooks as the harness layer for agents.
 - name: hankweave
   repo_url: https://github.com/SouthBridgeAI/hankweave-runtime
   category: Harness Architecture & Orchestration
@@ -399,8 +413,8 @@ entries:
   - memory
   - context
   - session
-  stars_snapshot: 77723
-  updated_at: '2026-05-21'
+  stars_snapshot: 77914
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Directly addresses persistent memory, a core harness primitive.
 - name: planning-with-files
@@ -412,8 +426,8 @@ entries:
   - planning
   - skills
   - persistence
-  stars_snapshot: 21950
-  updated_at: '2026-05-22'
+  stars_snapshot: 22014
+  updated_at: '2026-05-24'
   license: MIT
   why_included: Concrete example of durable planning scaffolding in harness design.
 - name: agentmemory
@@ -426,7 +440,7 @@ entries:
   - memory
   - mcp
   - hooks
-  stars_snapshot: 16973
+  stars_snapshot: 17521
   updated_at: '2026-05-22'
   license: Apache-2.0
   why_included: Directly implements persistent working memory across Claude Code, Codex CLI, Gemini CLI, OpenCode, and MCP
@@ -440,7 +454,7 @@ entries:
   - skills
   - context
   - production
-  stars_snapshot: 15910
+  stars_snapshot: 15933
   updated_at: '2026-05-22'
   license: MIT
   why_included: Rich practical patterns for improving context-aware harnesses.
@@ -454,8 +468,8 @@ entries:
   - context
   - mcp
   - session
-  stars_snapshot: 15505
-  updated_at: '2026-05-24'
+  stars_snapshot: 15606
+  updated_at: '2026-05-25'
   license: NOASSERTION
   why_included: Primary README describes concrete context-window reduction, session continuity, hooks, and MCP tools for coding-agent
     harnesses.
@@ -468,7 +482,7 @@ entries:
   - context-engineering
   - handbook
   - practices
-  stars_snapshot: 9006
+  stars_snapshot: 9008
   updated_at: '2026-02-27'
   license: MIT
   why_included: High-signal context methodology companion for harness-oriented teams.
@@ -481,7 +495,7 @@ entries:
   - specs
   - memory
   - workflow
-  stars_snapshot: 8305
+  stars_snapshot: 8354
   updated_at: '2026-05-21'
   license: AGPL-3.0
   why_included: Strong example of repo-native working-state structure for long-running agent sessions.
@@ -495,7 +509,7 @@ entries:
   - planning
   - github-issues
   - parallel-execution
-  stars_snapshot: 8140
+  stars_snapshot: 8143
   updated_at: '2026-03-18'
   license: MIT
   why_included: Directly tackles durable planning, shared state, and parallel work orchestration for coding-agent harnesses.
@@ -508,7 +522,7 @@ entries:
   - awesome-list
   - context
   - survey
-  stars_snapshot: 3153
+  stars_snapshot: 3154
   updated_at: '2026-05-09'
   license: MIT
   why_included: Strong companion list for memory/context-heavy harness design.
@@ -534,7 +548,7 @@ entries:
   - sandbox
   - execution
   - infra
-  stars_snapshot: 72467
+  stars_snapshot: 72462
   updated_at: '2026-05-24'
   license: AGPL-3.0
   why_included: Official execution substrate focused on isolated, programmable environments for agent-generated code.
@@ -547,8 +561,8 @@ entries:
   - computer-use
   - sandbox
   - infra
-  stars_snapshot: 17038
-  updated_at: '2026-05-23'
+  stars_snapshot: 17066
+  updated_at: '2026-05-24'
   license: MIT
   why_included: Covers desktop-control agent execution requirements end-to-end.
 - name: Browser Harness
@@ -560,7 +574,7 @@ entries:
   - browser
   - cdp
   - self-healing
-  stars_snapshot: 13593
+  stars_snapshot: 13674
   updated_at: '2026-05-20'
   license: MIT
   why_included: Clear browser-execution substrate for agents that need live web control without opaque middleware layers.
@@ -573,7 +587,7 @@ entries:
   - cloud-sandbox
   - execution
   - enterprise
-  stars_snapshot: 12338
+  stars_snapshot: 12342
   updated_at: '2026-05-23'
   license: Apache-2.0
   why_included: Widely used execution environment in practical agent stacks.
@@ -586,10 +600,24 @@ entries:
   - sandbox
   - security
   - runtime
-  stars_snapshot: 10785
-  updated_at: '2026-05-22'
+  stars_snapshot: 10797
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Strong open-source option for containment and control.
+- name: Microsandbox
+  repo_url: https://github.com/superradcompany/microsandbox
+  category: Execution Substrates & Sandboxing
+  summary_en: Rootless local VM sandbox runtime with SDKs, detached long-running sessions, agent skills, and MCP server integration.
+  summary_zh: 本地 rootless VM 沙箱运行时，提供 SDK、可分离长会话、agent skills 与 MCP server 集成。
+  tags:
+  - sandbox
+  - vm
+  - mcp
+  stars_snapshot: 6267
+  updated_at: '2026-05-25'
+  license: Apache-2.0
+  why_included: README positions Microsandbox as an agent-ready computer with lightweight VMs, long-running sessions, skills,
+    and MCP integration.
 - name: OpenShell
   repo_url: https://github.com/NVIDIA/OpenShell
   category: Execution Substrates & Sandboxing
@@ -600,8 +628,8 @@ entries:
   - sandbox
   - policy
   - runtime
-  stars_snapshot: 6208
-  updated_at: '2026-05-24'
+  stars_snapshot: 6227
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Official NVIDIA runtime that makes isolated execution and hot-reloadable agent policy enforcement first-class
     harness primitives.
@@ -614,7 +642,7 @@ entries:
   - microvm
   - sandbox
   - e2b-compatible
-  stars_snapshot: 5890
+  stars_snapshot: 5906
   updated_at: '2026-05-24'
   license: NOASSERTION
   why_included: High-signal open execution substrate focused on fast, hardware-isolated sandboxes for agent code execution.
@@ -627,7 +655,7 @@ entries:
   - sandbox
   - typescript
   - branch-strategy
-  stars_snapshot: 4892
+  stars_snapshot: 5007
   updated_at: '2026-05-20'
   license: MIT
   why_included: Concrete harness library that combines provider-agnostic sandboxes, branch isolation, and merge-aware agent
@@ -641,7 +669,7 @@ entries:
   - all-in-one
   - browser
   - shell
-  stars_snapshot: 4783
+  stars_snapshot: 4789
   updated_at: '2026-05-22'
   license: Apache-2.0
   why_included: Excellent reference for unified execution environment design.
@@ -654,7 +682,7 @@ entries:
   - code-execution
   - sandbox
   - backend
-  stars_snapshot: 4187
+  stars_snapshot: 4188
   updated_at: '2026-05-08'
   license: GPL-3.0
   why_included: Stable execution primitive often reused in agent harnesses.
@@ -668,7 +696,7 @@ entries:
   - kubernetes
   - sandbox
   - stateful
-  stars_snapshot: 2342
+  stars_snapshot: 2354
   updated_at: '2026-05-22'
   license: Apache-2.0
   why_included: Official infra project that turns long-lived isolated runtimes into a first-class harness primitive on Kubernetes.
@@ -681,7 +709,7 @@ entries:
   - always-on
   - autonomous
   - ops
-  stars_snapshot: 1554
+  stars_snapshot: 1557
   updated_at: '2026-05-20'
   license: Apache-2.0
   why_included: Illustrates persistent-execution harness tradeoffs.
@@ -707,7 +735,7 @@ entries:
   - desktop
   - sandbox
   - computer-use
-  stars_snapshot: 1386
+  stars_snapshot: 1387
   updated_at: '2026-05-22'
   license: Apache-2.0
   why_included: Primary open-source desktop sandbox substrate for harnesses that need isolated GUI execution.
@@ -720,7 +748,7 @@ entries:
   - cloud-sandbox
   - computer-use
   - sdk
-  stars_snapshot: 1123
+  stars_snapshot: 1124
   updated_at: '2026-05-19'
   license: Apache-2.0
   why_included: Shows how one substrate can expose multiple isolated execution surfaces through a unified agent API.
@@ -760,7 +788,7 @@ entries:
   - runtime
   - sandbox
   - deployment
-  stars_snapshot: 799
+  stars_snapshot: 800
   updated_at: '2026-05-21'
   license: Apache-2.0
   why_included: Official runtime project that treats sandboxing, state, deployment, and observability as first-class harness
@@ -774,7 +802,7 @@ entries:
   - sandbox
   - execution
   - coding-agent
-  stars_snapshot: 507
+  stars_snapshot: 508
   updated_at: '2026-05-18'
   license: MIT
   why_included: Dedicated execution substrate for reliable agent actions.
@@ -787,8 +815,8 @@ entries:
   - self-hosted
   - isolation
   - orchestrator
-  stars_snapshot: 435
-  updated_at: '2026-05-24'
+  stars_snapshot: 438
+  updated_at: '2026-05-25'
   license: none
   why_included: Practical self-hosted pattern for secure autonomous runs.
 - name: Capsule
@@ -801,7 +829,7 @@ entries:
   - wasm
   - sandbox
   - task-runtime
-  stars_snapshot: 284
+  stars_snapshot: 285
   updated_at: '2026-05-15'
   license: Apache-2.0
   why_included: Clear execution runtime for containing untrusted agent work while preserving workflow durability.
@@ -827,7 +855,7 @@ entries:
   - spec-driven
   - workflows
   - tooling
-  stars_snapshot: 105370
+  stars_snapshot: 105616
   updated_at: '2026-05-22'
   license: MIT
   why_included: Strong reference for turning product specs into harness constraints.
@@ -840,7 +868,7 @@ entries:
   - mcp
   - servers
   - implementations
-  stars_snapshot: 86148
+  stars_snapshot: 86192
   updated_at: '2026-05-21'
   license: NOASSERTION
   why_included: Practical implementation index for protocol-centric harness design.
@@ -854,7 +882,7 @@ entries:
   - mcp
   - browser
   - devtools
-  stars_snapshot: 41412
+  stars_snapshot: 41584
   updated_at: '2026-05-24'
   license: Apache-2.0
   why_included: High-signal official tool-interface project for browser-grounded agent workflows.
@@ -867,7 +895,7 @@ entries:
   - spec
   - agent-file
   - instructions
-  stars_snapshot: 21640
+  stars_snapshot: 21667
   updated_at: '2026-03-12'
   license: MIT
   why_included: Important interoperability baseline for repo-level harness control.
@@ -880,7 +908,7 @@ entries:
   - mcp
   - protocol
   - interoperability
-  stars_snapshot: 8200
+  stars_snapshot: 8208
   updated_at: '2026-05-22'
   license: NOASSERTION
   why_included: Foundational protocol for modern tool-augmented harnesses.
@@ -894,7 +922,7 @@ entries:
   - mcp
   - rules
   stars_snapshot: 3935
-  updated_at: '2026-05-23'
+  updated_at: '2026-05-25'
   license: none
   why_included: Practical catalog layer for protocol/tool governance.
 - name: Atmosphere
@@ -907,7 +935,7 @@ entries:
   - multi-protocol
   - governance
   stars_snapshot: 3766
-  updated_at: '2026-05-24'
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Clear primary-source example of a harness runtime that makes transport, approvals, observability, and governance
     first-class execution concerns.
@@ -920,7 +948,7 @@ entries:
   - mcp
   - adapters
   - integration
-  stars_snapshot: 3537
+  stars_snapshot: 3538
   updated_at: '2026-05-19'
   license: MIT
   why_included: Practical bridge between framework runtimes and MCP ecosystems.
@@ -933,7 +961,7 @@ entries:
   - mcp
   - enterprise
   - servers
-  stars_snapshot: 3196
+  stars_snapshot: 3199
   updated_at: '2026-05-24'
   license: MIT
   why_included: Enterprise-focused MCP implementation references.
@@ -948,7 +976,7 @@ entries:
   - git-native
   - workflows
   stars_snapshot: 2789
-  updated_at: '2026-05-13'
+  updated_at: '2026-05-24'
   license: MIT
   why_included: Distinct protocol effort that turns repository structure, workflow files, and compliance rules into portable
     harness contracts.
@@ -961,7 +989,7 @@ entries:
   - acp
   - client
   - sessions
-  stars_snapshot: 2729
+  stars_snapshot: 2741
   updated_at: '2026-05-23'
   license: MIT
   why_included: Useful reference for protocol session lifecycle handling.
@@ -974,7 +1002,7 @@ entries:
   - mcp
   - docs
   - grounding
-  stars_snapshot: 1655
+  stars_snapshot: 1658
   updated_at: '2026-05-23'
   license: CC-BY-4.0
   why_included: Good example of doc-grounding via protocolized context access.
@@ -1013,8 +1041,8 @@ entries:
   - eval
   - red-team
   - ci
-  stars_snapshot: 21542
-  updated_at: '2026-05-24'
+  stars_snapshot: 21567
+  updated_at: '2026-05-25'
   license: MIT
   why_included: Practical CI-friendly evaluation harness in production teams.
 - name: DeepEval
@@ -1026,8 +1054,8 @@ entries:
   - evaluation
   - framework
   - testing
-  stars_snapshot: 15659
-  updated_at: '2026-05-23'
+  stars_snapshot: 15678
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Widely adopted eval toolkit for regression-oriented harness loops.
 - name: RAGAS
@@ -1039,7 +1067,7 @@ entries:
   - rag
   - metrics
   - evaluation
-  stars_snapshot: 14029
+  stars_snapshot: 14042
   updated_at: '2026-02-24'
   license: Apache-2.0
   why_included: Common eval component in harness pipelines with retrieval.
@@ -1052,7 +1080,7 @@ entries:
   - benchmark
   - harness
   - llm
-  stars_snapshot: 12665
+  stars_snapshot: 12677
   updated_at: '2026-05-11'
   license: MIT
   why_included: Foundational harness ideas transferable to agent evaluation.
@@ -1065,7 +1093,7 @@ entries:
   - benchmark
   - swe
   - evaluation
-  stars_snapshot: 5000
+  stars_snapshot: 5006
   updated_at: '2026-04-01'
   license: MIT
   why_included: Core benchmark for coding-agent harness quality.
@@ -1078,8 +1106,8 @@ entries:
   - verifier
   - rl
   - evaluation
-  stars_snapshot: 4130
-  updated_at: '2026-05-24'
+  stars_snapshot: 4132
+  updated_at: '2026-05-25'
   license: MIT
   why_included: Adds verifier-centric perspective to harness quality control.
 - name: AgentBench
@@ -1091,7 +1119,7 @@ entries:
   - benchmark
   - cross-domain
   - agent
-  stars_snapshot: 3446
+  stars_snapshot: 3449
   updated_at: '2026-02-08'
   license: Apache-2.0
   why_included: Broad benchmark coverage helps compare harness generalization.
@@ -1105,7 +1133,7 @@ entries:
   - evaluation
   - testing
   stars_snapshot: 3268
-  updated_at: '2026-05-24'
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Covers full-stack agent testing from scenario simulation to regression evaluation.
 - name: EvalScope
@@ -1117,8 +1145,8 @@ entries:
   - benchmark
   - framework
   - llm
-  stars_snapshot: 2835
-  updated_at: '2026-05-22'
+  stars_snapshot: 2842
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Useful for batch evaluation harness design.
 - name: Terminal-Bench
@@ -1130,7 +1158,7 @@ entries:
   - terminal
   - benchmark
   - long-horizon
-  stars_snapshot: 2250
+  stars_snapshot: 2258
   updated_at: '2026-01-22'
   license: Apache-2.0
   why_included: Directly stress-tests harness design in shell-centric workflows.
@@ -1143,8 +1171,8 @@ entries:
   - evaluation
   - harness
   - rl-env
-  stars_snapshot: 2088
-  updated_at: '2026-05-23'
+  stars_snapshot: 2104
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Connects evaluation harnessing with environment design.
 - name: tau2-bench
@@ -1156,7 +1184,7 @@ entries:
   - tool-use
   - interaction
   - benchmark
-  stars_snapshot: 1219
+  stars_snapshot: 1226
   updated_at: '2026-05-21'
   license: MIT
   why_included: Captures interactive harness behaviors beyond single-turn tasks.
@@ -1170,7 +1198,7 @@ entries:
   - harness-search
   - optimization
   - terminal-bench
-  stars_snapshot: 937
+  stars_snapshot: 946
   updated_at: '2026-04-29'
   license: MIT
   why_included: Direct harness-optimization framework from a research artifact that makes scaffold search and evaluation loops
@@ -1184,7 +1212,7 @@ entries:
   - rl-env
   - training
   - evaluation
-  stars_snapshot: 914
+  stars_snapshot: 917
   updated_at: '2026-05-24'
   license: Apache-2.0
   why_included: Bridges benchmark harnesses with trainable environment design.
@@ -1201,6 +1229,21 @@ entries:
   updated_at: '2025-11-17'
   license: MIT
   why_included: High-signal benchmark for end-to-end harness reliability on realistic work tasks.
+- name: Claw-Eval
+  repo_url: https://github.com/claw-eval/claw-eval
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Evaluation harness and benchmark for autonomous agents with human-verified tasks, trajectory auditing, and completion,
+    safety, and robustness rubrics.
+  summary_zh: 面向自治代理的评测 harness 与基准，包含人工核验任务、轨迹审计，以及完成度、安全性与鲁棒性评分规则。
+  tags:
+  - benchmark
+  - trajectory
+  - safety
+  stars_snapshot: 609
+  updated_at: '2026-05-17'
+  license: none
+  why_included: README describes Claw-Eval as an evaluation harness for LLM agents with human-verified tasks and full-trajectory
+    auditing.
 - name: Inspect Evals
   repo_url: https://github.com/UKGovernmentBEIS/inspect_evals
   category: Evaluation Harnesses & Benchmarks
@@ -1210,7 +1253,7 @@ entries:
   - inspect
   - eval-suite
   - reproducibility
-  stars_snapshot: 509
+  stars_snapshot: 511
   updated_at: '2026-05-24'
   license: MIT
   why_included: Good reference for reusable eval suite packaging.
@@ -1237,7 +1280,7 @@ entries:
   - benchmark
   - harness-comparison
   - multimodal
-  stars_snapshot: 402
+  stars_snapshot: 405
   updated_at: '2026-05-19'
   license: MIT
   why_included: Distinct benchmark that explicitly isolates harness effects by running the same task suite across multiple
@@ -1318,7 +1361,7 @@ entries:
   - llmops
   - tracing
   - metrics
-  stars_snapshot: 27795
+  stars_snapshot: 27852
   updated_at: '2026-05-23'
   license: NOASSERTION
   why_included: Common observability control plane in production harnesses.
@@ -1331,8 +1374,8 @@ entries:
   - platform
   - monitoring
   - evaluation
-  stars_snapshot: 26082
-  updated_at: '2026-05-23'
+  stars_snapshot: 26097
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Mature production operations baseline for agent systems.
 - name: Opik
@@ -1344,8 +1387,8 @@ entries:
   - monitoring
   - eval
   - tracing
-  stars_snapshot: 19361
-  updated_at: '2026-05-24'
+  stars_snapshot: 19370
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Full-lifecycle observability with strong production orientation.
 - name: RagaAI Catalyst
@@ -1357,7 +1400,7 @@ entries:
   - agentops
   - analytics
   - monitoring
-  stars_snapshot: 16166
+  stars_snapshot: 16164
   updated_at: '2026-02-11'
   license: Apache-2.0
   why_included: Focuses specifically on complex multi-agent trace debugging.
@@ -1370,8 +1413,8 @@ entries:
   - llmops
   - gateway
   - optimization
-  stars_snapshot: 11394
-  updated_at: '2026-05-23'
+  stars_snapshot: 11396
+  updated_at: '2026-05-24'
   license: Apache-2.0
   why_included: Strong example of integrated control-plane design.
 - name: Arize Phoenix
@@ -1383,7 +1426,7 @@ entries:
   - observability
   - tracing
   - evaluation
-  stars_snapshot: 9808
+  stars_snapshot: 9818
   updated_at: '2026-05-24'
   license: NOASSERTION
   why_included: High-signal observability stack for agent harness debugging.
@@ -1396,7 +1439,7 @@ entries:
   - opentelemetry
   - instrumentation
   - tracing
-  stars_snapshot: 7137
+  stars_snapshot: 7141
   updated_at: '2026-05-20'
   license: Apache-2.0
   why_included: Critical building block for standards-based harness observability.
@@ -1409,7 +1452,7 @@ entries:
   - monitoring
   - traffic
   - production
-  stars_snapshot: 5717
+  stars_snapshot: 5723
   updated_at: '2026-05-18'
   license: Apache-2.0
   why_included: Simple integration path for practical harness telemetry.
@@ -1422,7 +1465,7 @@ entries:
   - agentops
   - monitoring
   - cost
-  stars_snapshot: 5574
+  stars_snapshot: 5576
   updated_at: '2026-03-19'
   license: MIT
   why_included: Agent-specific telemetry layer for harness operations.
@@ -1435,7 +1478,7 @@ entries:
   - platform
   - eval
   - observability
-  stars_snapshot: 4024
+  stars_snapshot: 4026
   updated_at: '2026-05-24'
   license: MIT
   why_included: Practical all-in-one option for team-scale harness operations.
@@ -1448,7 +1491,7 @@ entries:
   - observability
   - tracing
   - evals
-  stars_snapshot: 2939
+  stars_snapshot: 2943
   updated_at: '2026-05-23'
   license: Apache-2.0
   why_included: Purpose-built operations stack for tracing and validating agent behavior.
@@ -1475,8 +1518,8 @@ entries:
   - observability
   - evaluation
   - guardrails
-  stars_snapshot: 1028
-  updated_at: '2026-05-22'
+  stars_snapshot: 1032
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Strong example of a unified reliability control plane spanning pre-production simulation and live agent operations.
 - name: OpenInference
@@ -1488,8 +1531,8 @@ entries:
   - spec
   - instrumentation
   - observability
-  stars_snapshot: 987
-  updated_at: '2026-05-23'
+  stars_snapshot: 990
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Helps standardize trace semantics across harness stacks.
 - name: LiteLLM
@@ -1501,8 +1544,8 @@ entries:
   - gateway
   - proxy
   - guardrails
-  stars_snapshot: 48049
-  updated_at: '2026-05-24'
+  stars_snapshot: 48146
+  updated_at: '2026-05-25'
   license: NOASSERTION
   why_included: Widely adopted control point in production harness stacks.
 - name: Kong
@@ -1514,10 +1557,24 @@ entries:
   - gateway
   - policy
   - infra
-  stars_snapshot: 43433
-  updated_at: '2026-05-21'
+  stars_snapshot: 43437
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Mature gateway capabilities often reused for agent governance.
+- name: Parlant
+  repo_url: https://github.com/emcie-co/parlant
+  category: Guardrails, Security & Governance
+  summary_en: Interaction-control harness for customer-facing agents focused on consistent, predictable, and governed LLM
+    behavior.
+  summary_zh: 面向客户交互代理的交互控制 harness，强调一致、可预测且可治理的 LLM 行为。
+  tags:
+  - interaction-control
+  - guardrails
+  - customer-agents
+  stars_snapshot: 18087
+  updated_at: '2026-05-24'
+  license: Apache-2.0
+  why_included: Repository description frames Parlant as an interaction control harness for reliable customer-facing AI agents.
 - name: Portkey Gateway
   repo_url: https://github.com/Portkey-AI/gateway
   category: Guardrails, Security & Governance
@@ -1527,7 +1584,7 @@ entries:
   - gateway
   - guardrails
   - routing
-  stars_snapshot: 11839
+  stars_snapshot: 11845
   updated_at: '2026-05-19'
   license: MIT
   why_included: Centralized policy and routing control for harness governance.
@@ -1540,7 +1597,7 @@ entries:
   - security
   - governance
   - framework
-  stars_snapshot: 8669
+  stars_snapshot: 8731
   updated_at: '2026-05-18'
   license: NOASSERTION
   why_included: Security-heavy harness governance perspective.
@@ -1553,7 +1610,7 @@ entries:
   - realtime
   - orchestration
   - control
-  stars_snapshot: 6875
+  stars_snapshot: 6876
   updated_at: '2026-01-07'
   license: MIT
   why_included: Helpful for governance in low-latency agent interactions.
@@ -1566,7 +1623,7 @@ entries:
   - proxy
   - safety
   - data-plane
-  stars_snapshot: 6524
+  stars_snapshot: 6531
   updated_at: '2026-05-19'
   license: Apache-2.0
   why_included: Good reference for infra-level guardrails around agent loops.
@@ -1579,7 +1636,7 @@ entries:
   - demo
   - handoffs
   - governance
-  stars_snapshot: 6375
+  stars_snapshot: 6378
   updated_at: '2025-12-18'
   license: MIT
   why_included: Concrete governance patterns in end-user workflow orchestration.
@@ -1592,8 +1649,8 @@ entries:
   - gateway
   - governance
   - observability
-  stars_snapshot: 3760
-  updated_at: '2026-05-23'
+  stars_snapshot: 3762
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: High-signal gateway implementation for governing tool and agent traffic across heterogeneous backends.
 - name: Archestra
@@ -1605,8 +1662,8 @@ entries:
   - enterprise
   - guardrails
   - governance
-  stars_snapshot: 3735
-  updated_at: '2026-05-24'
+  stars_snapshot: 3739
+  updated_at: '2026-05-25'
   license: AGPL-3.0
   why_included: Strong governance-oriented architecture for regulated contexts.
 - name: Tracecat
@@ -1618,7 +1675,7 @@ entries:
   - security
   - automation
   - policy
-  stars_snapshot: 3611
+  stars_snapshot: 3613
   updated_at: '2026-05-24'
   license: AGPL-3.0
   why_included: Practical governance platform for high-risk automation tasks.
@@ -1631,7 +1688,7 @@ entries:
   - gateway
   - mcp
   - proxy
-  stars_snapshot: 2846
+  stars_snapshot: 2856
   updated_at: '2026-05-23'
   license: Apache-2.0
   why_included: Focuses specifically on gateway-layer controls for agents.
@@ -1645,8 +1702,8 @@ entries:
   - governance
   - policy
   - sandboxing
-  stars_snapshot: 1874
-  updated_at: '2026-05-24'
+  stars_snapshot: 2030
+  updated_at: '2026-05-25'
   license: MIT
   why_included: Official Microsoft project that treats deterministic action governance and execution controls as a dedicated
     harness layer.
@@ -1674,7 +1731,7 @@ entries:
   - control-plane
   - governance
   - runtimes
-  stars_snapshot: 1221
+  stars_snapshot: 1269
   updated_at: '2026-05-23'
   license: MIT
   why_included: Treats governed runtime provisioning, gateway mediation, and reusable resource injection as explicit harness
@@ -1689,7 +1746,7 @@ entries:
   - approvals
   - policy
   - audit
-  stars_snapshot: 266
+  stars_snapshot: 268
   updated_at: '2026-05-23'
   license: MIT
   why_included: High-signal example of action-level governance for existing coding-agent and MCP runtimes without requiring
@@ -1704,8 +1761,8 @@ entries:
   - memory
   - skills
   - subagents
-  stars_snapshot: 164733
-  updated_at: '2026-05-24'
+  stars_snapshot: 166105
+  updated_at: '2026-05-25'
   license: MIT
   why_included: README exposes a complete inspectable agent harness with learning loop, session search, messaging gateway,
     scheduling, and multiple execution backends.
@@ -1718,8 +1775,8 @@ entries:
   - terminal
   - coding-agent
   - subagents
-  stars_snapshot: 164503
-  updated_at: '2026-05-24'
+  stars_snapshot: 164911
+  updated_at: '2026-05-25'
   license: MIT
   why_included: High-signal open coding-agent harness exposing role-separated agents, subagent delegation, and a distinct
     client-server execution model.
@@ -1733,7 +1790,7 @@ entries:
   - terminal
   - coding-agent
   - git-workflows
-  stars_snapshot: 126072
+  stars_snapshot: 126324
   updated_at: '2026-05-23'
   license: none
   why_included: Official public implementation of a production coding-agent harness with terminal-native workflow control.
@@ -1746,8 +1803,8 @@ entries:
   - terminal
   - coding-agent
   - mcp
-  stars_snapshot: 104540
-  updated_at: '2026-05-23'
+  stars_snapshot: 104573
+  updated_at: '2026-05-24'
   license: Apache-2.0
   why_included: Official terminal-agent implementation exposing concrete harness patterns around tools, state, and execution
     policy.
@@ -1760,8 +1817,8 @@ entries:
   - terminal
   - coding-agent
   - local-execution
-  stars_snapshot: 84965
-  updated_at: '2026-05-24'
+  stars_snapshot: 85357
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: High-signal open implementation of a local coding-agent harness from a primary platform vendor.
 - name: OpenHands
@@ -1773,7 +1830,7 @@ entries:
   - coding-agent
   - software-engineering
   - repo
-  stars_snapshot: 74678
+  stars_snapshot: 74776
   updated_at: '2026-05-24'
   license: NOASSERTION
   why_included: Representative coding-agent system with inspectable harness behavior.
@@ -1787,7 +1844,7 @@ entries:
   - managed-agents
   - control-plane
   - governance
-  stars_snapshot: 67336
+  stars_snapshot: 67498
   updated_at: '2026-05-24'
   license: MIT
   why_included: Clear open implementation of a managed-agent control plane with persistent coordination, budgeting, and governance.
@@ -1800,8 +1857,8 @@ entries:
   - tutorial
   - harness
   - claude-code
-  stars_snapshot: 62229
-  updated_at: '2026-05-22'
+  stars_snapshot: 62417
+  updated_at: '2026-05-24'
   license: MIT
   why_included: Valuable educational repo for understanding harness internals.
 - name: Cline
@@ -1814,8 +1871,8 @@ entries:
   - coding-agent
   - mcp
   - checkpoints
-  stars_snapshot: 62228
-  updated_at: '2026-05-24'
+  stars_snapshot: 62275
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Cross-surface open harness whose shared core makes approvals, state rewind, headless execution, and multi-agent
     coordination inspectable.
@@ -1828,7 +1885,7 @@ entries:
   - general-agent
   - autonomy
   - workflows
-  stars_snapshot: 56358
+  stars_snapshot: 56364
   updated_at: '2026-02-11'
   license: MIT
   why_included: High-visibility implementation of open autonomous agent systems.
@@ -1841,8 +1898,8 @@ entries:
   - coding-agent
   - runtime
   - monorepo
-  stars_snapshot: 53501
-  updated_at: '2026-05-23'
+  stars_snapshot: 54144
+  updated_at: '2026-05-24'
   license: MIT
   why_included: Exposes both reusable runtime primitives and an end-to-end coding-agent harness in one actively maintained
     repo.
@@ -1855,7 +1912,7 @@ entries:
   - terminal
   - repo-map
   - testing
-  stars_snapshot: 45219
+  stars_snapshot: 45263
   updated_at: '2026-05-22'
   license: Apache-2.0
   why_included: Mature open implementation of repo-aware editing, git integration, and validation loops for coding-agent harnesses.
@@ -1868,7 +1925,7 @@ entries:
   - cli
   - tool-use
   - automation
-  stars_snapshot: 39872
+  stars_snapshot: 40163
   updated_at: '2026-05-23'
   license: Apache-2.0
   why_included: Illustrates command-centric harness strategies.
@@ -1881,8 +1938,8 @@ entries:
   - claude-code
   - plugins
   - orchestration
-  stars_snapshot: 35849
-  updated_at: '2026-05-22'
+  stars_snapshot: 35901
+  updated_at: '2026-05-25'
   license: MIT
   why_included: Concrete repo-native harness system for modular orchestration and progressive skill loading.
 - name: oh-my-claudecode
@@ -1895,8 +1952,8 @@ entries:
   - claude-code
   - multi-agent
   - worktrees
-  stars_snapshot: 34695
-  updated_at: '2026-05-23'
+  stars_snapshot: 34780
+  updated_at: '2026-05-25'
   license: MIT
   why_included: High-visibility harness implementation that makes team orchestration, parallel execution, and session observability
     concrete.
@@ -1910,8 +1967,8 @@ entries:
   - managed-agents
   - coding-agent
   - runtimes
-  stars_snapshot: 32067
-  updated_at: '2026-05-24'
+  stars_snapshot: 32693
+  updated_at: '2026-05-25'
   license: NOASSERTION
   why_included: Concrete self-hosted system for treating coding agents as teammates with issue assignment, runtime routing,
     and reusable skills.
@@ -1925,10 +1982,23 @@ entries:
   - containers
   - claude-sdk
   - scheduling
-  stars_snapshot: 29317
+  stars_snapshot: 29369
   updated_at: '2026-05-23'
   license: MIT
   why_included: Concrete secure-by-isolation harness implementation with per-group memory and built-in task scheduling.
+- name: Vibe Kanban
+  repo_url: https://github.com/BloopAI/vibe-kanban
+  category: Reference Harness Implementations
+  summary_en: Kanban control plane for planning, running, reviewing, and merging work from coding agents in isolated workspaces.
+  summary_zh: 面向编码代理的看板控制平面，用于在隔离工作区中规划、运行、审查并合并代理产出。
+  tags:
+  - coding-agent
+  - workspaces
+  - review
+  stars_snapshot: 26496
+  updated_at: '2026-04-24'
+  license: Apache-2.0
+  why_included: README documents branch, terminal, dev-server, diff review, and PR workflows for supervising coding agents.
 - name: Qwen Code
   repo_url: https://github.com/QwenLM/qwen-code
   category: Reference Harness Implementations
@@ -1938,8 +2008,8 @@ entries:
   - terminal
   - coding-agent
   - cli
-  stars_snapshot: 24622
-  updated_at: '2026-05-24'
+  stars_snapshot: 24651
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Useful for studying shell-first harness ergonomics.
 - name: SuperClaude Framework
@@ -1951,7 +2021,7 @@ entries:
   - config
   - personas
   - workflow
-  stars_snapshot: 22915
+  stars_snapshot: 22960
   updated_at: '2026-04-27'
   license: MIT
   why_included: Demonstrates repo-local harness customization at scale.
@@ -1964,7 +2034,7 @@ entries:
   - assistant
   - planning
   - coding
-  stars_snapshot: 19507
+  stars_snapshot: 19509
   updated_at: '2025-09-25'
   license: MIT
   why_included: Popular system-level coding agent implementation with practical workflows.
@@ -1977,7 +2047,7 @@ entries:
   - swe
   - issue-fixing
   - tooling
-  stars_snapshot: 19280
+  stars_snapshot: 19294
   updated_at: '2026-05-18'
   license: MIT
   why_included: Canonical open benchmark-targeted coding harness.
@@ -1991,8 +2061,8 @@ entries:
   - macos
   - workspace
   - browser
-  stars_snapshot: 18587
-  updated_at: '2026-05-24'
+  stars_snapshot: 19159
+  updated_at: '2026-05-25'
   license: NOASSERTION
   why_included: Concrete operator-facing harness workspace for supervising parallel coding-agent sessions with native browser
     and notification primitives.
@@ -2006,8 +2076,8 @@ entries:
   - plugins
   - worktrees
   - review
-  stars_snapshot: 17126
-  updated_at: '2026-05-23'
+  stars_snapshot: 17151
+  updated_at: '2026-05-25'
   license: MIT
   why_included: High-signal open harness implementation focused on reusable planning, execution, review, and learning loops
     across agent surfaces.
@@ -2021,7 +2091,7 @@ entries:
   - coding-agent
   - parallel
   - memory
-  stars_snapshot: 14299
+  stars_snapshot: 14300
   updated_at: '2026-03-23'
   license: AGPL-3.0
   why_included: Clear desktop-first harness implementation centered on worktrees, validation loops, and autonomous execution.
@@ -2034,8 +2104,8 @@ entries:
   - desktop
   - cowork
   - productivity
-  stars_snapshot: 14109
-  updated_at: '2026-05-22'
+  stars_snapshot: 14111
+  updated_at: '2026-05-24'
   license: Apache-2.0
   why_included: Desktop-oriented harness design complements CLI-first systems.
 - name: OpenHarness
@@ -2047,8 +2117,8 @@ entries:
   - tool-use
   - memory
   - multi-agent
-  stars_snapshot: 12989
-  updated_at: '2026-05-17'
+  stars_snapshot: 13027
+  updated_at: '2026-05-24'
   license: MIT
   why_included: Direct harness-oriented implementation with explicit coverage of core runtime, memory, safety, and coordination
     subsystems.
@@ -2061,8 +2131,8 @@ entries:
   - security
   - wasm
   - routines
-  stars_snapshot: 12327
-  updated_at: '2026-05-24'
+  stars_snapshot: 12334
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Documents a concrete secure harness stack spanning sandboxed tools, scheduled automation, prompt-injection
     defenses, and local persistence.
@@ -2075,8 +2145,8 @@ entries:
   - worktrees
   - desktop
   - parallel
-  stars_snapshot: 11084
-  updated_at: '2026-05-24'
+  stars_snapshot: 11138
+  updated_at: '2026-05-25'
   license: NOASSERTION
   why_included: Clear reference for supervising parallel terminal agents with isolated worktrees, built-in review surfaces,
     and operator handoff workflows.
@@ -2090,8 +2160,8 @@ entries:
   - terminal
   - coding-agent
   - mcp
-  stars_snapshot: 10591
-  updated_at: '2026-05-24'
+  stars_snapshot: 10601
+  updated_at: '2026-05-25'
   license: NOASSERTION
   why_included: Shows how a major platform vendor packages approvals, MCP, and repository context into a terminal harness.
 - name: Open SWE
@@ -2103,8 +2173,8 @@ entries:
   - async
   - coding-agent
   - swe
-  stars_snapshot: 9842
-  updated_at: '2026-05-23'
+  stars_snapshot: 9844
+  updated_at: '2026-05-24'
   license: MIT
   why_included: Demonstrates modern async orchestration patterns for coding agents.
 - name: Agent Orchestrator
@@ -2116,7 +2186,7 @@ entries:
   - worktrees
   - parallel
   - dashboard
-  stars_snapshot: 7236
+  stars_snapshot: 7257
   updated_at: '2026-05-24'
   license: MIT
   why_included: Strong end-to-end reference for supervising parallel coding agents across worktrees, CI loops, and review
@@ -2130,8 +2200,8 @@ entries:
   - terminal
   - lsp
   - subagents
-  stars_snapshot: 6835
-  updated_at: '2026-05-23'
+  stars_snapshot: 7130
+  updated_at: '2026-05-24'
   license: MIT
   why_included: Useful for studying robust tool harnesses inside terminal workflows.
 - name: Paseo
@@ -2144,8 +2214,8 @@ entries:
   - coding-agent
   - daemon
   - multi-device
-  stars_snapshot: 6617
-  updated_at: '2026-05-24'
+  stars_snapshot: 6670
+  updated_at: '2026-05-25'
   license: NOASSERTION
   why_included: Strong self-hosted harness example that exposes a daemon-based control plane for coordinating Claude Code,
     Codex, and OpenCode across desktop, mobile, web, and CLI surfaces.
@@ -2158,8 +2228,8 @@ entries:
   - long-horizon
   - desktop
   - durable-state
-  stars_snapshot: 5548
-  updated_at: '2026-05-24'
+  stars_snapshot: 5556
+  updated_at: '2026-05-25'
   license: NOASSERTION
   why_included: Clear end-to-end harness implementation centered on continuity, inspectability, and durable agent workspaces.
 - name: 1Code
@@ -2172,7 +2242,7 @@ entries:
   - coding-agent
   - orchestration
   - worktrees
-  stars_snapshot: 5541
+  stars_snapshot: 5542
   updated_at: '2026-03-06'
   license: Apache-2.0
   why_included: Clear reference harness that packages isolated sessions, background execution, MCP integration, and operator-facing
@@ -2186,8 +2256,8 @@ entries:
   - macos
   - local-first
   - memory
-  stars_snapshot: 5499
-  updated_at: '2026-05-24'
+  stars_snapshot: 5503
+  updated_at: '2026-05-25'
   license: MIT
   why_included: Distinct local-native harness model beyond browser/cloud workflows.
 - name: HiClaw
@@ -2200,8 +2270,8 @@ entries:
   - multi-agent
   - human-in-the-loop
   - shared-state
-  stars_snapshot: 4634
-  updated_at: '2026-05-23'
+  stars_snapshot: 4644
+  updated_at: '2026-05-25'
   license: Apache-2.0
   why_included: Distinct reference harness for transparent multi-agent coordination with centralized credential and file mediation.
 - name: mini-swe-agent
@@ -2213,7 +2283,7 @@ entries:
   - minimal
   - swe
   - coding-agent
-  stars_snapshot: 4477
+  stars_snapshot: 4503
   updated_at: '2026-05-21'
   license: MIT
   why_included: Great reference for low-complexity but effective harness design.
@@ -2226,7 +2296,7 @@ entries:
   - team-orchestration
   - autonomous
   - workflows
-  stars_snapshot: 3569
+  stars_snapshot: 3568
   updated_at: '2026-03-30'
   license: MIT
   why_included: Clear multi-agent orchestration baseline for lightweight deployments.
@@ -2240,7 +2310,7 @@ entries:
   - claude-code
   - meta-factory
   - agent-teams
-  stars_snapshot: 3523
+  stars_snapshot: 3535
   updated_at: '2026-05-15'
   license: Apache-2.0
   why_included: Concrete open implementation of a harness that builds other harnesses through agent-team templates, skill
@@ -2281,8 +2351,8 @@ entries:
   - desktop
   - worktrees
   - orchestration
-  stars_snapshot: 2943
-  updated_at: '2026-05-23'
+  stars_snapshot: 2948
+  updated_at: '2026-05-24'
   license: AGPL-3.0
   why_included: Strong operator-facing harness that combines parallel session control, repo-aware supervision, and repeatable
     task automation.
@@ -2296,10 +2366,25 @@ entries:
   - aws
   - runtime
   - operations
-  stars_snapshot: 2864
+  stars_snapshot: 2863
   updated_at: '2026-05-23'
   license: Apache-2.0
   why_included: High-value official reference spanning most core harness subsystems in one repo.
+- name: Google Agents CLI
+  repo_url: https://github.com/google/agents-cli
+  category: Reference Harness Implementations
+  summary_en: Google Cloud CLI and skill bundle that gives coding agents scaffold, evaluation, deployment, publishing, and
+    observability workflows.
+  summary_zh: Google Cloud 的 CLI 与技能包，为编码代理提供脚手架、评测、部署、发布和可观测工作流。
+  tags:
+  - google-cloud
+  - lifecycle
+  - skills
+  stars_snapshot: 2564
+  updated_at: '2026-05-19'
+  license: Apache-2.0
+  why_included: Official README states that agents-cli gives coding agents commands and skills for building, evaluating, deploying,
+    governing, and observing agents on Google Cloud.
 - name: AI-DLC Workflows
   repo_url: https://github.com/awslabs/aidlc-workflows
   category: Reference Harness Implementations
@@ -2310,7 +2395,7 @@ entries:
   - workflow-rules
   - quality-gates
   - steering
-  stars_snapshot: 2391
+  stars_snapshot: 2407
   updated_at: '2026-05-23'
   license: MIT-0
   why_included: Concrete vendor-authored harness layer for lifecycle steering and reproducible agent behavior across coding
@@ -2324,7 +2409,7 @@ entries:
   - desktop
   - sandbox
   - mcp
-  stars_snapshot: 1405
+  stars_snapshot: 1407
   updated_at: '2026-05-23'
   license: MIT
   why_included: End-to-end open implementation of a GUI-first cowork harness with strong isolation and tool extensibility.
@@ -2337,7 +2422,7 @@ entries:
   - coding-agent
   - minimal
   - approvals
-  stars_snapshot: 877
+  stars_snapshot: 880
   updated_at: '2026-04-07'
   license: Apache-2.0
   why_included: Readable end-to-end reference for core coding-agent harness components.
@@ -2365,7 +2450,7 @@ entries:
   - awesome-list
   - claude-code
   - skills
-  stars_snapshot: 44644
+  stars_snapshot: 44732
   updated_at: '2026-04-27'
   license: NOASSERTION
   why_included: Practical ecosystem map for coding-agent harness customization.
@@ -2378,7 +2463,7 @@ entries:
   - awesome-list
   - patterns
   - design
-  stars_snapshot: 4574
+  stars_snapshot: 4578
   updated_at: '2026-05-07'
   license: Apache-2.0
   why_included: Helpful for translating concepts into reusable harness modules.
@@ -2391,7 +2476,7 @@ entries:
   - awesome-list
   - mcp
   - tools
-  stars_snapshot: 4100
+  stars_snapshot: 4104
   updated_at: '2026-04-30'
   license: MIT
   why_included: Speeds up protocol-based harness capability expansion.
@@ -2404,7 +2489,7 @@ entries:
   - awesome-list
   - curation
   - harness
-  stars_snapshot: 2691
+  stars_snapshot: 2706
   updated_at: '2026-05-22'
   license: NOASSERTION
   why_included: Directly related sibling list and high-quality seed source.

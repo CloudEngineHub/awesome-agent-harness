@@ -1,7 +1,7 @@
 catalog:
   title_en: Awesome Agent Harness
   title_zh: Awesome Agent Harness
-  last_verified: '2026-05-31'
+  last_verified: '2026-06-01'
   description_en: Curated implementation-first list for agent harness engineering.
   description_zh: 面向 Agent Harness Engineering 的工程实践清单。
 categories:
@@ -3155,6 +3155,20 @@ entries:
   updated_at: '2026-04-27'
   license: n/a
   why_included: Primary-source description of ticket-driven orchestration, per-issue workspaces, and repo-owned workflow contracts.
+- name: The next evolution of the Agents SDK
+  repo_url: https://openai.com/index/the-next-evolution-of-the-agents-sdk/
+  category: Essential Readings & Ecosystem Maps
+  summary_en: OpenAI's product and engineering post on model-native agent harnesses, native sandbox execution, manifests,
+    memory, and filesystem and shell tools.
+  summary_zh: OpenAI 关于 Agents SDK 演进的产品与工程文章，介绍模型原生 harness、原生沙箱执行、Manifest、记忆、文件系统与 shell 工具。
+  tags:
+  - reading
+  - openai
+  - sdk
+  stars_snapshot: 0
+  updated_at: '2026-04-15'
+  license: n/a
+  why_included: Official description of sandbox-aware orchestration and standardized harness primitives in the Agents SDK.
 - name: Building agents with the Claude Agent SDK
   repo_url: https://claude.com/blog/building-agents-with-the-claude-agent-sdk
   category: Essential Readings & Ecosystem Maps
@@ -3430,6 +3444,20 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: Tool contract design is a core harness primitive.
+- name: What We Learned Building Cloud Agents
+  repo_url: https://cognition.ai/blog/what-we-learned-building-cloud-agents
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Cognition's field report on secure cloud-agent infrastructure, VM isolation, full-state snapshots, orchestration,
+    governance, integrations, and enterprise adoption.
+  summary_zh: Cognition 关于 Devin 云端代理基础设施的实践复盘，涵盖 VM 隔离、全状态快照、编排、治理、集成与企业落地。
+  tags:
+  - reading
+  - cognition
+  - cloud-agents
+  stars_snapshot: 0
+  updated_at: '2026-04-23'
+  license: n/a
+  why_included: High-signal primary-source account of cloud-agent execution substrates, persistence, and governance at scale.
 - name: Your Agent Needs a Harness, Not a Framework
   repo_url: https://www.inngest.com/blog/your-agent-needs-a-harness-not-a-framework
   category: Essential Readings & Ecosystem Maps

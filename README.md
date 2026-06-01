@@ -2,19 +2,21 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **249**
-- GitHub entries: **224 (90.0%)**
+- Total entries: **251**
+- GitHub entries: **224 (89.2%)**
 - GitHub in project categories (excluding readings): **220/220 (100.0%)**
 - Categories: **9**
-- Last verified: **2026-05-31**
+- Last verified: **2026-06-01**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 <a id="featured-harness-blogs"></a>
 ## Featured Harness Blogs
 
 - [Scaling Managed Agents: Decoupling the brain from the hands](https://www.anthropic.com/engineering/managed-agents): Anthropic's meta-harness architecture for decoupling session logs, harness loops, and sandboxes in long-horizon agents.
+- [What We Learned Building Cloud Agents](https://cognition.ai/blog/what-we-learned-building-cloud-agents): Cognition's field report on secure cloud-agent infrastructure, VM isolation, full-state snapshots, orchestration, governance, integrations, and enterprise adoption.
 - [Claude Code auto mode](https://www.anthropic.com/engineering/claude-code-auto-mode): Anthropic's write-up on classifier-backed approval delegation for safer high-autonomy coding-agent runs.
 - [Harness engineering (OpenAI)](https://openai.com/index/harness-engineering/): Field report on building reliable agent-first software via harness constraints and verification.
+- [The next evolution of the Agents SDK](https://openai.com/index/the-next-evolution-of-the-agents-sdk/): OpenAI's product and engineering post on model-native agent harnesses, native sandbox execution, manifests, memory, and filesystem and shell tools.
 - [Building Effective AI Agents](https://www.anthropic.com/engineering/building-effective-agents): Anthropic's practical guidance on when to use workflows vs. autonomous agents and how to structure them.
 - [Writing effective tools for AI agents](https://www.anthropic.com/engineering/writing-tools-for-agents): Best practices for tool interface design so agents call tools safely and reliably.
 - [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents): Practical guide to maintaining state, resumability, and reliability over long agent runs.
@@ -52,7 +54,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Observability & Reliability Operations | 14 |
 | Guardrails, Security & Governance | 18 |
 | Reference Harness Implementations | 65 |
-| Essential Readings & Ecosystem Maps | 29 |
+| Essential Readings & Ecosystem Maps | 31 |
 
 ## Catalog
 
@@ -360,7 +362,9 @@ Notes:
 | Skill Issue: Harness Engineering for Coding Agents | [Reference](https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents) | - | reading, humanlayer, coding-agents | Practical breakdown of why coding-agent quality depends heavily on harness setup. |
 | Testing Agent Skills Systematically with Evals | [Reference](https://developers.openai.com/blog/eval-skills) | - | reading, openai, evals | OpenAI Developers guide for turning agent traces into repeatable skill evaluations. |
 | The Anatomy of an Agent Harness | [Reference](https://blog.langchain.com/the-anatomy-of-an-agent-harness/) | - | reading, architecture, langchain | Conceptual decomposition of agent harness components and their responsibilities. |
+| The next evolution of the Agents SDK | [Reference](https://openai.com/index/the-next-evolution-of-the-agents-sdk/) | - | reading, openai, sdk | OpenAI's product and engineering post on model-native agent harnesses, native sandbox execution, manifests, memory, and filesystem and shell tools. |
 | Unrolling the Codex agent loop | [Reference](https://openai.com/index/unrolling-the-codex-agent-loop/) | - | reading, openai, architecture | OpenAI engineering deep dive into the Codex harness loop, prompt growth, tool-call replay, and stateless execution tradeoffs. |
+| What We Learned Building Cloud Agents | [Reference](https://cognition.ai/blog/what-we-learned-building-cloud-agents) | - | reading, cognition, cloud-agents | Cognition's field report on secure cloud-agent infrastructure, VM isolation, full-state snapshots, orchestration, governance, integrations, and enterprise adoption. |
 | Writing effective tools for AI agents | [Reference](https://www.anthropic.com/engineering/writing-tools-for-agents) | - | reading, anthropic, tools | Best practices for tool interface design so agents call tools safely and reliably. |
 | Your Agent Needs a Harness, Not a Framework | [Reference](https://www.inngest.com/blog/your-agent-needs-a-harness-not-a-framework) | - | reading, inngest, reliability | Argument for reliability-first infrastructure around agents instead of framework-only thinking. |
 

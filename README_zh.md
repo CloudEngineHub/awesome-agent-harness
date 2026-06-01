@@ -2,19 +2,21 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **249**
-- GitHub 条目: **224 (90.0%)**
+- 当前条目数: **251**
+- GitHub 条目: **224 (89.2%)**
 - 项目分类 GitHub 占比（不含阅读类）: **220/220 (100.0%)**
 - 分类数量: **9**
-- 最近核对日期: **2026-05-31**
+- 最近核对日期: **2026-06-01**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 <a id="featured-harness-blogs"></a>
 ## 精选 Harness 博客
 
 - [Scaling Managed Agents: Decoupling the brain from the hands](https://www.anthropic.com/engineering/managed-agents): Anthropic 提出的 meta-harness 架构，将长任务代理中的 session 日志、harness 循环与 sandbox 解耦。
+- [What We Learned Building Cloud Agents](https://cognition.ai/blog/what-we-learned-building-cloud-agents): Cognition 关于 Devin 云端代理基础设施的实践复盘，涵盖 VM 隔离、全状态快照、编排、治理、集成与企业落地。
 - [Claude Code auto mode](https://www.anthropic.com/engineering/claude-code-auto-mode): Anthropic 介绍如何用分类器接管审批，在更高自治度下维持更安全的编码代理运行。
 - [Harness engineering (OpenAI)](https://openai.com/index/harness-engineering/): 关于如何通过约束与验证构建可靠 agent-first 软件的实践报告。
+- [The next evolution of the Agents SDK](https://openai.com/index/the-next-evolution-of-the-agents-sdk/): OpenAI 关于 Agents SDK 演进的产品与工程文章，介绍模型原生 harness、原生沙箱执行、Manifest、记忆、文件系统与 shell 工具。
 - [Building Effective AI Agents](https://www.anthropic.com/engineering/building-effective-agents): Anthropic 关于何时使用工作流或自治代理以及如何组织系统的实践指南。
 - [Writing effective tools for AI agents](https://www.anthropic.com/engineering/writing-tools-for-agents): 讲解如何设计工具接口，使代理更稳定且更安全地调用工具。
 - [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents): 讲解长时代理运行中状态维护、可恢复性与可靠性的实践指南。
@@ -52,7 +54,7 @@
 | Observability & Reliability Operations | 14 |
 | Guardrails, Security & Governance | 18 |
 | Reference Harness Implementations | 65 |
-| Essential Readings & Ecosystem Maps | 29 |
+| Essential Readings & Ecosystem Maps | 31 |
 
 ## 项目清单
 
@@ -360,7 +362,9 @@
 | Skill Issue: Harness Engineering for Coding Agents | [Reference](https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents) | - | reading, humanlayer, coding-agents | 实践向拆解：编码代理效果很大程度取决于 harness 的工程配置。 |
 | Testing Agent Skills Systematically with Evals | [Reference](https://developers.openai.com/blog/eval-skills) | - | reading, openai, evals | OpenAI Developers 指南：将代理轨迹转化为可重复的技能评测。 |
 | The Anatomy of an Agent Harness | [Reference](https://blog.langchain.com/the-anatomy-of-an-agent-harness/) | - | reading, architecture, langchain | 对 agent harness 组件及其职责的结构化拆解。 |
+| The next evolution of the Agents SDK | [Reference](https://openai.com/index/the-next-evolution-of-the-agents-sdk/) | - | reading, openai, sdk | OpenAI 关于 Agents SDK 演进的产品与工程文章，介绍模型原生 harness、原生沙箱执行、Manifest、记忆、文件系统与 shell 工具。 |
 | Unrolling the Codex agent loop | [Reference](https://openai.com/index/unrolling-the-codex-agent-loop/) | - | reading, openai, architecture | OpenAI 工程向拆解 Codex harness 回路，涵盖提示增长、工具调用回放与无状态执行权衡。 |
+| What We Learned Building Cloud Agents | [Reference](https://cognition.ai/blog/what-we-learned-building-cloud-agents) | - | reading, cognition, cloud-agents | Cognition 关于 Devin 云端代理基础设施的实践复盘，涵盖 VM 隔离、全状态快照、编排、治理、集成与企业落地。 |
 | Writing effective tools for AI agents | [Reference](https://www.anthropic.com/engineering/writing-tools-for-agents) | - | reading, anthropic, tools | 讲解如何设计工具接口，使代理更稳定且更安全地调用工具。 |
 | Your Agent Needs a Harness, Not a Framework | [Reference](https://www.inngest.com/blog/your-agent-needs-a-harness-not-a-framework) | - | reading, inngest, reliability | 强调代理系统应优先建设可靠性基础设施，而非仅依赖框架思维。 |
 

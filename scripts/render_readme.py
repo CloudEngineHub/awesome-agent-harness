@@ -36,8 +36,10 @@ REQUIRED_ENTRY_FIELDS = [
 READINGS_CATEGORY = "Essential Readings & Ecosystem Maps"
 FEATURED_READING_NAMES = [
     "Scaling Managed Agents: Decoupling the brain from the hands",
+    "What We Learned Building Cloud Agents",
     "Claude Code auto mode",
     "Harness engineering (OpenAI)",
+    "The next evolution of the Agents SDK",
     "Building Effective AI Agents",
     "Writing effective tools for AI agents",
     "Effective harnesses for long-running agents",
@@ -122,7 +124,7 @@ def render_readmes(catalog: dict[str, Any]) -> tuple[str, str]:
     gh_count, total_count, ratio = github_ratio(entries)
     project_entries = [e for e in entries if e.get("category") != READINGS_CATEGORY]
     project_gh_count, project_total_count, project_ratio = github_ratio(project_entries)
-    featured = featured_readings(entries, limit=10)
+    featured = featured_readings(entries, limit=12)
     verified = catalog["catalog"]["last_verified"]
 
     # English README
